@@ -1,0 +1,29 @@
+---
+title: "A few bits of my academic pursuits..."
+---
+
+<br>
+
+```{r out.width = "50%", fig.align = "center", echo = FALSE}
+knitr::include_graphics("Convocation.jpg")
+```
+
+<br>
+
+Here is an overview of my academic career and teaching activities. For more details on these, please take a look at my [CV](https://drive.google.com/file/d/1EaBT63r_Bf7c6FvuQL7TphOHW0GLYQit/view?usp=sharing).
+
+## Education
+
+- **PhD Biostatistics**, University of Michigan, 2018 - Present.
+- **Master of Statistics**, Indian Statistical Institute Kolkata, 2016-2018.
+  - Specialization: Applied Statistics, Biostatistics track.
+- **Bachelor of Statistics** (Hons.), Indian Statistical Institute Kolkata, 2013-2016.
+
+## Teaching
+
+- Lecturer at the [**Big Data Summer Institute**](https://sph.umich.edu/bdsi/).
+  - Introduction to Linear Algebra, 2022 (upcoming).
+  - [Introduction to Probability](https://sph.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f29a5ab0-4ff9-451c-b29e-ad400048d11b), 2021.
+- Grader and project reviewer in departmental courses.
+  - Biostat 651: Theory And Application Of Generalized Linear Models, Winter 2021.
+  - Biostat 802: Advanced Inference II, Winter 2020.

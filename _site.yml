@@ -1,29 +1,35 @@
-name: "YOURNAME"                                # CHANGE HERE 
+name: "Rupam Bhattacharyya"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "YOURNAME"                             # CHANGE HERE 
+  title: "Homepage of Rupam Bhattacharyya"                             # CHANGE HERE 
   type: inverse
   left:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
-      icon: fa-user 
-      href: about.html
-    - text: "CV"
-      icon: fa-file-pdf-o
-      href: cv.html
-    - text: "Blog"
-      icon: fa-rss
-      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
+    - text: "Academic"
+      icon: fa-book
+#     icon: fa-user 
+      href: academic.html
+    - text: "Research"
+      icon: fa-gitlab
+#     icon: fa-file-pdf-o
+      href: research.html
+    - text: "Social"
+      icon: fa-users
+#     icon: fa-rss
+      href: social.html
+#     href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
-    - text: "Contact me"
-      icon: fa-envelope-o
-      href: mailto:YOUREMAIL                    # CHANGE HERE 
-    - text: "GitHub"
-      icon: fa-github
-      href: https://github.com/YOURGITHUB       # CHANGE HERE 
+    - icon: fa-envelope-o
+      href: mailto:rupamb@umich.edu                    # CHANGE HERE 
+    - icon: fa-github
+      href: https://github.com/rupambh       # CHANGE HERE 
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/rupam2016bhattacharyya/
+    - text: CV
+      href: https://drive.google.com/file/d/1EaBT63r_Bf7c6FvuQL7TphOHW0GLYQit/view?usp=sharing
 output:
   html_document:
-    theme: cosmo
+    theme: darkly
     highlight: textmate
