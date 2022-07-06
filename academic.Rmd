@@ -22,7 +22,7 @@ Here is an overview of my academic career and teaching activities. For more deta
 ## Teaching
 
 - Lecturer at the [**Big Data Summer Institute**](https://sph.umich.edu/bdsi/).
-  - Introduction to Linear Algebra, 2022 (upcoming).
+  - Introduction to Linear Algebra, 2022.
   - [Introduction to Probability](https://sph.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f29a5ab0-4ff9-451c-b29e-ad400048d11b), 2021.
 - Grader and project reviewer in departmental courses.
   - Biostat 651: Theory And Application Of Generalized Linear Models, Winter 2021.

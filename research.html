@@ -13,7 +13,8 @@
 
 <title>Some glimpses of my research profile…</title>
 
-<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -61,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -81,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +238,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -310,27 +315,72 @@ $(document).ready(function () {
 <p><br></p>
 <p><img src="Conference.jpg" width="50%" style="display: block; margin: auto;" /></p>
 <p><br></p>
-<p>Below is a list of my published projects (in descending order of publication year) and upcoming conference presentations. Please refer to my <a href="https://drive.google.com/file/d/1EaBT63r_Bf7c6FvuQL7TphOHW0GLYQit/view?usp=sharing">CV</a>, <a href="https://www.researchgate.net/profile/Rupam-Bhattacharyya">Researchgate profile</a> or <a href="https://scholar.google.com/citations?user=D5F2V4YAAAAJ&amp;hl=en">Google Scholar page</a> to get a complete list of my preprints, ongoing projects, past presentations and accolades. My CV also contains the most updated list of my administrative and peer review activities.</p>
+<p>Below is a list of my published projects (in descending order of
+publication year) and upcoming conference presentations. Please refer to
+my <a
+href="https://drive.google.com/file/d/1EaBT63r_Bf7c6FvuQL7TphOHW0GLYQit/view?usp=sharing">CV</a>,
+<a
+href="https://www.researchgate.net/profile/Rupam-Bhattacharyya">Researchgate
+profile</a> or <a
+href="https://scholar.google.com/citations?user=D5F2V4YAAAAJ&amp;hl=en">Google
+Scholar page</a> to get a complete list of my preprints, ongoing
+projects, past presentations and accolades. My CV also contains the most
+updated list of my administrative and peer review activities.</p>
 <div id="published-works" class="section level2">
 <h2>Published Works</h2>
 <ul>
-<li><p><strong>Bhattacharyya, R.</strong>, Banerjee, S., Mohammed, S., &amp; Baladandayuthapani, V. (2021). Network-based modeling of COVID-19 dynamics: early pandemic spread in India. <em>Journal of the Indian Statistical Association</em>, to appear.</p></li>
-<li><p>Purkayastha, S., <strong>Bhattacharyya, R.</strong>, Bhaduri, R., Kundu, R., Gu, X., Salvatore, M., … &amp; Mukherjee, B. (2021). A comparison of five epidemiological models for transmission of SARS-CoV-2 in India. <em>BMC infectious diseases</em>, 21(1), 1-23.</p></li>
-<li><p><strong>Bhattacharyya, R.</strong>, Kundu, R., Bhaduri, R., Ray, D., Beesley, L. J., Salvatore, M., &amp; Mukherjee, B. (2021). Incorporating false negative tests in epidemiological models for SARS-CoV-2 transmission and reconciling with seroprevalence estimates. <em>Scientific Reports</em>, 11(1), 1-14.</p></li>
-<li><p>Ray, D., <strong>Bhattacharyya, R.</strong>, &amp; Mukherjee, B. (2021). Discussion on “The timing and effectiveness of implementing mild interventions of COVID-19 in large industrial regions via a synthetic control method” by Tian et al. <em>Statistics and Its Interface</em>, 14(1), 25-28.</p></li>
-<li><p>Salvatore, M., Basu, D., Ray, D., Kleinsasser, M., Purkayastha, S., <strong>Bhattacharyya, R.</strong>, &amp; Mukherjee, B. (2020). Comprehensive public health evaluation of lockdown as a non-pharmaceutical intervention on COVID-19 spread in India: national trends masking state-level variations. <em>BMJ Open</em>, 10(12), e041778.</p></li>
-<li><p>Ray, D., Salvatore, M., <strong>Bhattacharyya, R.</strong>, Wang, L., Du, J., Mohammed, S., … &amp; Mukherjee, B. (2020). Predictions, role of interventions and effects of a historic national lockdown in India’s response to the COVID-19 pandemic: data science call to arms. <em>Harvard Data Science Review</em>, 2020(Suppl 1).</p></li>
-<li><p><strong>Bhattacharyya, R.</strong>, Ha, M. J., Liu, Q., Akbani, R., Liang, H., &amp; Baladandayuthapani, V. (2020). Personalized network modeling of the pan-cancer patient and cell line interactome. <em>JCO Clinical Cancer Informatics</em>, 4, 399-411.</p></li>
-<li><p>Liu, Q., Ha, M. J., <strong>Bhattacharyya, R.</strong>, Garmire, L., &amp; Baladandayuthapani, V. (2020, January). Network-based matching of patients and targeted therapies for precision oncology. In <em>Pacific Symposium on Biocomputing</em> (Vol. 25, No. 2020, pp. 623-634).</p></li>
+<li><p><strong>Bhattacharyya, R.</strong>, Banerjee, S., Mohammed, S.,
+&amp; Baladandayuthapani, V. (2021). Network-based modeling of COVID-19
+dynamics: early pandemic spread in India. <em>Journal of the Indian
+Statistical Association</em>, to appear.</p></li>
+<li><p>Salvatore, M., Purkayastha, S., Ganapathi, L.,
+<strong>Bhattacharyya, R.</strong>, Kundu, R., Zimmermann, L., … &amp;
+Mukherjee, B. (2022). Lessons from SARS-CoV-2 in India: A data-driven
+framework for pandemic resilience. <em>Science Advances</em>, 8(24),
+eabp8621.</p></li>
+<li><p>Purkayastha, S., <strong>Bhattacharyya, R.</strong>, Bhaduri, R.,
+Kundu, R., Gu, X., Salvatore, M., … &amp; Mukherjee, B. (2021). A
+comparison of five epidemiological models for transmission of SARS-CoV-2
+in India. <em>BMC infectious diseases</em>, 21(1), 1-23.</p></li>
+<li><p><strong>Bhattacharyya, R.</strong>, Kundu, R., Bhaduri, R., Ray,
+D., Beesley, L. J., Salvatore, M., &amp; Mukherjee, B. (2021).
+Incorporating false negative tests in epidemiological models for
+SARS-CoV-2 transmission and reconciling with seroprevalence estimates.
+<em>Scientific Reports</em>, 11(1), 1-14.</p></li>
+<li><p>Ray, D., <strong>Bhattacharyya, R.</strong>, &amp; Mukherjee, B.
+(2021). Discussion on “The timing and effectiveness of implementing mild
+interventions of COVID-19 in large industrial regions via a synthetic
+control method” by Tian et al. <em>Statistics and Its Interface</em>,
+14(1), 25-28.</p></li>
+<li><p>Salvatore, M., Basu, D., Ray, D., Kleinsasser, M., Purkayastha,
+S., <strong>Bhattacharyya, R.</strong>, &amp; Mukherjee, B. (2020).
+Comprehensive public health evaluation of lockdown as a
+non-pharmaceutical intervention on COVID-19 spread in India: national
+trends masking state-level variations. <em>BMJ Open</em>, 10(12),
+e041778.</p></li>
+<li><p>Ray, D., Salvatore, M., <strong>Bhattacharyya, R.</strong>, Wang,
+L., Du, J., Mohammed, S., … &amp; Mukherjee, B. (2020). Predictions,
+role of interventions and effects of a historic national lockdown in
+India’s response to the COVID-19 pandemic: data science call to arms.
+<em>Harvard Data Science Review</em>, 2020(Suppl 1).</p></li>
+<li><p><strong>Bhattacharyya, R.</strong>, Ha, M. J., Liu, Q., Akbani,
+R., Liang, H., &amp; Baladandayuthapani, V. (2020). Personalized network
+modeling of the pan-cancer patient and cell line interactome. <em>JCO
+Clinical Cancer Informatics</em>, 4, 399-411.</p></li>
+<li><p>Liu, Q., Ha, M. J., <strong>Bhattacharyya, R.</strong>, Garmire,
+L., &amp; Baladandayuthapani, V. (2020, January). Network-based matching
+of patients and targeted therapies for precision oncology. In
+<em>Pacific Symposium on Biocomputing</em> (Vol. 25, No. 2020,
+pp. 623-634).</p></li>
 </ul>
 </div>
 <div id="upcoming-presentations" class="section level2">
 <h2>Upcoming Presentations</h2>
 <ul>
-<li>Functional Integrative Bayesian Analysis of High-dimensional Multi-platform Genomic Data.
+<li>Functional Integrative Bayesian Analysis of High-dimensional
+Multi-platform Genomic Data.
 <ul>
-<li>World Meeting of the International Society for Bayesian Analysis, March 2022.</li>
-<li>Eastern North American Region International Biometric Society Spring Meeting, June 2022.</li>
+<li>Joint Statistical Meetings, August 2022.</li>
 </ul></li>
 </ul>
 </div>
