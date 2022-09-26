@@ -14,11 +14,13 @@ Below is a list of my published projects (in descending order of publication yea
 
 ## Published Works
 
-- **Bhattacharyya, R.**, Banerjee, S., Mohammed, S., \& Baladandayuthapani, V. (2021). Network-based modeling of COVID-19 dynamics: early pandemic spread in India. *Journal of the Indian Statistical Association*, to appear.
+- **Bhattacharyya, R.**, Henderson, N., \& Baladandayuthapani, V. (2023, January). BaySyn: Bayesian evidence synthesis for multi-system multiomic integration. In *Pacific Symposium on Biocomputing* (Vol. 28, No. 2023), to appear.
+
+- **Bhattacharyya, R.**, Banerjee, S., Mohammed, S., \& Baladandayuthapani, V. (2022). Network-based modeling of COVID-19 dynamics: early pandemic spread in India. *Journal of the Indian Statistical Association*, to appear.
 
 - Salvatore, M., Purkayastha, S., Ganapathi, L., **Bhattacharyya, R.**, Kundu, R., Zimmermann, L., ... \& Mukherjee, B. (2022). Lessons from SARS-CoV-2 in India: A data-driven framework for pandemic resilience. *Science Advances*, 8(24), eabp8621.
 
-- Purkayastha, S., **Bhattacharyya, R.**, Bhaduri, R., Kundu, R., Gu, X., Salvatore, M., ... \& Mukherjee, B. (2021). A comparison of five epidemiological models for transmission of SARS-CoV-2 in India. *BMC infectious diseases*, 21(1), 1-23.
+- Purkayastha, S., **Bhattacharyya, R.**, Bhaduri, R., Kundu, R., Gu, X., Salvatore, M., ... \& Mukherjee, B. (2021). A comparison of five epidemiological models for transmission of SARS-CoV-2 in India. *BMC Infectious Diseases*, 21(1), 1-23.
 
 - **Bhattacharyya, R.**, Kundu, R., Bhaduri, R., Ray, D., Beesley, L. J., Salvatore, M., \& Mukherjee, B. (2021). Incorporating false negative tests in epidemiological models for SARS-CoV-2 transmission and reconciling with seroprevalence estimates. *Scientific Reports*, 11(1), 1-14.
 
@@ -34,5 +36,8 @@ Below is a list of my published projects (in descending order of publication yea
 
 ## Upcoming Presentations
 
-- Functional Integrative Bayesian Analysis of High-dimensional Multi-platform Genomic Data.
-  - Joint Statistical Meetings, August 2022.
+- fiBAG: Functional Integrative Bayesian Analysis of High-dimensional Multi-platform Genomic Data.
+  - [FIDS Conference on Advances in Data Science](https://iamcs.tamu.edu/conference-on-advances-in-data-science-theory-methods-and-computation/) (October 2022).
+
+- BaySyn: Bayesian Evidence Synthesis for Multi-system Multiomic Integration.
+  - [Pacific Symposium on Biocomputing](https://psb.stanford.edu/) (January 2023).
