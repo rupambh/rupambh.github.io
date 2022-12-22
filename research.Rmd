@@ -5,7 +5,7 @@ title: "Some glimpses of my research profile..."
 <br>
 
 ```{r out.width = "50%", fig.align = "center", echo = FALSE}
-knitr::include_graphics("Conference.jpg")
+knitr::include_graphics("Conference.jpeg")
 ```
 
 <br>
@@ -14,9 +14,11 @@ Below is a list of my published projects (in descending order of publication yea
 
 ## Published Works
 
-- **Bhattacharyya, R.**, Henderson, N., \& Baladandayuthapani, V. (2023, January). BaySyn: Bayesian evidence synthesis for multi-system multiomic integration. In *Pacific Symposium on Biocomputing* (Vol. 28, No. 2023), to appear.
+- **Bhattacharyya, R.**, Banerjee, S., Mohammed, S., \& Baladandayuthapani, V. (2023). Network-based modeling of COVID-19 dynamics: early pandemic spread in India. *Journal of the Indian Statistical Association*, to appear.
+    
+- **Bhattacharyya, R.**, Henderson, N., \& Baladandayuthapani, V. (2023, January). BaySyn: Bayesian evidence synthesis for multi-system multiomic integration. In *Pacific Symposium on Biocomputing* (Vol. 28, No. 2023, pp. 275-286).
 
-- **Bhattacharyya, R.**, Banerjee, S., Mohammed, S., \& Baladandayuthapani, V. (2022). Network-based modeling of COVID-19 dynamics: early pandemic spread in India. *Journal of the Indian Statistical Association*, to appear.
+- **Bhattacharyya, R.**, Burman, A., Singh, K., Banerjee, S., Maity, S., Auddy, A., ... \& Baladandayuthapani, V. (2022). Role of multi-resolution vulnerability indices in COVID-19 spread in India: A Bayesian model-based analysis. *BMJ Open*, 12(11), e056292.
 
 - Salvatore, M., Purkayastha, S., Ganapathi, L., **Bhattacharyya, R.**, Kundu, R., Zimmermann, L., ... \& Mukherjee, B. (2022). Lessons from SARS-CoV-2 in India: A data-driven framework for pandemic resilience. *Science Advances*, 8(24), eabp8621.
 
@@ -36,8 +38,9 @@ Below is a list of my published projects (in descending order of publication yea
 
 ## Upcoming Presentations
 
-- fiBAG: Functional Integrative Bayesian Analysis of High-dimensional Multi-platform Genomic Data.
-  - [FIDS Conference on Advances in Data Science](https://iamcs.tamu.edu/conference-on-advances-in-data-science-theory-methods-and-computation/) (October 2022).
-
 - BaySyn: Bayesian Evidence Synthesis for Multi-system Multiomic Integration.
   - [Pacific Symposium on Biocomputing](https://psb.stanford.edu/) (January 2023).
+
+- fiBAG: Functional Integrative Bayesian Analysis of High-dimensional Multi-platform Genomic Data.
+  - [ABGOD Conference](https://sites.google.com/view/abgod2023/home) (March 2023).
+  - [ENAR Spring Meeting](https://www.enar.org/meetings/spring2023/) (March 2023).
