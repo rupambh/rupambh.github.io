@@ -38,9 +38,4 @@ Below is a list of my published projects (in descending order of publication yea
 
 ## Upcoming Presentations
 
-- BaySyn: Bayesian Evidence Synthesis for Multi-system Multiomic Integration.
-  - [Pacific Symposium on Biocomputing](https://psb.stanford.edu/) (January 2023).
-
-- fiBAG: Functional Integrative Bayesian Analysis of High-dimensional Multi-platform Genomic Data.
-  - [ABGOD Conference](https://sites.google.com/view/abgod2023/home) (March 2023).
-  - [ENAR Spring Meeting](https://www.enar.org/meetings/spring2023/) (March 2023).
+- Coming soon!
