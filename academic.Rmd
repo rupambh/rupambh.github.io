@@ -10,12 +10,12 @@ knitr::include_graphics("Convocation.jpg")
 
 <br>
 
-Here is an overview of my academic career and teaching activities. For more details on these, please take a look at my [CV](https://drive.google.com/file/d/1EaBT63r_Bf7c6FvuQL7TphOHW0GLYQit/view?usp=sharing).
+Here is an overview of my academic career and teaching activities. For more details on these, please take a look at my [CV](https://www.dropbox.com/scl/fi/v2h7qs357f6yaq1rzi7ql/RupamB_CV.pdf?rlkey=btxvgr74e6j1n1ydqkmeygpj0&dl=0).
 
 ## Education
 
 - **PhD Biostatistics**, University of Michigan, 2018 - 2023.
-  - Dissertation: *Bayesian Models for Multi-omic Multi-system Integration for Precision Oncology*.
+  - Dissertation: [Bayesian Models for Multi-omic Multi-system Integration for Precision Oncology](https://deepblue.lib.umich.edu/handle/2027.42/177797).
 - **Master of Statistics**, Indian Statistical Institute Kolkata, 2016-2018.
   - Specialization: Applied Statistics, Biostatistics track.
 - **Bachelor of Statistics** (Hons.), Indian Statistical Institute Kolkata, 2013-2016.

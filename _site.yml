@@ -28,7 +28,7 @@ navbar:
     - icon: fa-linkedin
       href: https://www.linkedin.com/in/rupam2016bhattacharyya/
     - text: CV
-      href: https://drive.google.com/file/d/1EaBT63r_Bf7c6FvuQL7TphOHW0GLYQit/view?usp=sharing
+      href: https://www.dropbox.com/scl/fi/v2h7qs357f6yaq1rzi7ql/RupamB_CV.pdf?rlkey=btxvgr74e6j1n1ydqkmeygpj0&dl=0
 output:
   html_document:
     theme: darkly

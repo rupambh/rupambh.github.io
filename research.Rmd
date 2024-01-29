@@ -10,17 +10,19 @@ knitr::include_graphics("Conference.jpeg")
 
 <br>
 
-Below is a list of my published projects (in descending order of publication year) and upcoming conference presentations. Please refer to my [CV](https://drive.google.com/file/d/1EaBT63r_Bf7c6FvuQL7TphOHW0GLYQit/view?usp=sharing), [Researchgate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya) or [Google Scholar page](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en) to get a complete list of my preprints, ongoing projects, past presentations and accolades. My CV also contains the most updated list of my administrative and peer review activities.
+Below is a list of my published projects (in descending order of publication year) and upcoming conference presentations. Please refer to my [CV](https://www.dropbox.com/scl/fi/v2h7qs357f6yaq1rzi7ql/RupamB_CV.pdf?rlkey=btxvgr74e6j1n1ydqkmeygpj0&dl=0), [Researchgate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya) or [Google Scholar page](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en) to get a complete list of my preprints, ongoing projects, past presentations and accolades. My CV also contains the most updated list of my administrative and peer review activities.
 
 ## Published Works
-
-- **Bhattacharyya, R.**, Banerjee, S., Mohammed, S., \& Baladandayuthapani, V. (2023). Network-based modeling of COVID-19 dynamics: early pandemic spread in India. *Journal of the Indian Statistical Association*, to appear.
     
+- Kundu, R., Datta, J., Ray, D., Mishra, S., **Bhattacharyya, R.**, Zimmermann, L, \& Mukherjee, B. (2023). Comparative impact assessment of COVID-19 policy interventions in five South Asian countries using reported and estimated unreported death counts during 2020-2021. *PLOS Global Public Health*, 3(12), e0002063.
+
 - **Bhattacharyya, R.**, Henderson, N., \& Baladandayuthapani, V. (2023, January). BaySyn: Bayesian evidence synthesis for multi-system multiomic integration. In *Pacific Symposium on Biocomputing* (Vol. 28, No. 2023, pp. 275-286).
 
 - **Bhattacharyya, R.**, Burman, A., Singh, K., Banerjee, S., Maity, S., Auddy, A., ... \& Baladandayuthapani, V. (2022). Role of multi-resolution vulnerability indices in COVID-19 spread in India: A Bayesian model-based analysis. *BMJ Open*, 12(11), e056292.
 
 - Salvatore, M., Purkayastha, S., Ganapathi, L., **Bhattacharyya, R.**, Kundu, R., Zimmermann, L., ... \& Mukherjee, B. (2022). Lessons from SARS-CoV-2 in India: A data-driven framework for pandemic resilience. *Science Advances*, 8(24), eabp8621.
+
+- **Bhattacharyya, R.**, Banerjee, S., Mohammed, S., \& Baladandayuthapani, V. (2023). Network-based modeling of COVID-19 dynamics: early pandemic spread in India. *Journal of the Indian Statistical Association*, 59 (2), 1-43.
 
 - Purkayastha, S., **Bhattacharyya, R.**, Bhaduri, R., Kundu, R., Gu, X., Salvatore, M., ... \& Mukherjee, B. (2021). A comparison of five epidemiological models for transmission of SARS-CoV-2 in India. *BMC Infectious Diseases*, 21(1), 1-23.
 
