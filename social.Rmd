@@ -12,7 +12,7 @@ knitr::include_graphics("Social.jpg")
 
 ## Popular Science and Media Activities
 
-Other than the formal academic ventures, I like to put in efforts behind making the science I work on more accessible and user-friendly to people not necessarily trained in my discipline. Here are a few examples of how I attempt to do so.
+In addition to my formal academic ventures, I strive to make the science I work on more accessible and user-friendly to people not necessarily trained in my discipline. Here are a few examples of my efforts:
 
 - **YouTube Tutorials**
   - Available on the [BayesRx YouTube channel](https://www.youtube.com/channel/UCiw6hgV17lpZUhCLGcwgkKg/videos).
@@ -23,7 +23,7 @@ Other than the formal academic ventures, I like to put in efforts behind making 
   - [Multi-platform evidence synthesis in multi-system cancer samples](https://bayesrx.shinyapps.io/BaySyn/).
   - [Estimation of immunogenic modulation in clinicogenomic cancer models](https://bayesrx.shinyapps.io/GPVIBES/).
   - [Network-based modeling of the COVID-19 pandemic in India](https://bayesrx.shinyapps.io/COV-N/).
-  - [National and state-wise forceasts and summaries of COVID-19 in India](https://umich-biostatistics.shinyapps.io/covid19/).
+  - [National and state-wise forecasts and summaries of COVID-19 in India](https://umich-biostatistics.shinyapps.io/covid19/).
 
 - **Media Interactions**
   - [Newstalk](https://www.newstalk.com/podcasts/highlights-from-moncrieff/1-3-billion-lockdown-india).
@@ -32,8 +32,8 @@ Other than the formal academic ventures, I like to put in efforts behind making 
   - [NDTV India](https://drive.google.com/file/d/1Xt4LjmNJsXsUVTTXop6AgQWwjFKxcvcS/view?usp=sharing).
   - [The Wire](https://thewire.in/health/covid-19-india-national-data-state).
 
-- Aside from these, I have recently ventured into the world of writing popular science articles in my mothertongue, Bengali. More details to follow soon!
+- Recently, I have ventured into writing popular science articles in my mother tongue, Bengali. More details to follow soon!
 
-## My World and Hobbies!
+## My World and Hobbies
 
-Apart from spending time with my work and my family, I love watching all kinds of sports (with a slight predilection towards football - not the American kind!), listening to a broad range of Indian and world music, reading basically any literature that I can get my hand on - and last but not the least, *quizzing*. The one place where I share my thoughts on a recent book I am reading, or the latest game I watched is my [Facebook profile](https://www.facebook.com/rupam.bhattacharyya1995/) (I do have Twitter and Instagram, but am really inactive there!).
+Apart from spending time with my work and my family, I love watching all kinds of sports (with a slight predilection towards football - not the American kind!), listening to a broad range of Indian and world music, reading basically any literature that I can get my hands on, and last but not least, *quizzing*. The one place where I share my thoughts on a recent book I am reading, or the latest game I watched is my [Facebook profile](https://www.facebook.com/rupam.bhattacharyya1995/) (I do have Twitter and Instagram, but am really inactive there!).
