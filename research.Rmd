@@ -14,6 +14,8 @@ Below is a list of my published projects (in descending order of publication yea
 
 ## Published Works
 
+- **Bhattacharyya, R.**, Henderson, N., & Baladandayuthapani, V. (2024). Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data. *JASA Applications and Case Studies*, just accepted, 1-23.
+
 - Kundu, R., Datta, J., Ray, D., Mishra, S., **Bhattacharyya, R.**, Zimmermann, L., & Mukherjee, B. (2023). Comparative impact assessment of COVID-19 policy interventions in five South Asian countries using reported and estimated unreported death counts during 2020-2021. *PLOS Global Public Health*, 3(12), e0002063.
 
 - **Bhattacharyya, R.**, Henderson, N., & Baladandayuthapani, V. (2023, January). BaySyn: Bayesian evidence synthesis for multi-system multiomic integration. In *Pacific Symposium on Biocomputing* (Vol. 28, No. 2023, pp. 275-286).
