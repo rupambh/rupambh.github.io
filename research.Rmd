@@ -10,7 +10,7 @@ knitr::include_graphics("Conference.jpeg")
 
 <br>
 
-Below is a list of my published projects (in descending order of publication year) and upcoming conference presentations. Please refer to my [CV](https://www.dropbox.com/scl/fi/v2h7qs357f6yaq1rzi7ql/RupamB_CV.pdf?rlkey=btxvgr74e6j1n1ydqkmeygpj0&dl=0), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or [Google Scholar page](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en) to get a complete list of my preprints, ongoing projects, past presentations, and accolades. My CV also contains the most updated list of my administrative and peer review activities.
+Below is a list of my published projects (in descending order of publication year) and upcoming conference presentations. Please refer to my [CV](https://www.dropbox.com/scl/fi/v2h7qs357f6yaq1rzi7ql/RupamB_CV.pdf?rlkey=btxvgr74e6j1n1ydqkmeygpj0&dl=0), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or [Google Scholar page](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en) to get a complete list of my preprints, ongoing projects, past presentations, and accolades. [My CV](https://www.dropbox.com/scl/fi/j4rhihv2s89apy890ijvw/RupamB_CV.pdf?rlkey=rj1voh2p19nsjzxucl871319o&st=7br3loyd&dl=0) also contains the most updated list of my administrative and peer review activities.
 
 ## Published Works
 
@@ -42,4 +42,4 @@ Below is a list of my published projects (in descending order of publication yea
 
 ## Upcoming Presentations
 
-- Coming soon!
+- Invited presentation at [32nd International Biometric Conference](https://www.ibc2024.org/home) on *Functional Integrative Bayesian Analysis of High-dimensional Multiplatform Clinicogenomic Data*
