@@ -9,17 +9,13 @@ navbar:
       href: index.html
     - text: "Academic"
       icon: fa-book
-#     icon: fa-user 
       href: academic.html
     - text: "Research"
       icon: fa-gitlab
-#     icon: fa-file-pdf-o
       href: research.html
     - text: "Social"
       icon: fa-users
-#     icon: fa-rss
       href: social.html
-#     href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
     - icon: fa-envelope-o
       href: mailto:rupamb@umich.edu                    # CHANGE HERE 
@@ -31,4 +27,4 @@ navbar:
       href: https://www.dropbox.com/scl/fi/9kteh34by8q241fucbqgt/RupamB_CV.pdf?rlkey=c2xzfhhtxvw91ijypnn8t50gy&st=vpeulwdq&dl=0
   html_document:
     theme: darkly
-    highlight: textmate
+    highlight: zenburn

@@ -5,7 +5,7 @@ title: "Some glimpses of my research profile..."
 <br>
 
 ```{r out.width = "50%", fig.align = "center", echo = FALSE}
-knitr::include_graphics("Conference.jpeg")
+knitr::include_graphics("Pictures/3.jpg")
 ```
 
 <br>
@@ -42,4 +42,4 @@ Below is a list of my published projects (in descending order of publication yea
 
 ## Upcoming Presentations
 
-- Invited presentation at [32nd International Biometric Conference](https://www.ibc2024.org/home) on *Functional Integrative Bayesian Analysis of High-dimensional Multiplatform Clinicogenomic Data*.
+- Watch this space for my 2025 presentations!

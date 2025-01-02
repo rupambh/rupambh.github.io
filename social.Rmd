@@ -5,7 +5,7 @@ title: "Beyond the numbers..."
 <br>
 
 ```{r out.width = "50%", fig.align = "center", echo = FALSE}
-knitr::include_graphics("Social.jpg")
+knitr::include_graphics("Pictures/4.jpg")
 ```
 
 <br>
