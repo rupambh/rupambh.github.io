@@ -10,7 +10,7 @@ knitr::include_graphics("Pictures/3.jpg")
 
 <br>
 
-Below is a list of my published projects (in descending order of publication year) and upcoming conference presentations. Please refer to my [CV](https://www.dropbox.com/scl/fi/9kteh34by8q241fucbqgt/RupamB_CV.pdf?rlkey=c2xzfhhtxvw91ijypnn8t50gy&st=vpeulwdq&dl=0), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or [Google Scholar page](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en) to get a complete list of my preprints, ongoing projects, past presentations, and accolades. My [CV](https://www.dropbox.com/scl/fi/9kteh34by8q241fucbqgt/RupamB_CV.pdf?rlkey=c2xzfhhtxvw91ijypnn8t50gy&st=vpeulwdq&dl=0) also contains the most updated list of my administrative and peer review activities.
+Below is a list of my published projects (in descending order of publication year) and upcoming conference presentations. Please refer to my [CV](https://www.dropbox.com/scl/fi/e02oa1019gueaah8vrnqy/RupamB_CV.pdf?rlkey=8y6g6mzcq7jydkz2ud6ln5exo&st=kzygwbef&dl=0), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or [Google Scholar page](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en) to get a complete list of my preprints, ongoing projects, past presentations, and accolades. My [CV](https://www.dropbox.com/scl/fi/e02oa1019gueaah8vrnqy/RupamB_CV.pdf?rlkey=8y6g6mzcq7jydkz2ud6ln5exo&st=kzygwbef&dl=0) also contains the most updated list of my administrative and peer review activities.
 
 ## Published Works
 
