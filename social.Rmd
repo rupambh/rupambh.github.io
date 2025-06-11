@@ -23,7 +23,7 @@ In addition to my formal academic ventures, I strive to make the science I work 
   - [Multi-platform evidence synthesis in multi-system cancer samples](https://bayesrx.shinyapps.io/BaySyn/).
   - [Estimation of immunogenic modulation in clinicogenomic cancer models](https://bayesrx.shinyapps.io/GPVIBES/).
   - [Network-based modeling of the COVID-19 pandemic in India](https://bayesrx.shinyapps.io/COV-N/).
-  - [National and state-wise forecasts and summaries of COVID-19 in India](https://umich-biostatistics.shinyapps.io/covid19/).
+  - [National forecasts of COVID-19 in India](https://umich-biostatistics.shinyapps.io/covid19/).
 
 - **Media Interactions**
   - [Newstalk](https://www.newstalk.com/podcasts/highlights-from-moncrieff/1-3-billion-lockdown-india).
@@ -32,7 +32,7 @@ In addition to my formal academic ventures, I strive to make the science I work 
   - [NDTV India](https://drive.google.com/file/d/1Xt4LjmNJsXsUVTTXop6AgQWwjFKxcvcS/view?usp=sharing).
   - [The Wire](https://thewire.in/health/covid-19-india-national-data-state).
 
-- Recently, I have ventured into writing popular science articles in my mother tongue, Bengali. More details to follow soon!
+- Recently, I have ventured into writing popular science articles in my mother tongue, Bengali. One of my pieces on approaching data science and statistics as a potential career path was published during the 2023 Kolkata International Book Fair in a collection called \textit{Bigyaner Jogot} aimed primarily at pre-college teens across West Bengal, India.
 
 ## My World and Hobbies
 
