@@ -1,8 +1,8 @@
-name: "Rupam Bhattacharyya"                                # CHANGE HERE 
+name: "Rupam Bhattacharyya"
 output_dir: "."
 navbar:
-  title: "Homepage of Rupam Bhattacharyya"                             # CHANGE HERE 
-  type: inverse
+  title: "Homepage of Rupam Bhattacharyya"
+  type: default
   left:
     - text: "Home"
       icon: fa-home
@@ -18,13 +18,10 @@ navbar:
       href: social.html
   right:
     - icon: fa-envelope-o
-      href: mailto:rupamb@umich.edu                    # CHANGE HERE 
+      href: mailto:rupambh@google.com
     - icon: fa-github
-      href: https://github.com/rupambh       # CHANGE HERE 
+      href: https://github.com/rupambh
     - icon: fa-linkedin
       href: https://www.linkedin.com/in/rupam2016bhattacharyya/
     - text: CV
-      href: https://www.dropbox.com/scl/fi/e02oa1019gueaah8vrnqy/RupamB_CV.pdf?rlkey=8y6g6mzcq7jydkz2ud6ln5exo&st=kzygwbef&dl=0
-  html_document:
-    theme: darkly
-    highlight: zenburn
+      href: https://bit.ly/rbCV

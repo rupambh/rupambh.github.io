@@ -10,7 +10,7 @@ knitr::include_graphics("Pictures/2.jpg")
 
 <br>
 
-Here is an overview of my academic career and teaching activities. For more details on these, please take a look at my [CV](https://www.dropbox.com/scl/fi/e02oa1019gueaah8vrnqy/RupamB_CV.pdf?rlkey=8y6g6mzcq7jydkz2ud6ln5exo&st=kzygwbef&dl=0).
+Here is an overview of my academic career and teaching activities. For more details on these, please take a look at my [CV](https://bit.ly/rbCV).
 
 ## Education
 

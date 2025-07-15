@@ -1,0 +1,18 @@
+body {
+  text-align: justify; /* Your existing rule */
+}
+
+/* New rules for hyperlink colors - adjusted for better readability on dark background */
+a {
+  color: #6c93b7; /* Lighter, muted blue for better readability on dark */
+}
+
+a:hover {
+  color: #4a6883; /* A slightly darker shade for hover/focus */
+  text-decoration: underline; /* Optional: adds an underline on hover */
+}
+
+a:focus {
+  color: #4a6883; /* A slightly darker shade for focus */
+  outline: 0; /* Optional: remove default outline, but ensure accessibility via other means */
+}

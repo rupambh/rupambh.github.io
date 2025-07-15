@@ -1,0 +1,4 @@
+# _output.yml
+html_document:
+  theme: darkly
+  css: style.css
