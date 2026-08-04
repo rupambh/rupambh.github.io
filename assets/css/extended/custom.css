@@ -95,3 +95,54 @@ a:hover {
 .software-card .card-link:hover {
     color: var(--accent-teal-hover);
 }
+
+/* --- Interactive Accordions (details/summary) --- */
+details.accordion {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 15px 20px;
+    background: var(--entry);
+    margin-bottom: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+details.accordion[open] {
+    background: var(--theme);
+    border-color: var(--accent-teal);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+}
+
+details.accordion summary {
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: var(--primary);
+    list-style: none; /* Hide default triangle */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+details.accordion summary::-webkit-details-marker {
+    display: none; /* Hide default triangle in Webkit */
+}
+
+details.accordion summary::after {
+    content: "＋";
+    font-weight: bold;
+    color: var(--accent-teal);
+    font-size: 0.9em;
+    transition: transform 0.2s;
+}
+
+details.accordion[open] summary::after {
+    content: "－";
+}
+
+/* Content spacing inside accordion */
+details.accordion .accordion-content {
+    margin-top: 15px;
+    border-top: 1px dashed var(--border);
+    padding-top: 15px;
+}
