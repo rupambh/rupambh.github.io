@@ -279,21 +279,26 @@ details.sub-accordion .sub-accordion-content {
     padding-bottom: 15px;
 }
 
-/* Reset to normal inline footer on tablets/mobile */
+/* Reset to sticky footer on tablets/mobile */
 @media screen and (max-width: 1250px) {
     .floating-socials {
-        position: static; /* Flows in footer area */
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: auto;
         transform: none;
         flex-direction: row;
         justify-content: center;
-        gap: 25px;
-        background: transparent;
+        gap: 20px;
+        background: var(--entry);
         border: none;
-        box-shadow: none;
-        padding: 0;
-        margin-top: 40px;
-        margin-bottom: 20px;
+        border-top: 1px solid var(--border);
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+        padding: 10px 0;
+        margin: 0;
         width: 100%;
+        z-index: 1000;
+        border-radius: 0;
     }
     
     .floating-socials .social-icons {
@@ -306,6 +311,29 @@ details.sub-accordion .sub-accordion-content {
         padding-bottom: 0;
         border-right: 1px dashed var(--border);
         padding-right: 25px;
+    }
+
+    body {
+        padding-bottom: 60px; /* Prevent footer content from being covered */
+    }
+}
+
+/* Nav Menu Wrapping on Mobile */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;       /* Wrap menu items */
+        white-space: normal;   /* Disable nowrap */
+        overflow-x: visible;   /* Remove scrollbar */
+        gap: 8px 15px;        /* Spacing */
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .header-nav {
+        flex-direction: column; /* Stack logo and menu links */
+        align-items: center;
+        padding-bottom: 10px;
     }
 }
 
