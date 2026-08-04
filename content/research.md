@@ -33,7 +33,7 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
       <li class="first-author-pub"><strong>Bhattacharyya, R.</strong>, Henderson, N., & Baladandayuthapani, V. (2024). Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data. <em>JASA Applications and Case Studies</em>, 119(548), 2533–2547.</li>
       <li class="first-author-pub"><strong>Bhattacharyya, R.</strong>, Henderson, N., & Baladandayuthapani, V. (2023, January). BaySyn: Bayesian evidence synthesis for multi-system multiomic integration. In <em>Pacific Symposium on Biocomputing</em> (Vol. 28, No. 2023, pp. 275–286).</li>
       <li class="first-author-pub"><strong>Bhattacharyya, R.</strong>, Ha, M. J., Liu, Q., Akbani, R., Liang, H., & Baladandayuthapani, V. (2020). Personalized network modeling of the pan-cancer patient and cell line interactome. <em>JCO Clinical Cancer Informatics</em>, 4, 399–411.</li>
-      <li>Slide, Q., Ha, M. J., <strong>Bhattacharyya, R.</strong>, Garmire, L., & Baladandayuthapani, V. (2020, January). Network-based matching of patients and targeted therapies for precision oncology. In <em>Pacific Symposium on Biocomputing</em> (Vol. 25, No. 2020, pp. 623–634).</li>
+      <li>Liu, Q., Ha, M. J., <strong>Bhattacharyya, R.</strong>, Garmire, L., & Baladandayuthapani, V. (2020, January). Network-based matching of patients and targeted therapies for precision oncology. In <em>Pacific Symposium on Biocomputing</em> (Vol. 25, No. 2020, pp. 623–634).</li>
     </ol>
   </div>
 
@@ -76,8 +76,8 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
       <summary>📊 Large-Scale Auction Diagnostics & Bidding Optimization</summary>
       <div class="sub-accordion-content">
         <ul>
-          <li><strong>Bidding Diagnostics Infrastructure</strong>: Engineered large-scale data processing pipelines to ingest, deduplicate, and analyze **billions of daily auction logs**. Developed custom database schemas to measure campaign budget pacing and bidding inefficiencies.</li>
-          <li><strong>Bidding Recommendation Scaling</strong>: Authored technical requirements to optimize Target CPM (Cost-Per-Thousand) bidding recommendations for complex, flighted advertising campaigns. This resolved a critical system limitation, expanding recommendation coverage to unlock **$10M+ in annualized advertiser spend** and **$100M+ in budget headroom**.</li>
+          <li><strong>Bidding Diagnostics Infrastructure</strong>: Engineered large-scale data processing pipelines to ingest, deduplicate, and analyze <strong>billions of daily auction logs</strong>. Developed custom database schemas to measure campaign budget pacing and bidding inefficiencies.</li>
+          <li><strong>Bidding Recommendation Scaling</strong>: Authored technical requirements to optimize Target CPM (Cost-Per-Thousand) bidding recommendations for complex, flighted advertising campaigns. This resolved a critical system limitation, expanding recommendation coverage to unlock <strong>$10M+ in annualized advertiser spend</strong> and <strong>$100M+ in budget headroom</strong>.</li>
           <li><strong>Product Integration</strong>: Led cross-functional alignment with software engineering and UI teams to surface pipeline diagnostics as visual budget warnings directly in the advertiser-facing Google Ads console.</li>
         </ul>
       </div>
@@ -89,7 +89,7 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
         <ul>
           <li><strong>Causal Proxy Modeling</strong>: Designed a mathematically bounded causal proxy using short-term revenue signals to replace inflated advertiser value estimates, successfully correcting for selection and survival biases in platform-wide counterfactual pricing models.</li>
           <li><strong>Pricing Experimentation Operations</strong>: Assumed full technical setup, engineering operations, and statistical analysis for global subscription pricing experiments, implementing robust variance estimation and bootstrap workflows.</li>
-          <li><strong>Statistical Decision Support</strong>: Owned the statistical narrative and presented revenue-foregone analyses to senior leadership. Conducted confidence interval width sensitivity analyses across **100+ global markets** to secure alignment on platform pricing rollouts.</li>
+          <li><strong>Statistical Decision Support</strong>: Owned the statistical narrative and presented revenue-foregone analyses to senior leadership. Conducted confidence interval width sensitivity analyses across <strong>100+ global markets</strong> to secure alignment on platform pricing rollouts.</li>
         </ul>
       </div>
     </details>
@@ -112,4 +112,4 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
 
 ## Upcoming Presentations
 
-*   **International Indian Statistical Association (IISA) Conference** (December 26 – December 30, 2026 | Banaras Hindu University, Varanasi, India)
+*   **International Indian Statistical Association (IISA) Conference** (December 26 - December 30, 2026 | Banaras Hindu University, Varanasi, India)
