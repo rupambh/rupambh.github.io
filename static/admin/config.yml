@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME # Must be updated by user
+  branch: main
+  # To make authentication work on a static site, you can use:
+  # 1. GitHub Token (manual entry in the UI)
+  # 2. An OAuth gateway (like Decap CMS's Gatekeeper or a free Cloudflare Worker)
+  # Uncomment the lines below if using an OAuth gateway:
+  # base_url: https://your-oauth-gateway.com
+  # auth_type: implicit
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}

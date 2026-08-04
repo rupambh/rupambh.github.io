@@ -1,0 +1,52 @@
+---
+title: "Research Profile"
+date: 2026-08-03
+draft: false
+---
+
+<p align="center">
+  <img src="/Pictures/3.jpg" width="50%" alt="Research profile">
+</p>
+
+Below is a list of my published projects (in descending order of publication year). Please refer to my [CV](https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or [Google Scholar page](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en) to get a complete list of my preprints, ongoing projects, past presentations, and accolades. My [CV](https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing) also contains the most updated list of my administrative and peer review activities.
+
+## Published Works
+
+1. Zheng, Y., Cheng, C., Cao, Y., Cruz, G., Zhang, Y., Paturu, R., Mahapatra, S., Hu, J., Mannan, R., Karaburk, H., **Bhattacharyya, R.**, ... & Qiao, Y. (2026). A stress-adaptive lipid kinase axis defines metabolic vulnerabilities in neuroendocrine prostate cancer. *Cancer Cell*, online now.
+
+2. Cao, Y., Cheng, C., Yin, Y., Yee, S. N., Zheng, Y., Mahapatra, S., Paturu, R., Coleski, A., VanAken, S., Yang, F., Pakkan, R., Zhao, Y., **Bhattacharyya, R.**, ... & Chinnaiyan, A. (2026). Targeting the ferritinophagy-lysosome axis as a therapeutic vulnerability in gastroenteropancreatic neuroendocrine tumors. *Cell Reports Medicine*, 7(4), 102695.
+
+3. Luo, J., Chen, Z., Qiao, Y., Tien, J., Young, E., Mannan, R., Mahapatra, S., **Bhattacharyya, R.**, ... & Chinnaiyan, A. (2025). Targeting histone H2B acetylated enhanceosomes via p300/CBP degradation in prostate cancer. *Nature Genetics*, 57, 2468–2481.
+
+4. Cheng, C., Hu, J., Mannan, R., He, T., **Bhattacharyya, R.**, Magnuson, B., ... & Chinnaiyan, A. (2025). Targeting PIKfyve-driven lipid homeostasis as a metabolic vulnerability in pancreatic cancer. *Nature*, 642(8068), 776–784.
+
+5. **Bhattacharyya, R.**, Henderson, N., & Baladandayuthapani, V. (2024). Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data. *JASA Applications and Case Studies*, 119(548), 2533–2547.
+
+6. Kundu, R., Datta, J., Ray, D., Mishra, S., **Bhattacharyya, R.**, Zimmermann, L., & Mukherjee, B. (2023). Comparative impact assessment of COVID-19 policy interventions in five South Asian countries using reported and estimated unreported death counts during 2020–2021. *PLOS Global Public Health*, 3(12), e0002063.
+
+7. **Bhattacharyya, R.**, Henderson, N., & Baladandayuthapani, V. (2023, January). BaySyn: Bayesian evidence synthesis for multi-system multiomic integration. In *Pacific Symposium on Biocomputing* (Vol. 28, No. 2023, pp. 275–286).
+
+8. **Bhattacharyya, R.**, Burman, A., Singh, K., Banerjee, S., Maity, S., Auddy, A., ... & Baladandayuthapani, V. (2022). Role of multi-resolution vulnerability indices in COVID-19 spread in India: A Bayesian model-based analysis. *BMJ Open*, 12(11), e056292.
+
+9. Salvatore, M., Purkayastha, S., Ganapathi, L., **Bhattacharyya, R.**, Kundu, R., Zimmermann, L., ... & Mukherjee, B. (2022). Lessons from SARS-CoV-2 in India: A data-driven framework for pandemic resilience. *Science Advances*, 8(24), eabp8621.
+
+10. **Bhattacharyya, R.**, Banerjee, S., Mohammed, S., & Baladandayuthapani, V. (2021). Network-based modeling of COVID-19 dynamics: Early pandemic spread in India. *Journal of the Indian Statistical Association*, 59(2), 1–43.
+
+11. Purkayastha, S., **Bhattacharyya, R.**, Bhaduri, R., Kundu, R., Gu, X., Salvatore, M., ... & Mukherjee, B. (2021). A comparison of five epidemiological models for transmission of SARS-CoV-2 in India. *BMC Infectious Diseases*, 21(1), 1–23.
+
+12. **Bhattacharyya, R.**, Kundu, R., Bhaduri, R., Ray, D., Beesley, L. J., Salvatore, M., & Mukherjee, B. (2021). Incorporating false negative tests in epidemiological models for SARS-CoV-2 transmission and reconciling with seroprevalence estimates. *Scientific Reports*, 11(1), 1–14.
+
+13. Ray, D., **Bhattacharyya, R.**, & Mukherjee, B. (2021). Discussion on “The timing and effectiveness of implementing mild interventions of COVID-19 in large industrial regions via a synthetic control method” by Tian et al. *Statistics and Its Interface*, 14(1), 25–28.
+
+14. Salvatore, M., Basu, D., Ray, D., Kleinsasser, M., Purkayastha, S., **Bhattacharyya, R.**, & Mukherjee, B. (2020). Comprehensive public health evaluation of lockdown as a non-pharmaceutical intervention on COVID-19 spread in India: National trends masking state-level variations. *BMJ Open*, 10(12), e041778.
+
+15. Ray, D., Salvatore, M., **Bhattacharyya, R.**, Wang, L., Du, J., Mohammed, S., ... & Mukherjee, B. (2020). Predictions, role of interventions and effects of a historic national lockdown in India’s response to the COVID-19 pandemic: Data science call to arms. *Harvard Data Science Review*, 2020(Suppl 1).
+
+16. **Bhattacharyya, R.**, Ha, M. J., Liu, Q., Akbani, R., Liang, H., & Baladandayuthapani, V. (2020). Personalized network modeling of the pan-cancer patient and cell line interactome. *JCO Clinical Cancer Informatics*, 4, 399–411.
+
+17. Liu, Q., Ha, M. J., **Bhattacharyya, R.**, Garmire, L., & Baladandayuthapani, V. (2020, January). Network-based matching of patients and targeted therapies for precision oncology. In *Pacific Symposium on Biocomputing* (Vol. 25, No. 2020, pp. 623–634).
+
+## Upcoming Presentations
+
+- Watch this space for my 2026 presentations!
+  - Upcoming: **International Indian Statistical Association Conference (2026)**

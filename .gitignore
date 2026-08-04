@@ -1,0 +1,13 @@
+# Hugo default folders
+/public
+/resources
+/_vendor
+.hugo_build.lock
+
+# Local Hugo binary
+/bin/hugo_extended_*
+/bin/hugo
+
+# OS files
+.DS_Store
+Thumbs.db

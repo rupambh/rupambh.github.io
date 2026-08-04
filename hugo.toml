@@ -1,0 +1,72 @@
+baseURL = 'https://rupambh.github.io/hugo-test/' # Temporary baseURL for testing
+locale = 'en'
+title = 'Rupam Bhattacharyya'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  title = 'Rupam Bhattacharyya'
+  description = 'Personal Website of Rupam Bhattacharyya'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+
+  [params.profileMode]
+    enabled = true
+    title = 'Rupam Bhattacharyya'
+    subtitle = 'Data Scientist III, Research at Google'
+    imageUrl = 'Pictures/1.jpg' # Use the first picture from old site
+    imageWidth = 150
+    imageHeight = 150
+    buttons = [
+      { name = 'About', url = '/about/' },
+      { name = 'Research', url = '/research/' },
+      { name = 'Academic & Teaching', url = '/academic/' },
+      { name = 'Beyond Numbers', url = '/social/' },
+      { name = 'CV (PDF)', url = 'https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing' }
+    ]
+
+  [[params.socialIcons]]
+    name = 'googlescholar'
+    url = 'https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en'
+  [[params.socialIcons]]
+    name = 'researchgate'
+    url = 'https://www.researchgate.net/profile/Rupam-Bhattacharyya'
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/rupambh'
+  [[params.socialIcons]]
+    name = 'facebook'
+    url = 'https://www.facebook.com/rupam.bhattacharyya1995/'
+  [[params.socialIcons]]
+    name = 'youtube'
+    url = 'https://www.youtube.com/channel/UCiw6hgV17lpZUhCLGcwgkKg'
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 10
+  [[menu.main]]
+    name = 'Research'
+    url = '/research/'
+    weight = 20
+  [[menu.main]]
+    name = 'Academic'
+    url = '/academic/'
+    weight = 30
+  [[menu.main]]
+    name = 'Beyond Numbers'
+    url = '/social/'
+    weight = 40
+  [[menu.main]]
+    name = 'CV (PDF)'
+    url = 'https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing'
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
