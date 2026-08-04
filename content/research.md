@@ -24,7 +24,7 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
 <input type="radio" name="research-tabs" id="tab-academic" checked="checked">
 <label for="tab-academic">Academic Publications</label>
 <div class="tab-content">
-<p>Filter by research topic (Methods selected by default). Items show their global chronological publication index, matching your CV.</p>
+<p>Filter by research topic (Methods selected by default). Publications are numbered chronologically, matching my CV.</p>
 
 <div class="filter-container">
 <button class="filter-btn active" data-filter="methods">Methods</button>
