@@ -1,4 +1,4 @@
-baseURL = 'https://rupambh.github.io/hugo-test/' # Temporary baseURL for testing
+baseURL = 'https://rupamb.com/'
 locale = 'en'
 title = 'Rupam Bhattacharyya'
 theme = 'PaperMod'

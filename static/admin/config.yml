@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME # Must be updated by user
+  repo: rupambh/rupambh.github.io
   branch: main
   # To make authentication work on a static site, you can use:
   # 1. GitHub Token (manual entry in the UI)
