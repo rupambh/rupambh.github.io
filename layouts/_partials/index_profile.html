@@ -1,0 +1,61 @@
+<div class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner">
+        {{- if .imageUrl -}}
+        {{- $img := "" }}
+        {{- if not (urls.Parse .imageUrl).IsAbs }}
+            {{- $img = resources.Get .imageUrl }}
+        {{- end }}
+        {{- if $img }}
+            {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+            {{- if hugo.IsExtended -}}
+                {{- $processableFormats = $processableFormats | append "webp" -}}
+            {{- end -}}
+            {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+            {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+                {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
+                    {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
+                {{- else if .imageHeight }}
+                    {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+                {{ else if .imageWidth }}
+                    {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
+                {{ else }}
+                    {{- $img = $img.Resize "150x150" }}
+                {{- end }}
+            {{- end }}
+            <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                height="{{ .imageHeight | default 150 }}" width="{{ $img.Width | default 150 }}" />
+        {{- else }}
+        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+        {{- end }}
+        {{- end }}
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+        
+        <!-- Row 1: Science and Work -->
+        {{- if site.Params.socialIconsWork }}
+        <div class="social-icons" style="margin-top: 15px;">
+            {{- range site.Params.socialIconsWork }}
+            <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+                title="{{ (.title | default .name) | title }}">
+                {{ partial "svg.html" . }}
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+
+        <!-- Row 2: Social Media -->
+        {{- if site.Params.socialIconsSocial }}
+        <div class="social-icons" style="margin-top: 10px;">
+            {{- range site.Params.socialIconsSocial }}
+            <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+                title="{{ (.title | default .name) | title }}">
+                {{ partial "svg.html" . }}
+            </a>
+            {{- end }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end}}
+</div>

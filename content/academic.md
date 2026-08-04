@@ -2,6 +2,7 @@
 title: "Academic Pursuits"
 date: 2026-08-03
 draft: false
+hidemeta: true
 ---
 
 <p align="center">

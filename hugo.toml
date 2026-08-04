@@ -9,7 +9,7 @@ theme = 'PaperMod'
   description = 'Personal Website of Rupam Bhattacharyya'
   defaultTheme = 'auto'
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false # Disabled share buttons at the bottom of pages
   ShowCodeCopyButtons = true
   ShowBreadCrumbs = true
 
@@ -17,32 +17,41 @@ theme = 'PaperMod'
     enabled = true
     title = 'Rupam Bhattacharyya'
     subtitle = 'Data Scientist III, Research at Google'
-    imageUrl = 'Pictures/1.jpg' # Use the first picture from old site
+    imageUrl = 'Pictures/1.jpg'
     imageWidth = 150
     imageHeight = 150
-    buttons = [
-      { name = 'About', url = '/about/' },
-      { name = 'Research', url = '/research/' },
-      { name = 'Academic & Teaching', url = '/academic/' },
-      { name = 'Beyond Numbers', url = '/social/' },
-      { name = 'CV (PDF)', url = 'https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing' }
-    ]
+    # Buttons are removed as they are already on the top menu
 
-  [[params.socialIcons]]
+  # Row 1: Science & Work
+  [[params.socialIconsWork]]
     name = 'googlescholar'
     url = 'https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en'
-  [[params.socialIcons]]
+  [[params.socialIconsWork]]
     name = 'researchgate'
     url = 'https://www.researchgate.net/profile/Rupam-Bhattacharyya'
-  [[params.socialIcons]]
+  [[params.socialIconsWork]]
     name = 'github'
     url = 'https://github.com/rupambh'
-  [[params.socialIcons]]
+  [[params.socialIconsWork]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/rupam2016bhattacharyya/'
+  [[params.socialIconsWork]]
+    name = 'orcid'
+    url = 'https://orcid.org/0000-0003-4292-2372'
+
+  # Row 2: Social Media
+  [[params.socialIconsSocial]]
     name = 'facebook'
     url = 'https://www.facebook.com/rupam.bhattacharyya1995/'
-  [[params.socialIcons]]
+  [[params.socialIconsSocial]]
     name = 'youtube'
-    url = 'https://www.youtube.com/channel/UCiw6hgV17lpZUhCLGcwgkKg'
+    url = 'https://www.youtube.com/@dishari_rupam_music'
+  [[params.socialIconsSocial]]
+    name = 'instagram'
+    url = 'https://www.instagram.com/rupam_mmb/'
+  [[params.socialIconsSocial]]
+    name = 'twitter'
+    url = 'https://x.com/rupam_mmb'
 
 [menu]
   [[menu.main]]
@@ -62,7 +71,7 @@ theme = 'PaperMod'
     url = '/social/'
     weight = 40
   [[menu.main]]
-    name = 'CV (PDF)'
+    name = 'CV'
     url = 'https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing'
     weight = 50
 
