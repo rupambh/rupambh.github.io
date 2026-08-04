@@ -241,3 +241,71 @@ details.sub-accordion .sub-accordion-content {
     border-top: 1px dashed var(--border);
     font-size: 0.9em;
 }
+
+/* --- Floating Sticky Social Sidebar (Desktop only) --- */
+.floating-socials {
+    position: fixed;
+    left: 25px; /* Pinned on the left side of screen */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 15px 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.floating-socials .social-icons {
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.floating-socials .social-icons a {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+/* Subtle separator between work and social icons */
+.floating-socials .work-icons {
+    border-bottom: 1px dashed var(--border);
+    padding-bottom: 15px;
+}
+
+/* Reset to normal inline footer on tablets/mobile */
+@media screen and (max-width: 1250px) {
+    .floating-socials {
+        position: static; /* Flows in footer area */
+        transform: none;
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .floating-socials .social-icons {
+        flex-direction: row; /* Align horizontal on mobile */
+        gap: 15px;
+    }
+
+    .floating-socials .work-icons {
+        border-bottom: none;
+        padding-bottom: 0;
+        border-right: 1px dashed var(--border);
+        padding-right: 25px;
+    }
+}
+
