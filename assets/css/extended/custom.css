@@ -2,6 +2,10 @@
     /* Teal accent colors */
     --accent-teal: #008080;
     --accent-teal-hover: #006666;
+    
+    /* Responsive Layout Width overrides - making the site wider and more spacious */
+    --nav-width: 1200px;
+    --main-width: 1000px;
 }
 
 :root[data-theme="dark"] {
@@ -174,4 +178,66 @@ a:hover {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+}
+
+/* --- First-Authored Publication Highlight --- */
+.first-author-pub {
+    border-left: 3px solid var(--accent-teal);
+    padding-left: 12px;
+    margin-left: -15px;
+    background-color: rgba(0, 128, 128, 0.03);
+    margin-bottom: 8px;
+    border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+[data-theme="dark"] .first-author-pub {
+    background-color: rgba(77, 182, 172, 0.05);
+}
+
+/* --- Sub-Accordions for Creative & Hobbies --- */
+details.sub-accordion {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 10px 15px;
+    background: var(--theme);
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+}
+
+details.sub-accordion[open] {
+    border-color: var(--accent-teal);
+}
+
+details.sub-accordion summary {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: var(--primary);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+details.sub-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+details.sub-accordion summary::after {
+    content: "▾";
+    font-weight: bold;
+    color: var(--accent-teal);
+    transition: transform 0.2s;
+}
+
+details.sub-accordion[open] summary::after {
+    transform: rotate(180deg);
+}
+
+details.sub-accordion .sub-accordion-content {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    font-size: 0.9em;
 }

@@ -36,19 +36,39 @@ Outside of my main research and data science work, I am passionate about popular
 
 <div class="grid-column">
 <h2>Creative & Hobbies</h2>
-<p>I believe in maintaining a balanced lifestyle and exploring creative outlets that engage different parts of my brain.</p>
+<p>I believe in maintaining a balanced lifestyle and exploring creative outlets that engage different parts of my brain. Click below to expand each activity.</p>
 
-<h4>🎭 Theatre & Sound Design</h4>
-<p>Between May 2022 and October 2024, I worked as a sound projectionist for the <strong>Michigan Literary and Theatrical Society (MILITS)</strong>. I managed soundscapes and live audio projection for four major productions: <em>Sararattir</em>, <em>Opriyo Sotyo</em>, <em>Ghughudanga</em>, and <em>Durghatona</em>, which were performed at several prominent Bengali/Indian theatre festivals across the United States.</p>
+<details class="sub-accordion" open>
+  <summary>🎭 Theatre & Sound Design</summary>
+  <div class="sub-accordion-content">
+    <p>Between May 2022 and October 2024, I worked as a sound projectionist for the <strong>Michigan Literary and Theatrical Society (MILITS)</strong>.</p>
+    <p>I managed soundscapes and live audio projection for four major productions: <em>Sararattir</em>, <em>Opriyo Sotyo</em>, <em>Ghughudanga</em>, and <em>Durghatona</em>, which were performed at several prominent Bengali/Indian theatre festivals across the United States.</p>
+  </div>
+</details>
 
-<h4>🎵 Music & Audio Dramas</h4>
-<p>My wife Dishari and I run a YouTube music channel—<a href="https://www.youtube.com/@dishari_rupam_music" target="_blank">Dishari & Rupam Music</a>—where we share acoustic renditions of our favorite songs. We also perform in <strong>Kochi Songsod</strong>, an online production group focusing on Bengali audio dramas and cultural audio productions.</p>
+<details class="sub-accordion">
+  <summary>🎵 Music & Audio Dramas</summary>
+  <div class="sub-accordion-content">
+    <p>My wife Dishari and I run a YouTube music channel—<a href="https://www.youtube.com/@dishari_rupam_music" target="_blank">Dishari & Rupam Music</a>—where we share acoustic renditions of our favorite songs.</p>
+    <p>We also perform in <strong>Kochi Songsod</strong>, an online production group focusing on Bengali audio dramas and cultural audio productions.</p>
+  </div>
+</details>
 
-<h4>✍️ Bengali Popular Science Writing</h4>
-<p>I write popular science articles in my mother tongue, Bengali, to help make stats and data science approachable for younger students. My career guidance piece was featured in the book <em>Bigyaner Jogot</em> (World of Science) for pre-college teens, published during the 2023 Kolkata International Book Fair.</p>
+<details class="sub-accordion">
+  <summary>✍️ Bengali Popular Science Writing</summary>
+  <div class="sub-accordion-content">
+    <p>I write popular science articles in my mother tongue, Bengali, to help make stats and data science approachable for younger students.</p>
+    <p>My career guidance piece was featured in the book <em>Bigyaner Jogot</em> (World of Science) for pre-college teens, published during the 2023 Kolkata International Book Fair.</p>
+  </div>
+</details>
 
-<h4>🧠 Quizzing</h4>
-<p>I have been an active competitive quizzer since 2007. I was a founding member of the quizzing group <em>Sheyal Pundits</em> at ISI Kolkata, and a graduate member of the University of Michigan Quizbowl team.</p>
+<details class="sub-accordion">
+  <summary>🧠 Quizzing</summary>
+  <div class="sub-accordion-content">
+    <p>I have been an active competitive quizzer since 2007. I was a founding member of the quizzing group <em>Sheyal Pundits</em> at ISI Kolkata, and a graduate member of the University of Michigan Quizbowl team.</p>
+  </div>
+</details>
+
 </div>
 
 </div>
