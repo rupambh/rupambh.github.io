@@ -9,15 +9,17 @@ hidemeta: true
   <img src="/Pictures/3.jpg" width="50%" alt="Research profile">
 </p>
 
-My research spans advanced statistical modeling, methodology development, and high-dimensional data integration across precision health and public health. Below is a structured list of my publications grouped by my core areas of expertise.
+My research spans advanced statistical modeling, methodology development, and high-dimensional data integration across precision health and public health. 
 
 For a complete bibliography, please refer to my [Google Scholar profile](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or my [CV](https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing).
 
 ---
 
-<details class="accordion" open>
-  <summary>1. Precision Oncology & Proteogenomics (8 papers)</summary>
-  <div class="accordion-content">
+<div class="css-tabs">
+
+  <input type="radio" name="research-tabs" id="tab-oncology" checked="checked">
+  <label for="tab-oncology">Precision Oncology</label>
+  <div class="tab-content">
     <p>This research focuses on the integration of multi-platform, high-dimensional genomics and proteomics data to model biological networks and discover precision oncology therapeutic vulnerabilities.</p>
     <ol reversed>
       <li>Zheng, Y., Cheng, C., Cao, Y., Cruz, G., Zhang, Y., Paturu, R., Mahapatra, S., Hu, J., Mannan, R., Karaburk, H., <strong>Bhattacharyya, R.</strong>, ... & Qiao, Y. (2026). A stress-adaptive lipid kinase axis defines metabolic vulnerabilities in neuroendocrine prostate cancer. <em>Cancer Cell</em>, online now.</li>
@@ -30,11 +32,10 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
       <li>Liu, Q., Ha, M. J., <strong>Bhattacharyya, R.</strong>, Garmire, L., & Baladandayuthapani, V. (2020, January). Network-based matching of patients and targeted therapies for precision oncology. In <em>Pacific Symposium on Biocomputing</em> (Vol. 25, No. 2020, pp. 623–634).</li>
     </ol>
   </div>
-</details>
 
-<details class="accordion">
-  <summary>2. Methodological Statistics & Machine Learning (3 papers)</summary>
-  <div class="accordion-content">
+  <input type="radio" name="research-tabs" id="tab-methodology">
+  <label for="tab-methodology">Methodological ML</label>
+  <div class="tab-content">
     <p>This research involves the development of novel statistical methodology, focusing on Bayesian hierarchical modeling, Gaussian processes, network/graphical models, and evidence synthesis, with applications extending to digital advertising and revenue science.</p>
     <ol reversed>
       <li><strong>Bhattacharyya, R.</strong>, Henderson, N., & Baladandayuthapani, V. (2024). Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data. <em>JASA Applications and Case Studies</em>, 119(548), 2533–2547.</li>
@@ -42,11 +43,10 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
       <li>Ray, D., <strong>Bhattacharyya, R.</strong>, & Mukherjee, B. (2021). Discussion on “The timing and effectiveness of implementing mild interventions of COVID-19 in large industrial regions via a synthetic control method” by Tian et al. <em>Statistics and Its Interface</em>, 14(1), 25–28.</li>
     </ol>
   </div>
-</details>
 
-<details class="accordion">
-  <summary>3. Public Health & Pandemic Modeling (8 papers)</summary>
-  <div class="accordion-content">
+  <input type="radio" name="research-tabs" id="tab-publichealth">
+  <label for="tab-publichealth">Public Health</label>
+  <div class="tab-content">
     <p>This research covers spatio-temporal modeling and epidemiological predictions, primarily focusing on modeling transmission corridors, policy interventions, and under-reporting rates during the COVID-19 pandemic in India and South Asia.</p>
     <ol reversed>
       <li>Kundu, R., Datta, J., Ray, D., Mishra, S., <strong>Bhattacharyya, R.</strong>, Zimmermann, L., & Mukherjee, B. (2023). Comparative impact assessment of COVID-19 policy interventions in five South Asian countries using reported and estimated unreported death counts during 2020–2021. <em>PLOS Global Public Health</em>, 3(12), e0002063.</li>
@@ -59,7 +59,8 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
       <li>Ray, D., Salvatore, M., <strong>Bhattacharyya, R.</strong>, Wang, L., Du, J., Mohammed, S., ... & Mukherjee, B. (2020). Predictions, role of interventions and effects of a historic national lockdown in India’s response to the COVID-19 pandemic: Data science call to arms. <em>Harvard Data Science Review</em>, 2020(Suppl 1).</li>
     </ol>
   </div>
-</details>
+
+</div>
 
 ---
 

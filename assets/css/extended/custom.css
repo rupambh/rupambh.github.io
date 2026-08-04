@@ -96,53 +96,82 @@ a:hover {
     color: var(--accent-teal-hover);
 }
 
-/* --- Interactive Accordions (details/summary) --- */
-details.accordion {
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 15px 20px;
-    background: var(--entry);
-    margin-bottom: 15px;
-    transition: all 0.2s ease-in-out;
-}
-
-details.accordion[open] {
-    background: var(--theme);
-    border-color: var(--accent-teal);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-}
-
-details.accordion summary {
-    font-weight: bold;
-    font-size: 1.1em;
-    cursor: pointer;
-    color: var(--primary);
-    list-style: none; /* Hide default triangle */
+/* --- Pure CSS Tabs System (for Research Page) --- */
+.css-tabs {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.css-tabs input[type="radio"] {
+    display: none;
+}
+
+.css-tabs label {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 0.95em;
+    cursor: pointer;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-bottom: none;
+    border-radius: var(--radius) var(--radius) 0 0;
+    margin-right: 5px;
+    transition: all 0.2s ease-in-out;
     user-select: none;
 }
 
-details.accordion summary::-webkit-details-marker {
-    display: none; /* Hide default triangle in Webkit */
+.css-tabs label:hover {
+    background: var(--border);
 }
 
-details.accordion summary::after {
-    content: "＋";
-    font-weight: bold;
+.css-tabs .tab-content {
+    width: 100%;
+    padding: 25px;
+    background: var(--theme);
+    border: 1px solid var(--border);
+    order: 1; /* Pushes content below labels */
+    display: none;
+    border-radius: 0 var(--radius) var(--radius) var(--radius);
+}
+
+.css-tabs input[type="radio"]:checked + label {
+    background: var(--accent-teal);
+    color: #fff;
+    border-color: var(--accent-teal);
+}
+
+.css-tabs input[type="radio"]:checked + label + .tab-content {
+    display: block;
+}
+
+/* --- Side-by-Side Responsive Grid (for Beyond the Numbers) --- */
+.side-by-side-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.grid-column {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 25px;
+}
+
+.grid-column h2 {
+    margin-top: 0;
     color: var(--accent-teal);
-    font-size: 0.9em;
-    transition: transform 0.2s;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-details.accordion[open] summary::after {
-    content: "－";
-}
-
-/* Content spacing inside accordion */
-details.accordion .accordion-content {
-    margin-top: 15px;
-    border-top: 1px dashed var(--border);
-    padding-top: 15px;
+/* Responsive collapse on mobile */
+@media screen and (max-width: 768px) {
+    .side-by-side-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
