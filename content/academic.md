@@ -14,10 +14,10 @@ Here is an overview of my academic career and teaching activities. For more deta
 ## Education
 
 - **PhD in Biostatistics**, University of Michigan, 2018 - 2023.
-  - Dissertation: [Bayesian Models for Multi-omic Multi-system Integration for Precision Oncology](https://deepblue.lib.umich.edu/handle/2027.42/177797).
-- **Master of Statistics**, Indian Statistical Institute, Kolkata, 2016-2018.
+  - Dissertation: [Bayesian Models for Multi-omic Multi-system Integration for Precision Oncology](https://dx.doi.org/10.7302/8254).
+- **Master of Statistics**, Indian Statistical Institute, Kolkata, 2016 - 2018.
   - Specialization: Applied Statistics, Biostatistics track.
-- **Bachelor of Statistics** (Hons.), Indian Statistical Institute, Kolkata, 2013-2016.
+- **Bachelor of Statistics** (Hons.), Indian Statistical Institute, Kolkata, 2013 - 2016.
 
 ## Teaching
 

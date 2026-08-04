@@ -29,7 +29,7 @@ Outside of my main research and data science work, I am passionate about popular
 <li><strong>Newstalk (Ireland):</strong> Discussion on lockdown dynamics (<a href="https://www.newstalk.com/podcasts/highlights-from-moncrieff/1-3-billion-lockdown-india" target="_blank">Listen here</a>).</li>
 <li><strong>The World:</strong> Feature on the impact of lockdown on India's poorest populations (<a href="https://www.pri.org/stories/2020-03-25/without-support-indias-poorest-people-lockdown-risks-failure" target="_blank">Read here</a>).</li>
 <li><strong>The Guardian:</strong> Coverage of the early national lockdowns (<a href="https://www.theguardian.com/world/2020/mar/24/indias-13bn-population-locked-down-to-beat-coronavirus" target="_blank">Read here</a>).</li>
-<li><strong>NDTV India:</strong> Television broadcast feature (<a href="https://drive.google.com/file/d/1Xt4LjmNJsXsUVTTXop6AgQWwjFKxcvcS/view?usp=sharing" target="_blank">Watch video</a>).</li>
+<li><strong>NDTV India:</strong> Television broadcast feature (<a href="https://www.facebook.com/reel/2831248230445311" target="_blank">Watch video</a>).</li>
 <li><strong>The Wire (India):</strong> Feature on state-level data trends (<a href="https://thewire.in/health/covid-19-india-national-data-state" target="_blank">Read here</a>).</li>
 </ul>
 </div>
