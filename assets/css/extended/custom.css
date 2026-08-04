@@ -381,4 +381,75 @@ details.sub-accordion .sub-accordion-content {
     transform: scale(0.95);
 }
 
+/* --- Stylish Sliding Pill Toggle Switch --- */
+.theme-toggle {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 48px !important;
+    height: 24px !important;
+    background-color: var(--border) !important;
+    border-radius: 12px !important;
+    padding: 2px !important;
+    position: relative !important;
+    border: 1px solid var(--border) !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+/* Sliding handle inside the pill */
+.theme-toggle::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: var(--theme); /* matches page background */
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    z-index: 2;
+}
+
+/* In dark mode, slide handle to the right */
+html[data-theme="dark"] .theme-toggle::after {
+    transform: translateX(24px);
+}
+
+/* Show both SVGs statically in the track */
+.theme-toggle svg {
+    width: 12px !important;
+    height: 12px !important;
+    z-index: 1 !important;
+    transition: opacity 0.3s ease, color 0.3s ease;
+    color: var(--primary);
+}
+
+/* Ensure both are visible inside track */
+html[data-theme="dark"] .theme-toggle .moon,
+html[data-theme="light"] .theme-toggle .sun {
+    display: block !important;
+    opacity: 0.35; /* Dim the inactive icon */
+}
+
+html[data-theme="dark"] .theme-toggle .sun,
+html[data-theme="light"] .theme-toggle .moon {
+    display: block !important;
+    opacity: 1; /* Highlight the active icon */
+    color: var(--accent-teal); /* Accent color for active state */
+}
+
+/* Adjust icons position inside the pill track */
+.theme-toggle .moon {
+    margin-left: 3px;
+}
+
+.theme-toggle .sun {
+    margin-right: 3px;
+}
+
+
 
