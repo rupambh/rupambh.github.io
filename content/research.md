@@ -70,6 +70,25 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
 
 ---
 
+## Selected Industrial Projects & Applied Methodology
+
+### Large-Scale Auction Diagnostics & Bidding Optimization
+*   **Bidding Diagnostics Infrastructure**: Engineered large-scale data processing pipelines to ingest, deduplicate, and analyze daily auction logs. Developed custom schemas in distributed database systems to measure campaign budget pacing and bidding inefficiencies.
+*   **Bidding Recommendation Scaling**: Authored technical requirements to optimize Target CPM (Cost-Per-Thousand) bidding recommendations for complex, flighted advertising campaigns. This resolved a critical system limitation, expanding recommendation coverage and unlocking significant unspent advertiser headroom.
+*   **Product Integration**: Led cross-functional alignment with software engineering and UI teams to surface pipeline diagnostics as visual budget warnings directly in the advertiser-facing management console.
+
+### Causal Revenue Modeling & Counterfactual Pricing Estimation
+*   **Causal Proxy Modeling**: Designed a mathematically bounded causal proxy using short-term revenue signals to replace inflated advertiser value estimates, successfully correcting for selection and survival biases in platform-wide counterfactual pricing models.
+*   **Pricing Experimentation Operations**: Assumed full technical setup, engineering operations, and statistical analysis for global subscription pricing experiments, implementing robust variance estimation and bootstrap workflows.
+*   **Statistical Decision Support**: Owned the statistical narrative and presented revenue-foregone analyses to senior leadership. Conducted global confidence interval width sensitivity analyses to secure alignment on platform pricing rollouts.
+
+### Predictive Online-to-Offline (O2O) Campaign Modeling
+*   **0-to-1 Statistical Architecture**: Led a greenfield machine learning initiative to predict campaign-level conversion rates (pCVR) for online-to-offline actions, establishing the data collection, tracking, and pipeline architecture from scratch.
+*   **Robust Multi-Stage Modeling**: Designed multi-stage models combining relative outcome differences, predictive conversion components, and inverse-bid proxies to manage heavy-tailed outliers and zero-inflation in sparse campaign metrics.
+*   **Error Evaluation Metrics**: Implemented customized error metrics to evaluate revenue models against large outliers, ensuring that large, high-volume campaigns do not skew model evaluation.
+
+---
+
 ## Upcoming Presentations
 
 *   **International Indian Statistical Association (IISA) Conference** (December 26 – December 30, 2026 | Banaras Hindu University, Varanasi, India)
