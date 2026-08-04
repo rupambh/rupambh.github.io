@@ -337,3 +337,48 @@ details.sub-accordion .sub-accordion-content {
     }
 }
 
+/* --- Publication Filter System --- */
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+    justify-content: flex-start;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: var(--primary);
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    user-select: none;
+}
+
+.filter-btn:hover {
+    background: var(--border);
+}
+
+.filter-btn.active {
+    background: var(--accent-teal);
+    color: #fff;
+    border-color: var(--accent-teal);
+}
+
+/* Hide animation for filtered publications */
+.pub-item {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform-origin: top left;
+}
+
+.pub-item.hidden {
+    display: none;
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+
