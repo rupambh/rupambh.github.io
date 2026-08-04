@@ -39,14 +39,6 @@ Outside of my main research and data science work, I am passionate about popular
 <p>I believe in maintaining a balanced lifestyle and exploring creative outlets that engage different parts of my brain. Click below to expand each activity.</p>
 
 <details class="sub-accordion" open>
-  <summary>🎭 Theatre & Sound Design</summary>
-  <div class="sub-accordion-content">
-    <p>Between May 2022 and October 2024, I worked as a sound projectionist for the <strong><a href="https://www.facebook.com/milits.michigan/" target="_blank">Michigan Literary and Theatrical Society (MILITS)</a></strong>.</p>
-    <p>I managed soundscapes and live audio projection for four major productions: <em>Sararattir</em>, <em>Opriyo Sotyo</em>, <em>Ghughudanga</em>, and <em>Durghatona</em>, which were performed at several prominent Bengali/Indian theatre festivals across the United States.</p>
-  </div>
-</details>
-
-<details class="sub-accordion">
   <summary>🎵 Music & Audio Dramas</summary>
   <div class="sub-accordion-content">
     <p>My wife Dishari and I run a YouTube music channel—<a href="https://www.youtube.com/@dishari_rupam_music" target="_blank">গানের ঝরনাতলায় | Dishari and Rupam</a>—where we share acoustic renditions of our favorite songs.</p>
@@ -59,6 +51,14 @@ Outside of my main research and data science work, I am passionate about popular
   <div class="sub-accordion-content">
     <p>I write popular science articles in my mother tongue, Bengali, to help make stats and data science approachable for younger students.</p>
     <p>My career guidance piece was featured in the book <em>Bigyaner Jogot</em> (World of Science) for pre-college teens, published during the 2023 Kolkata International Book Fair.</p>
+  </div>
+</details>
+
+<details class="sub-accordion">
+  <summary>🎭 Theatre & Sound Design</summary>
+  <div class="sub-accordion-content">
+    <p>Between May 2022 and October 2024, I worked as a sound projectionist for the <strong><a href="https://www.facebook.com/milits.michigan/" target="_blank">Michigan Literary and Theatrical Society (MILITS)</a></strong>.</p>
+    <p>I managed soundscapes and live audio projection for four major productions: <em>Sararattir</em>, <em>Opriyo Sotyo</em>, <em>Ghughudanga</em>, and <em>Durghatona</em>, which were performed at several prominent Bengali/Indian theatre festivals across the United States.</p>
   </div>
 </details>
 

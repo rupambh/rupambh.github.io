@@ -6,15 +6,39 @@ hidemeta: true
 ---
 
 <p align="center">
-  <img src="/Pictures/1.jpg" width="50%" alt="Rupam Bhattacharyya">
+  <img src="/Pictures/1.jpg" width="30%" alt="Rupam Bhattacharyya" style="border-radius: 50%;">
 </p>
 
-Hi! I am Rupam Bhattacharyya. I am a **Data Scientist III at Google (YouTube Ads)**. Prior to this, I was a Post-doctoral Biostatistician at the [Michigan Center for Translational Pathology](https://pathology.med.umich.edu/mctp/), led by Prof. Arul Chinnaiyan. I completed my PhD in Biostatistics at the [Department of Biostatistics, University of Michigan](https://sph.umich.edu/biostat/), where I was supervised jointly by [Prof. Veerabhadran Baladandayuthapani](https://sph.umich.edu/faculty-profiles/baladandayuthapani-veerabhadran.html) and [Prof. Nicholas Henderson](https://sph.umich.edu/faculty-profiles/henderson-nicholas.html).
+Hi! I am **Rupam Bhattacharyya**, a **Data Scientist III at Google (YouTube Ads)**. 
 
-With a core training in Statistics and Biostatistics, my work focuses on the development and application of robust statistical methodology and machine learning tools, with a parallel interest in AI. Over the past **eight years**, I have gained extensive experience in extracting actionable insights from complex, high-dimensional datasets, with applications spanning biomedical data science (precision oncology, proteogenomics), computational epidemiology, and digital advertising/revenue science. I'm passionate about leveraging rigorous statistical methods to solve critical, real-world challenges.
+I am a methodology-first quantitative researcher specializing in bridging advanced statistical theory with high-scale computational engineering. Over the past **eight years**, I have developed and deployed robust probabilistic models, predictive machine learning pipelines, and simulation frameworks across diverse fields—from cancer genomics to platform-scale ads economics.
 
-At Google (YouTube Ads), my focus is on the intersection of ad auction theory, causal revenue estimation, and predictive modeling. I design robust data pipelines to run counterfactual pricing simulations, optimize bidding recommendation engines, and build machine learning systems to forecast campaign-level conversion metrics. My work bridges advanced statistical theory—including Bayesian hierarchical modeling, robust regression, and survival analysis—with petabyte-scale data infrastructure.
+---
 
-Born in the serene city of [Krishnanagar](https://en.wikipedia.org/wiki/Krishnanagar,_Nadia) in West Bengal, India, I spent the larger part of my childhood in the nearby town of [Santipur](https://en.wikipedia.org/wiki/Shantipur), where I did my schooling from [Shishu Kakali Primary School](https://www.facebook.com/smhs.santipur/) and [Santipur Municipal High School](https://www.facebook.com/smhs.santipur/). I then joined the [Indian Statistical Institute, Kolkata](https://www.isical.ac.in/) to get my bachelor's and master's degrees in Statistics.
+### 🛠️ Core Expertise
 
-To know more about me, please visit the other corners of this website!
+*   **Applied Statistics**: Bayesian Hierarchical Modeling, Causal Inference, Spatial Network Analysis, High-Dimensional Data Fusion.
+*   **Machine Learning**: Robust Outlier Management, Multi-Agent Simulation, Predictive Modeling.
+*   **Data Engineering**: Petabyte-scale database querying, distributed schema design, automated pipeline monitoring.
+
+---
+
+### 💼 Professional Journey
+
+*   **Data Scientist III (Research)** | *Google (YouTube Ads)* | *2024 – Present*
+    *   Focusing on ad auction theory, causal revenue estimation, and predictive ML systems (tCPM, pCVR) utilizing Google-scale data systems.
+*   **Post-doctoral Biostatistician** | *Michigan Center for Translational Pathology* | *2023 – 2024*
+    *   Led by Prof. Arul Chinnaiyan, focusing on multi-platform genomics integration and cancer therapeutics.
+*   **PhD in Biostatistics** | *University of Michigan* | *2018 – 2023*
+    *   Supervised jointly by Prof. Veerabhadran Baladandayuthapani and Prof. Nicholas Henderson.
+
+---
+
+### 🎓 Education & Roots
+
+*   **M.Stat. & B.Stat. in Statistics** | *Indian Statistical Institute, Kolkata*
+*   **Roots**: Born in Krishnanagar, West Bengal, India. Raised in Shantipur.
+
+---
+
+To know more about my work, check out the other sections of this website!
