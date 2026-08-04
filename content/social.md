@@ -16,13 +16,7 @@ In addition to my formal academic ventures, I strive to make the science I work 
 - **YouTube Tutorials**
   - Available on the [BayesRx YouTube channel](https://www.youtube.com/channel/UCiw6hgV17lpZUhCLGcwgkKg/videos).
 
-- **Interactive Dashboards**
-  - [Pan-cancer proteomic pathway networks](https://bayesrx.shinyapps.io/TransPRECISE/).
-  - [Functional integrative analysis of proteogenomic cancer data](https://bayesrx.shinyapps.io/fiBAG/).
-  - [Multi-platform evidence synthesis in multi-system cancer samples](https://bayesrx.shinyapps.io/BaySyn/).
-  - [Estimation of immunogenic modulation in clinicogenomic cancer models](https://bayesrx.shinyapps.io/GPVIBES/).
-  - [Network-based modeling of the COVID-19 pandemic in India](https://bayesrx.shinyapps.io/COV-N/).
-  - [National forecasts of COVID-19 in India](https://umich-biostatistics.shinyapps.io/covid19/).
+
 
 - **Media Interactions**
   - [Newstalk](https://www.newstalk.com/podcasts/highlights-from-moncrieff/1-3-billion-lockdown-india).

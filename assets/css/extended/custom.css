@@ -1,0 +1,97 @@
+:root {
+    /* Teal accent colors */
+    --accent-teal: #008080;
+    --accent-teal-hover: #006666;
+}
+
+:root[data-theme="dark"] {
+    --accent-teal: #4db6ac;
+    --accent-teal-hover: #80cbc4;
+}
+
+/* Override link colors */
+a {
+    color: var(--accent-teal);
+}
+
+a:hover {
+    color: var(--accent-teal-hover);
+}
+
+.pagination a {
+    background: var(--accent-teal);
+}
+
+/* Style buttons */
+.buttons a.button {
+    background: var(--accent-teal) !important;
+    color: #fff !important;
+}
+
+.buttons a.button:hover {
+    background: var(--accent-teal-hover) !important;
+}
+
+/* Style social icons hover state */
+.social-icons a:hover {
+    color: var(--accent-teal-hover) !important;
+}
+
+/* Cards for Software page */
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.software-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    background: var(--entry);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.software-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: var(--accent-teal);
+}
+
+.software-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.software-card h3 a {
+    color: var(--accent-teal);
+    text-decoration: none;
+}
+
+.software-card h3 a:hover {
+    color: var(--accent-teal-hover);
+    text-decoration: underline;
+}
+
+.software-card p {
+    font-size: 0.9em;
+    color: var(--secondary);
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.software-card .card-link {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: var(--accent-teal);
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+.software-card .card-link:hover {
+    color: var(--accent-teal-hover);
+}

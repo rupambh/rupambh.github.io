@@ -9,18 +9,17 @@ theme = 'PaperMod'
   description = 'Personal Website of Rupam Bhattacharyya'
   defaultTheme = 'auto'
   ShowReadingTime = true
-  ShowShareButtons = false # Disabled share buttons at the bottom of pages
+  ShowShareButtons = false # Disabled share buttons globally
   ShowCodeCopyButtons = true
   ShowBreadCrumbs = true
 
   [params.profileMode]
     enabled = true
     title = 'Rupam Bhattacharyya'
-    subtitle = 'Data Scientist III, Research at Google'
+    subtitle = 'Data Scientist @ Google | PhD in Biostatistics | Researching at the intersection of Bayesian Inference, ML, and Causal Inference.'
     imageUrl = 'Pictures/1.jpg'
     imageWidth = 150
     imageHeight = 150
-    # Buttons are removed as they are already on the top menu
 
   # Row 1: Science & Work
   [[params.socialIconsWork]]
@@ -62,6 +61,10 @@ theme = 'PaperMod'
     name = 'Research'
     url = '/research/'
     weight = 20
+  [[menu.main]]
+    name = 'Software & Dashboards'
+    url = '/software/'
+    weight = 25
   [[menu.main]]
     name = 'Academic'
     url = '/academic/'
