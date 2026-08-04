@@ -1,0 +1,27 @@
+{{- if not .IsHome }}
+<div class="footer-socials" style="margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; gap: 10px;">
+    <!-- Row 1: Science & Work -->
+    {{- if site.Params.socialIconsWork }}
+    <div class="social-icons" style="justify-content: center; gap: 15px; margin: 0; padding: 0;">
+        {{- range site.Params.socialIconsWork }}
+        <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+            title="{{ (.title | default .name) | title }}" style="margin: 0; display: inline-flex; align-items: center;">
+            {{ partial "svg.html" . }}
+        </a>
+        {{- end }}
+    </div>
+    {{- end }}
+
+    <!-- Row 2: Social Media -->
+    {{- if site.Params.socialIconsSocial }}
+    <div class="social-icons" style="justify-content: center; gap: 15px; margin: 0; padding: 0;">
+        {{- range site.Params.socialIconsSocial }}
+        <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me"
+            title="{{ (.title | default .name) | title }}" style="margin: 0; display: inline-flex; align-items: center;">
+            {{ partial "svg.html" . }}
+        </a>
+        {{- end }}
+    </div>
+    {{- end }}
+</div>
+{{- end }}

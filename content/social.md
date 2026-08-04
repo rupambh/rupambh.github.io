@@ -41,7 +41,7 @@ Outside of my main research and data science work, I am passionate about popular
 <details class="sub-accordion" open>
   <summary>🎭 Theatre & Sound Design</summary>
   <div class="sub-accordion-content">
-    <p>Between May 2022 and October 2024, I worked as a sound projectionist for the <strong>Michigan Literary and Theatrical Society (MILITS)</strong>.</p>
+    <p>Between May 2022 and October 2024, I worked as a sound projectionist for the <strong><a href="https://www.facebook.com/milits.michigan/" target="_blank">Michigan Literary and Theatrical Society (MILITS)</a></strong>.</p>
     <p>I managed soundscapes and live audio projection for four major productions: <em>Sararattir</em>, <em>Opriyo Sotyo</em>, <em>Ghughudanga</em>, and <em>Durghatona</em>, which were performed at several prominent Bengali/Indian theatre festivals across the United States.</p>
   </div>
 </details>
@@ -49,8 +49,8 @@ Outside of my main research and data science work, I am passionate about popular
 <details class="sub-accordion">
   <summary>🎵 Music & Audio Dramas</summary>
   <div class="sub-accordion-content">
-    <p>My wife Dishari and I run a YouTube music channel—<a href="https://www.youtube.com/@dishari_rupam_music" target="_blank">Dishari & Rupam Music</a>—where we share acoustic renditions of our favorite songs.</p>
-    <p>We also perform in <strong>Kochi Songsod</strong>, an online production group focusing on Bengali audio dramas and cultural audio productions.</p>
+    <p>My wife Dishari and I run a YouTube music channel—<a href="https://www.youtube.com/@dishari_rupam_music" target="_blank">গানের ঝরনাতলায় | Dishari and Rupam</a>—where we share acoustic renditions of our favorite songs.</p>
+    <p>We also perform in <strong><a href="https://www.youtube.com/channel/UCZm2Xqx3wapyNoPYDy0PmxQ" target="_blank">Kochi Songsod</a></strong>, an online production group focusing on Bengali audio dramas and cultural audio productions.</p>
   </div>
 </details>
 

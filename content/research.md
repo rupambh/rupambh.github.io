@@ -9,7 +9,7 @@ hidemeta: true
   <img src="/Pictures/3.jpg" width="50%" alt="Research profile">
 </p>
 
-My research spans advanced statistical modeling, methodology development, and high-dimensional data integration across precision health and public health. 
+With my core training in Statistics and Biostatistics, my research focuses on the development of robust statistical methodology, with applications spanning precision oncology, high-dimensional multi-omic integration, and public health modeling.
 
 For a complete bibliography, please refer to my [Google Scholar profile](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or my [CV](https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing).
 
@@ -56,7 +56,7 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
 
   <!-- Tab 3: Methodological ML -->
   <input type="radio" name="research-tabs" id="tab-methodology">
-  <label for="tab-methodology">Methodology & ML</label>
+  <label for="tab-methodology">Methods</label>
   <div class="tab-content">
     <p>This research involves the development of novel statistical methodology, focusing on Bayesian hierarchical modeling, Gaussian processes, network/graphical models, and evidence synthesis, with applications extending to digital advertising and revenue science.</p>
     <ol reversed>

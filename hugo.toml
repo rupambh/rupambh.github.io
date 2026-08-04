@@ -9,19 +9,19 @@ theme = 'PaperMod'
   description = 'Personal Website of Rupam Bhattacharyya'
   defaultTheme = 'auto'
   ShowReadingTime = true
-  ShowShareButtons = false # Disabled share buttons globally
+  ShowShareButtons = false
   ShowCodeCopyButtons = true
   ShowBreadCrumbs = true
 
   [params.profileMode]
     enabled = true
     title = 'Rupam Bhattacharyya'
-    subtitle = 'Data Scientist @ Google | PhD in Biostatistics | Researching at the intersection of Bayesian Inference, ML, and Causal Inference.'
+    subtitle = 'Data Scientist @ Google | PhD in Biostatistics | Researching at the intersection of Bayesian Inference, Machine Learning, and Applied Statistics.'
     imageUrl = 'Pictures/1.jpg'
     imageWidth = 150
     imageHeight = 150
 
-  # Row 1: Science & Work
+  # Row 1: Science & Work (reordered)
   [[params.socialIconsWork]]
     name = 'googlescholar'
     url = 'https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en'
@@ -29,28 +29,28 @@ theme = 'PaperMod'
     name = 'researchgate'
     url = 'https://www.researchgate.net/profile/Rupam-Bhattacharyya'
   [[params.socialIconsWork]]
-    name = 'github'
-    url = 'https://github.com/rupambh'
+    name = 'orcid'
+    url = 'https://orcid.org/0000-0003-4292-2372'
   [[params.socialIconsWork]]
     name = 'linkedin'
     url = 'https://www.linkedin.com/in/rupam2016bhattacharyya/'
   [[params.socialIconsWork]]
-    name = 'orcid'
-    url = 'https://orcid.org/0000-0003-4292-2372'
+    name = 'github'
+    url = 'https://github.com/rupambh'
 
-  # Row 2: Social Media
+  # Row 2: Social Media (reordered)
   [[params.socialIconsSocial]]
     name = 'facebook'
     url = 'https://www.facebook.com/rupam.bhattacharyya1995/'
-  [[params.socialIconsSocial]]
-    name = 'youtube'
-    url = 'https://www.youtube.com/@dishari_rupam_music'
   [[params.socialIconsSocial]]
     name = 'instagram'
     url = 'https://www.instagram.com/rupam_mmb/'
   [[params.socialIconsSocial]]
     name = 'twitter'
     url = 'https://x.com/rupam_mmb'
+  [[params.socialIconsSocial]]
+    name = 'youtube'
+    url = 'https://www.youtube.com/@dishari_rupam_music'
 
 [menu]
   [[menu.main]]
