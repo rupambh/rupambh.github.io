@@ -41,20 +41,12 @@ I design and build interactive web applications and dashboards to make complex s
     <a href="https://bayesrx.shinyapps.io/GPVIBES/" class="card-link" target="_blank">Launch Dashboard →</a>
   </div>
 
-  <div class="software-card">
-    <div>
-      <h3><a href="https://bayesrx.shinyapps.io/COV-N/" target="_blank">COV-Networks</a></h3>
-      <p>Network-based transmission model and visualization of early COVID-19 pandemic dynamics in India.</p>
-    </div>
-    <a href="https://bayesrx.shinyapps.io/COV-N/" class="card-link" target="_blank">Launch Dashboard →</a>
-  </div>
-
-  <div class="software-card">
-    <div>
-      <h3><a href="https://umich-biostatistics.shinyapps.io/covid19/" target="_blank">COV-IND-19</a></h3>
-      <p>National and state-level forecasting model and tracking database for COVID-19 transmission in India.</p>
-    </div>
-    <a href="https://umich-biostatistics.shinyapps.io/covid19/" class="card-link" target="_blank">Launch Dashboard →</a>
-  </div>
-
 </div>
+
+### Archived & Legacy Dashboards
+
+During the early phases of the COVID-19 pandemic, I developed and deployed predictive models and transmission networks to help track and forecast pandemic dynamics in India. While the active servers are no longer hosted, the methodologies are detailed in the corresponding publications:
+
+*   **COV-IND-19**: A national and state-level forecasting model and tracking database for COVID-19 transmission in India, developed in collaboration with the University of Michigan Biostatistics department. This dashboard and its predictions were featured in international media outlets (including *The Guardian*, *The World*, and *Newstalk Ireland*).
+*   **COV-Networks**: A network-based transmission model and visualization tool designed to simulate contact-network dynamics and lockdown impacts in India.
+
