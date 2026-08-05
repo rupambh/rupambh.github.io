@@ -13,8 +13,9 @@ With my core training in Statistics and Biostatistics, my research focuses on th
 
 For a complete bibliography, please refer to my [Google Scholar profile](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or my [CV](https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing).
 
-> [!NOTE]
-> Publications highlighted in teal represent **first-authored** works.
+<div style="padding: 12px 15px; border-left: 4px solid #00b4b6; background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
+  💡 <strong>Note:</strong> Publications highlighted in teal represent <strong>first-authored</strong> works.
+</div>
 
 ---
 
