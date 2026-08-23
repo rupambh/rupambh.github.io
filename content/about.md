@@ -33,4 +33,4 @@ I am a methodology-first quantitative researcher specializing in bridging advanc
 *   **M.Stat. & B.Stat. in Statistics** | *[Indian Statistical Institute, Kolkata](https://www.isical.ac.in/)*
 *   **Roots**: Born in [Krishnanagar](https://en.wikipedia.org/wiki/Krishnanagar,_Nadia), West Bengal, India. Raised in [Shantipur](https://en.wikipedia.org/wiki/Shantipur), where I did my schooling from [Shishu Kakali Primary School](https://www.facebook.com/shishukakalischoolsantipur/) and [Santipur Municipal High School](https://www.facebook.com/smhs.santipur/).
 
-To know more about my work, check out the other sections of this website!
+To learn more about my work, explore my [Research Profile](/research/), [Talks & Presentations](/talks/), [Software & Dashboards](/software/), [Academic Pursuits](/academic/), [Beyond the Numbers](/social/), or view my full [Curriculum Vitae](/cv/).

@@ -9,7 +9,7 @@ hidemeta: true
   <img src="/Pictures/2.jpg" width="50%" alt="Academic pursuits">
 </p>
 
-Here is an overview of my academic career and teaching activities. For more details, please take a look at my [CV](https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing).
+Here is an overview of my academic career and teaching activities. For more details, please take a look at my [Curriculum Vitae](/cv/).
 
 ## Education
 
