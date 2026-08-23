@@ -8,7 +8,7 @@ hidemeta: true
 A comprehensive, interactive catalog of my **42 academic presentations, invited seminars, contributed talks, and conference posters** (2019–2026).
 
 <div style="padding: 12px 15px; border-left: 4px solid var(--accent-teal); background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
-  💡 <strong>Tip:</strong> Use the interactive filter tags below to slice presentations by <strong>Category</strong>, <strong>Status</strong>, <strong>Forum Type</strong>, or <strong>Research Project</strong>.
+  💡 <strong>Note:</strong> Presentations highlighted in teal represent <strong>Invited</strong> keynotes and departmental seminars. Use the interactive filter tags below to slice presentations by <strong>Category</strong>, <strong>Status</strong>, <strong>Forum Type</strong>, or <strong>Research Project</strong>.
 </div>
 
 <div class="filter-container" style="margin-bottom: 25px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
