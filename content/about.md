@@ -23,7 +23,7 @@ I am a methodology-first quantitative researcher specializing in bridging advanc
 
 *   **Data Scientist III (Research)** | *Google (YouTube Ads)* | *2025 - Present*
     *   Focusing on ad auction theory, causal revenue estimation, and optimization systems (such as tCPM bidding recommendations and conversion forecasting) utilizing Google-scale data systems.
-*   **Post-doctoral Biostatistician** | *[Michigan Center for Translational Pathology](https://pathology.med.umich.edu/mctp/)* | *2023 - 2024*
+*   **Postdoctoral Biostatistician** | *[Michigan Center for Translational Pathology](https://pathology.med.umich.edu/mctp/)* | *2023 - 2025*
     *   Supervised by [Prof. Arul Chinnaiyan](https://pathology.med.umich.edu/mctp/), focusing on multi-platform genomics integration and cancer therapeutics.
 *   **PhD in Biostatistics** | *[Department of Biostatistics, University of Michigan](https://sph.umich.edu/biostat/)* | *2018 - 2023*
     *   Supervised jointly by [Prof. Veerabhadran Baladandayuthapani](https://sph.umich.edu/faculty-profiles/baladandayuthapani-veerabhadran.html) and [Prof. Nicholas Henderson](https://sph.umich.edu/faculty-profiles/henderson-nicholas.html).
