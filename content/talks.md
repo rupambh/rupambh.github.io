@@ -8,7 +8,7 @@ hidemeta: true
 A comprehensive, interactive catalog of my **42 academic presentations, invited seminars, contributed talks, and conference posters** (2019–2026).
 
 <div style="padding: 12px 15px; border-left: 4px solid var(--accent-teal); background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
-  💡 <strong>Note:</strong> Presentations highlighted in teal represent <strong>Invited</strong> keynotes and departmental seminars. Use the interactive filter tags below to slice presentations by <strong>Category</strong>, <strong>Status</strong>, <strong>Forum Type</strong>, or <strong>Research Project</strong>.
+  💡 <strong>Tip:</strong> Use the interactive filter tags below to slice presentations by <strong>Category</strong>, <strong>Status</strong>, <strong>Forum Type</strong>, or <strong>Research Project</strong>.
 </div>
 
 <div class="filter-container" style="margin-bottom: 25px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
@@ -314,7 +314,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
     🔗 <strong>Project:</strong> <em>Role of multi-resolution vulnerability indices in COVID-19 spread in India: A Bayesian model-based analysis (BMJ Open 2022)</em>
   </div>
   
-  <div style="margin-top: 6px;"><a href="https://doi.org/10.1136/bmjopen-2021-056292" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://umich-biostatistics.shinyapps.io/covid19/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
+  <div style="margin-top: 6px;"><a href="https://doi.org/10.1136/bmjopen-2021-056292" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform genetic data joint statistical meetings (jsm 2021) virtual (seattle, wa) august 2021 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">20. Joint Statistical Meetings (JSM 2021)</div>
@@ -350,7 +350,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
     🔗 <strong>Project:</strong> <em>Network-based modeling of COVID-19 dynamics: early pandemic spread in India (J. Indian Statistical Association 2021)</em>
   </div>
   <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Funding Award – American Statistical Association (ASA)</div>
-  <div style="margin-top: 6px;"><a href="https://www.indstatassoc.org/journal-jisa/previous-volumes/june-2022-vol-601" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/COV-N/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
+  <div style="margin-top: 6px;"><a href="https://www.indstatassoc.org/journal-jisa/previous-volumes/june-2022-vol-601" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="transprecise" data-search="transprecise: personalized network modeling of the pan-cancer patient and cell line interactome international indian statistical association annual conference (iisa 2021) virtual (university of illinois chicago, chicago, il) may 2021 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) invited statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">17. International Indian Statistical Association Annual Conference (IISA 2021)</div>
@@ -386,7 +386,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
     🔗 <strong>Project:</strong> <em>Predictions, role of interventions and effects of a historic national lockdown in India's response to the COVID-19 pandemic (Harvard Data Science Review 2020)</em>
   </div>
   
-  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://umich-biostatistics.shinyapps.io/covid19/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
+  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="biomedical" data-paper="transprecise" data-search="transprecise: proteomics-based network modeling of the pan-cancer patient and cell line interactome harvard program in quantitative genomics annual conference (pqg 2020) virtual (harvard t.h. chan school of public health, boston, ma) november 2020 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) contributed biomedical none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">14. Harvard Program in Quantitative Genomics Annual Conference (PQG 2020)</div>
@@ -410,7 +410,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
     🔗 <strong>Project:</strong> <em>Predictions, role of interventions and effects of a historic national lockdown in India's response to the COVID-19 pandemic (Harvard Data Science Review 2020)</em>
   </div>
   
-  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://umich-biostatistics.shinyapps.io/covid19/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
+  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="biomedical" data-paper="covid" data-search="predictions, role of interventions and effects of a historic national lockdown in india's response to the covid-19 pandemic american public health association annual meeting (apha 2020) virtual (san francisco, ca) october 2020 predictions, role of interventions and effects of a historic national lockdown in india's response to the covid-19 pandemic (harvard data science review 2020) contributed biomedical poster award – american public health association applied public health statistics section (apha aphs)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">12. American Public Health Association Annual Meeting (APHA 2020)</div>
@@ -422,7 +422,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
     🔗 <strong>Project:</strong> <em>Predictions, role of interventions and effects of a historic national lockdown in India's response to the COVID-19 pandemic (Harvard Data Science Review 2020)</em>
   </div>
   <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Poster Award – American Public Health Association Applied Public Health Statistics Section (APHA APHS)</div>
-  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://umich-biostatistics.shinyapps.io/covid19/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
+  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="biomedical" data-paper="transprecise" data-search="transprecise: personalized network modeling of the pan-cancer patient and cell line interactome national cancer institute informatics technology for cancer research annual meeting (nci itcr 2020) virtual (national cancer institute) september 2020 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) contributed biomedical none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">11. National Cancer Institute Informatics Technology for Cancer Research Annual Meeting (NCI ITCR 2020)</div>
@@ -482,7 +482,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
     🔗 <strong>Project:</strong> <em>Predictions, role of interventions and effects of a historic national lockdown in India's response to the COVID-19 pandemic (Harvard Data Science Review 2020)</em>
   </div>
   
-  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://umich-biostatistics.shinyapps.io/covid19/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
+  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="datascience" data-paper="covid" data-search="predictions, role of interventions and effects of a historic national lockdown in india's response to the covid-19 pandemic national council of applied economic research policy seminar (ncaer 2020) virtual (ncaer, new delhi, india) july 2020 predictions, role of interventions and effects of a historic national lockdown in india's response to the covid-19 pandemic (harvard data science review 2020) invited data science none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">6. National Council of Applied Economic Research Policy Seminar (NCAER 2020)</div>
@@ -494,7 +494,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
     🔗 <strong>Project:</strong> <em>Predictions, role of interventions and effects of a historic national lockdown in India's response to the COVID-19 pandemic (Harvard Data Science Review 2020)</em>
   </div>
   
-  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://umich-biostatistics.shinyapps.io/covid19/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
+  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="datascience" data-paper="covid" data-search="covid-19: a data science call to arms - modeling the pandemic in india michigan institute for data science covid-19 seminar (midas 2020) virtual (university of michigan, ann arbor, mi) april 2020 predictions, role of interventions and effects of a historic national lockdown in india's response to the covid-19 pandemic (harvard data science review 2020) invited data science none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">5. Michigan Institute for Data Science COVID-19 Seminar (MIDAS 2020)</div>
@@ -506,7 +506,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
     🔗 <strong>Project:</strong> <em>Predictions, role of interventions and effects of a historic national lockdown in India's response to the COVID-19 pandemic (Harvard Data Science Review 2020)</em>
   </div>
   
-  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://umich-biostatistics.shinyapps.io/covid19/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
+  <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="statistics" data-paper="transprecise" data-search="transprecise: personalized network modeling of the pan-cancer patient and cell line interactome michigan student symposium for interdisciplinary statistical sciences (mssiss 2020) university of michigan, ann arbor, mi, usa february 2020 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) contributed statistics presentation award (best speed oral) – michigan student symposium for interdisciplinary statistical sciences (mssiss)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">4. Michigan Student Symposium for Interdisciplinary Statistical Sciences (MSSISS 2020)</div>
