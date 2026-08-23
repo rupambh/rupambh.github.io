@@ -21,7 +21,7 @@ I am a methodology-first quantitative researcher specializing in bridging advanc
 
 ### 💼 Professional Journey
 
-*   **Data Scientist III (Research)** | *Google (YouTube Ads)* | *2024 - Present*
+*   **Data Scientist III (Research)** | *Google (YouTube Ads)* | *2025 - Present*
     *   Focusing on ad auction theory, causal revenue estimation, and optimization systems (such as tCPM bidding recommendations and conversion forecasting) utilizing Google-scale data systems.
 *   **Post-doctoral Biostatistician** | *[Michigan Center for Translational Pathology](https://pathology.med.umich.edu/mctp/)* | *2023 - 2024*
     *   Supervised by [Prof. Arul Chinnaiyan](https://pathology.med.umich.edu/mctp/), focusing on multi-platform genomics integration and cancer therapeutics.

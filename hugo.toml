@@ -79,7 +79,7 @@ theme = 'PaperMod'
     weight = 40
   [[menu.main]]
     name = 'CV'
-    url = 'https://drive.google.com/file/d/18zYnAGLRiaDvVPZP52TdgklBz5rsgJH9/view?usp=sharing'
+    url = '/cv/'
     weight = 50
 
 [markup]

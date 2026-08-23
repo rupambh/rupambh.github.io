@@ -19,6 +19,23 @@ Here is an overview of my academic career and teaching activities. For more deta
   - Specialization: Applied Statistics, Biostatistics track.
 - **Bachelor of Statistics** (Hons.), Indian Statistical Institute, Kolkata, 2013 - 2016.
 
+## Academic & Scholastic Honors
+
+<div style="padding: 12px 15px; border-left: 4px solid var(--accent-teal); background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
+  💡 <strong>Note:</strong> For research, conference, and travel awards, please visit the <a href="/talks/"><strong>Talks & Presentations</strong></a> catalog (interactive award filter included).
+</div>
+
+*   **Debesh-Kamal Scholarship for Research Abroad** | *Ramakrishna Mission Institute of Culture (RMIC 2018)*
+    *   Competitive scholarship awarded to support doctoral studies and research abroad.
+*   **Nominated for the P.C. Mahalanobis Memorial Gold Medal** | *Indian Statistical Institute (ISI 2018)*
+    *   Nominated for outstanding overall academic performance in the Master of Statistics (M.Stat.) program.
+*   **Academic Merit Prize Monies (All Semesters)** | *Indian Statistical Institute (ISI 2016–2018)*
+    *   Awarded in every semester of the M.Stat. program for outstanding academic performance.
+*   **Academic Merit Prize Monies** | *Indian Statistical Institute (ISI 2013–2016)*
+    *   Awarded twice during the Bachelor of Statistics (B.Stat. Hons.) program for scholastic excellence.
+*   **Kishore Vaigyanik Protsahan Yojana (KVPY) Fellowship** | *Department of Science & Technology, Government of India (DST 2013–2018)*
+    *   Prestigious national fellowship awarded by the Government of India to encourage students pursuing research careers in the basic sciences.
+
 ## Teaching
 
 - Lecturer at the [**Big Data Summer Institute**](https://sph.umich.edu/bdsi/).
