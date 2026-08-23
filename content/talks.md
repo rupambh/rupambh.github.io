@@ -8,16 +8,16 @@ hidemeta: true
 A comprehensive, interactive catalog of my **42 academic presentations, invited seminars, contributed talks, and conference posters** (2019–2026).
 
 <div style="padding: 12px 15px; border-left: 4px solid var(--accent-teal); background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
-  💡 <strong>Tip:</strong> Use the interactive filter tags below to slice presentations by <strong>Category</strong>, <strong>Status</strong>, <strong>Forum Type</strong>, or <strong>Research Project</strong>.
+  💡 <strong>Note:</strong> Presentations highlighted in teal represent <strong>Invited</strong> keynotes and departmental seminars (<strong>Invited</strong> selected by default). Use the interactive filter tags below to slice presentations by <strong>Category</strong>, <strong>Status</strong>, <strong>Forum Type</strong>, or <strong>Research Project</strong>.
 </div>
 
-<div class="filter-container" style="margin-bottom: 25px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
+<div class="filter-container" style="margin-bottom: 25px; padding: 18px; border-index: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
   <input type="text" id="searchTalksInput" placeholder="🔍 Search by topic, conference, city, year, or award..." style="width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--theme); color: var(--primary); font-size: 0.95em; box-sizing: border-box; margin-bottom: 15px;">
   
   <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
     <span style="font-size: 0.85em; font-weight: bold; color: var(--secondary); margin-right: 4px;">Category:</span>
-    <button class="filter-btn active" data-filter-type="cat" data-filter-val="all">All (42)</button>
-    <button class="filter-btn" data-filter-type="cat" data-filter-val="invited">Invited (12)</button>
+    <button class="filter-btn" data-filter-type="cat" data-filter-val="all">All (42)</button>
+    <button class="filter-btn active" data-filter-type="cat" data-filter-val="invited">Invited (12)</button>
     <button class="filter-btn" data-filter-type="cat" data-filter-val="contributed">Contributed (30)</button>
   </div>
   
@@ -49,7 +49,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
   </div>
 </div>
 
-<div id="talksCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing all 42 presentations</div>
+<div id="talksCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 12 of 42 presentations (Invited selected by default)</div>
 
 <ul id="masterTalksList" style="list-style: none; padding-left: 0; margin-top: 15px;">
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="gpvibes" data-search="gpvibes: bayesian gaussian process-based varying coefficient models for incorporating tumor heterogeneity in clinicogenomic studies international indian statistical association annual conference (iisa 2026) banaras hindu university, varanasi, india december 2026 gpvibes: bayesian gaussian process-based varying coefficient models for incorporating tumor heterogeneity in clinicogenomic studies (in prep) invited statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -562,7 +562,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
 (function() {
   function initTalkFilters() {
     var state = {
-      cat: 'all',
+      cat: 'invited',
       status: 'all',
       forum: 'all',
       paper: 'all',
@@ -609,7 +609,11 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
       });
 
       if (countHeader) {
-        countHeader.textContent = 'Showing ' + visible + ' of ' + items.length + ' presentations';
+        if (state.cat === 'all' && state.status === 'all' && state.forum === 'all' && state.paper === 'all' && !q) {
+          countHeader.textContent = 'Showing all ' + items.length + ' presentations';
+        } else {
+          countHeader.textContent = 'Showing ' + visible + ' of ' + items.length + ' presentations';
+        }
       }
     }
 
@@ -636,6 +640,9 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
         update();
       });
     }
+
+    // Initialize default filtered view on load (Invited)
+    update();
   }
 
   if (document.readyState === 'loading') {
