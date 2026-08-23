@@ -62,6 +62,10 @@ theme = 'PaperMod'
     url = '/research/'
     weight = 20
   [[menu.main]]
+    name = 'Talks'
+    url = '/talks/'
+    weight = 23
+  [[menu.main]]
     name = 'Software & Dashboards'
     url = '/software/'
     weight = 25
