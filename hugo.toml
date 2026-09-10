@@ -74,6 +74,10 @@ theme = 'PaperMod'
     url = '/academic/'
     weight = 30
   [[menu.main]]
+    name = 'Service'
+    url = '/service/'
+    weight = 35
+  [[menu.main]]
     name = 'Beyond Numbers'
     url = '/social/'
     weight = 40
