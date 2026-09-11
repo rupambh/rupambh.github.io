@@ -110,7 +110,7 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
 <input type="radio" name="research-tabs" id="tab-industry">
 <label for="tab-industry">Industry Projects</label>
 <div class="tab-content">
-<p>Selected industrial projects applying core statistical methodology and machine learning models to large-scale ads auctions, platform economics, and predictive user behavior. Click on each project to expand descriptions.</p>
+<p>Selected industrial projects applying core statistical methodology and machine learning models to large-scale ads auctions, platform economics, and predictive user behavior.</p>
 <details class="sub-accordion" open>
 <summary>📊 Large-Scale Auction Diagnostics & Bidding Optimization</summary>
 <div class="sub-accordion-content">

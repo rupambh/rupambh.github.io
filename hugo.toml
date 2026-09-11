@@ -7,6 +7,8 @@ theme = 'PaperMod'
   env = 'production'
   title = 'Rupam Bhattacharyya'
   description = 'Personal Website of Rupam Bhattacharyya'
+  author = 'Rupam Bhattacharyya'
+  images = ['Pictures/1.jpg']
   defaultTheme = 'auto'
   ShowReadingTime = true
   ShowShareButtons = false
@@ -66,7 +68,7 @@ theme = 'PaperMod'
     url = '/talks/'
     weight = 23
   [[menu.main]]
-    name = 'Software & Dashboards'
+    name = 'Software'
     url = '/software/'
     weight = 25
   [[menu.main]]
