@@ -37,7 +37,7 @@ A verified catalog of my **referee service, departmental governance appointments
 ## 📖 Academic Journal Peer Review
 
 <p style="color: var(--secondary); margin-top: -8px; margin-bottom: 18px; font-size: 0.95em;">
-  Invited referee service across 23 peer-reviewed journals, organized into four primary disciplinary clusters. Filter by domain or search by journal title, publisher, or methodology.
+  Invited referee service across 23 peer-reviewed journals, organized into four primary disciplinary clusters (Statistical Methodology selected by default). Filter by domain or search by journal title, publisher, or methodology.
 </p>
 
 <div class="filter-container" style="margin-bottom: 25px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
@@ -45,15 +45,15 @@ A verified catalog of my **referee service, departmental governance appointments
   
   <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
     <span style="font-size: 0.85em; font-weight: bold; color: var(--secondary); margin-right: 4px;">Domain:</span>
-    <button class="filter-btn active" data-domain="all">All Journals (23)</button>
-    <button class="filter-btn" data-domain="methodology">Statistical Methodology (5)</button>
+    <button class="filter-btn active" data-domain="methodology">Statistical Methodology (5)</button>
     <button class="filter-btn" data-domain="genomics">Clinical & Cancer Genomics (6)</button>
     <button class="filter-btn" data-domain="pubhealth">Public Health & Epidemiology (6)</button>
     <button class="filter-btn" data-domain="interdisciplinary">Interdisciplinary & Economics (6)</button>
+    <button class="filter-btn" data-domain="all">All Journals (23)</button>
   </div>
 </div>
 
-<div id="journalCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing all 23 peer-reviewed journals</div>
+<div id="journalCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 5 of 23 peer-reviewed journals (Statistical Methodology selected by default)</div>
 
 <ul id="masterJournalList" style="list-style: none; padding-left: 0; margin-top: 15px; margin-bottom: 45px;">
 
@@ -480,122 +480,61 @@ A verified catalog of my **referee service, departmental governance appointments
   Dedicated appointments in departmental academic governance and leadership roles in international statistical societies.
 </p>
 
-<div class="side-by-side-grid" style="margin-top: 15px;">
+<div class="side-by-side-grid">
 
-  <!-- Left Column: Departmental Committees -->
-  <div class="grid-column">
-    <h3 style="margin-top: 0; color: var(--accent-teal); border-bottom: 2px solid var(--border); padding-bottom: 8px; margin-bottom: 12px; font-size: 1.15em;">
-      🏛️ Departmental Committees
-    </h3>
-    <div style="font-size: 0.85em; color: var(--secondary); margin-top: -6px; margin-bottom: 16px; font-weight: 600;">
-      Department of Biostatistics, University of Michigan
-    </div>
+<div class="grid-column">
+<h2>🏛️ Departmental Committees</h2>
+<p style="font-size: 0.88em; color: var(--secondary); margin-bottom: 18px;"><strong>Department of Biostatistics, University of Michigan</strong></p>
 
-    <ul style="list-style: none; padding-left: 0; margin: 0;">
-      <!-- Committee 1 -->
-      <li style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
-        <div style="font-size: 0.98em; font-weight: bold; color: var(--primary);">
-          Computing, Social Media and Website Reform Committee
-        </div>
-        <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 2px 0 4px 0;">
-          Student Representative • 2022–2023
-        </div>
-        <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.4;">
-          Elected graduate representative overseeing departmental computing cluster modernization, evaluating GPU/HPC allocation policies, redesigning academic web portals, and orchestrating departmental social media outreach.
-        </div>
-      </li>
+<div style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
+  <div style="font-weight: bold; color: var(--primary); font-size: 0.98em;">Computing, Social Media and Website Reform Committee</div>
+  <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 3px 0 5px 0;">Student Representative • 2022–2023</div>
+  <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.45;">Elected graduate representative overseeing departmental computing cluster modernization, evaluating GPU/HPC allocation policies, redesigning academic web portals, and orchestrating departmental social media outreach.</div>
+</div>
 
-      <!-- Committee 2 -->
-      <li style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
-        <div style="font-size: 0.98em; font-weight: bold; color: var(--primary);">
-          Curriculum Committee
-        </div>
-        <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 2px 0 4px 0;">
-          Student Representative • 2021–2022
-        </div>
-        <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.4;">
-          Appointed representative evaluating graduate course syllabi, reviewing proposed modifications to core statistical inference sequences, and incorporating graduate student feedback into PhD qualifying examination structures.
-        </div>
-      </li>
+<div style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
+  <div style="font-weight: bold; color: var(--primary); font-size: 0.98em;">Curriculum Committee</div>
+  <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 3px 0 5px 0;">Student Representative • 2021–2022</div>
+  <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.45;">Appointed representative evaluating graduate course syllabi, reviewing proposed modifications to core statistical inference sequences, and incorporating graduate student feedback into PhD qualifying examination structures.</div>
+</div>
 
-      <!-- Committee 3 -->
-      <li style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
-        <div style="font-size: 0.98em; font-weight: bold; color: var(--primary);">
-          Admissions Committee
-        </div>
-        <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 2px 0 4px 0;">
-          Student Representative • 2020–2021
-        </div>
-        <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.4;">
-          Participated in the holistic evaluation of prospective PhD and MS application cohorts, organized virtual recruitment sessions, and coordinated departmental prospective student visitation programming.
-        </div>
-      </li>
+<div style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
+  <div style="font-weight: bold; color: var(--primary); font-size: 0.98em;">Admissions Committee</div>
+  <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 3px 0 5px 0;">Student Representative • 2020–2021</div>
+  <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.45;">Participated in the holistic evaluation of prospective PhD and MS application cohorts, organized virtual recruitment sessions, and coordinated departmental prospective student visitation programming.</div>
+</div>
 
-      <!-- Committee 4 -->
-      <li style="margin-bottom: 6px;">
-        <div style="font-size: 0.98em; font-weight: bold; color: var(--primary);">
-          70 Years Celebration Committee
-        </div>
-        <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 2px 0 4px 0;">
-          Student Representative • 2019–2020
-        </div>
-        <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.4;">
-          Coordinated commemorative academic and alumni symposia celebrating the 70th anniversary of the Department of Biostatistics, curating historical archives and moderating alumni career panels.
-        </div>
-      </li>
-    </ul>
-  </div>
+<div>
+  <div style="font-weight: bold; color: var(--primary); font-size: 0.98em;">70 Years Celebration Committee</div>
+  <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 3px 0 5px 0;">Student Representative • 2019–2020</div>
+  <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.45;">Coordinated commemorative academic and alumni symposia celebrating the 70th anniversary of the Department of Biostatistics, curating historical archives and moderating alumni career panels.</div>
+</div>
 
-  <!-- Right Column: Conference Leadership -->
-  <div class="grid-column">
-    <h3 style="margin-top: 0; color: var(--accent-teal); border-bottom: 2px solid var(--border); padding-bottom: 8px; margin-bottom: 12px; font-size: 1.15em;">
-      🎤 Conference Leadership & Organization
-    </h3>
-    <div style="font-size: 0.85em; color: var(--secondary); margin-top: -6px; margin-bottom: 16px; font-weight: 600;">
-      International Statistical Societies & Symposia
-    </div>
+</div>
 
-    <ul style="list-style: none; padding-left: 0; margin: 0;">
-      <!-- Conference 1 -->
-      <li style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
-        <div style="font-size: 0.98em; font-weight: bold; color: var(--primary);">
-          ENAR 2023 Spring Meeting (International Biometric Society)
-        </div>
-        <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 2px 0 4px 0;">
-          Session Chair • 2023 • Nashville, TN, USA
-        </div>
-        <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.4;">
-          Chaired Contributed Paper Session on <strong>"Graphical Models and Network Methods"</strong>, moderating presentations and leading discussions on high-dimensional precision matrix estimation, network clustering, and multi-omic graph architectures.
-        </div>
-      </li>
+<div class="grid-column">
+<h2>🎤 Conference Leadership</h2>
+<p style="font-size: 0.88em; color: var(--secondary); margin-bottom: 18px;"><strong>International Statistical Societies & Symposia</strong></p>
 
-      <!-- Conference 2 -->
-      <li style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
-        <div style="font-size: 0.98em; font-weight: bold; color: var(--primary);">
-          International Indian Statistical Association (IISA) Annual Conference
-        </div>
-        <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 2px 0 4px 0;">
-          Scientific Program Volunteer • 2019 • Mumbai, India
-        </div>
-        <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.4;">
-          Assisted the Scientific Program Committee with abstract review coordination, technical session logistics, speaker liaison support, and audiovisual management across multiple parallel tracks.
-        </div>
-      </li>
+<div style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
+  <div style="font-weight: bold; color: var(--primary); font-size: 0.98em;">ENAR 2023 Spring Meeting (International Biometric Society)</div>
+  <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 3px 0 5px 0;">Session Chair • 2023 • Nashville, TN, USA</div>
+  <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.45;">Chaired Contributed Paper Session on <strong>"Graphical Models and Network Methods"</strong>, moderating presentations and leading discussions on high-dimensional precision matrix estimation, network clustering, and multi-omic graph architectures.</div>
+</div>
 
-      <!-- Conference 3 -->
-      <li style="margin-bottom: 6px;">
-        <div style="font-size: 0.98em; font-weight: bold; color: var(--primary);">
-          Symposium on the History of the Indian Statistical Institute
-        </div>
-        <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 2px 0 4px 0;">
-          Lead Organizer • 2018 • ISI Kolkata, India
-        </div>
-        <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.4;">
-          Conceived, organized, and chaired an institute-wide symposium commemorating the founding legacy of P.C. Mahalanobis and the institutional history of statistical research in India.
-        </div>
-      </li>
-    </ul>
-  </div>
+<div style="margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--border);">
+  <div style="font-weight: bold; color: var(--primary); font-size: 0.98em;">International Indian Statistical Association (IISA) Conference</div>
+  <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 3px 0 5px 0;">Scientific Program Volunteer • 2019 • Mumbai, India</div>
+  <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.45;">Assisted the Scientific Program Committee with abstract review coordination, technical session logistics, speaker liaison support, and audiovisual management across multiple parallel tracks.</div>
+</div>
+
+<div>
+  <div style="font-weight: bold; color: var(--primary); font-size: 0.98em;">Symposium on the History of the Indian Statistical Institute</div>
+  <div style="font-size: 0.84em; color: var(--accent-teal); font-weight: 600; margin: 3px 0 5px 0;">Lead Organizer • 2018 • ISI Kolkata, India</div>
+  <div style="font-size: 0.88em; color: var(--secondary); line-height: 1.45;">Conceived, organized, and chaired an institute-wide symposium commemorating the founding legacy of P.C. Mahalanobis and the institutional history of statistical research in India.</div>
+</div>
+
+</div>
 
 </div>
 
@@ -603,7 +542,7 @@ A verified catalog of my **referee service, departmental governance appointments
 (function() {
   function initJournalFilters() {
     var state = {
-      domain: 'all',
+      domain: 'methodology',
       search: ''
     };
 
@@ -633,6 +572,8 @@ A verified catalog of my **referee service, departmental governance appointments
       if (countHeader) {
         if (state.domain === 'all' && !q) {
           countHeader.textContent = 'Showing all ' + items.length + ' peer-reviewed journals';
+        } else if (state.domain === 'methodology' && !q) {
+          countHeader.textContent = 'Showing ' + visible + ' of ' + items.length + ' peer-reviewed journals (Statistical Methodology selected by default)';
         } else {
           countHeader.textContent = 'Showing ' + visible + ' of ' + items.length + ' peer-reviewed journals';
         }
