@@ -13,10 +13,6 @@ With my core training in Statistics and Biostatistics, my research focuses on th
 
 For a complete bibliography, please refer to my [Google Scholar profile](https://scholar.google.com/citations?user=D5F2V4YAAAAJ&hl=en), [ResearchGate profile](https://www.researchgate.net/profile/Rupam-Bhattacharyya), or my [Curriculum Vitae](/cv/).
 
-<div style="padding: 12px 15px; border-left: 4px solid #00b4b6; background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
-  💡 <strong>Note:</strong> Publications highlighted in teal represent <strong>first-authored</strong> works.
-</div>
-
 ---
 
 <div class="css-tabs">
@@ -25,7 +21,9 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
 <input type="radio" name="research-tabs" id="tab-academic" checked="checked">
 <label for="tab-academic">Academic Publications</label>
 <div class="tab-content">
-<p>Filter by research topic (Methods selected by default). Publications are numbered chronologically, matching my CV.</p>
+<div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 15px;">
+  Filter publications by topic: &nbsp;•&nbsp; <em>Teal borders denote first-authored works.</em>
+</div>
 
 <div class="filter-container">
 <button class="filter-btn active" data-filter="methods">Methods</button>

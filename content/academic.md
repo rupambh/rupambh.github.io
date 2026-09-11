@@ -21,9 +21,9 @@ Here is an overview of my academic career and teaching activities. For more deta
 
 ## Academic & Scholastic Honors
 
-<div style="padding: 12px 15px; border-left: 4px solid var(--accent-teal); background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
-  💡 <strong>Note:</strong> For research, conference, and travel awards, please visit the <a href="/talks/"><strong>Talks & Presentations</strong></a> catalog (interactive award filter included).
-</div>
+<p style="font-size: 0.9em; color: var(--secondary); margin-top: -6px; margin-bottom: 18px;">
+  For conference travel grants and presentation awards, see <a href="/talks/"><strong>Talks & Presentations</strong></a>.
+</p>
 
 *   **Debesh-Kamal Scholarship for Research Abroad** | *Ramakrishna Mission Institute of Culture (RMIC 2018)*
     *   Competitive scholarship awarded to support doctoral studies and research abroad.

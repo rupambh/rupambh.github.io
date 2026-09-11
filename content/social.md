@@ -36,7 +36,7 @@ Outside of my main research and data science work, I am passionate about popular
 
 <div class="grid-column">
 <h2>Creative & Hobbies</h2>
-<p>I believe in maintaining a balanced lifestyle and exploring creative outlets that engage different parts of my brain. Click below to expand each activity.</p>
+<p>I believe in maintaining a balanced lifestyle and exploring creative outlets that engage different parts of my brain.</p>
 
 <details class="sub-accordion" open>
   <summary>🎵 Music & Audio Dramas</summary>

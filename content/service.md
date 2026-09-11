@@ -5,9 +5,9 @@ draft: false
 hidemeta: true
 ---
 
-A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026).
+A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 33 manuscript review records across 23 distinct international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 20px 0 25px 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 20px 0 30px 0;">
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
     <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">23</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Peer-Reviewed Journals</div>
@@ -30,14 +30,10 @@ A verified catalog of my **referee service, departmental governance appointments
   </div>
 </div>
 
-<div style="padding: 12px 15px; border-left: 4px solid var(--accent-teal); background-color: var(--code-bg); margin-bottom: 30px; border-radius: 4px; font-size: 0.95em;">
-  💡 <strong>Verified Referee Record:</strong> All 33 manuscript review records across 23 distinct international journals are formally certified on Web of Science. View the complete verified dossier on my <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-weight: bold;">Web of Science Profile (ResearcherID: ISS-5028-2023) ↗</a>.
-</div>
-
 ## 📖 Academic Journal Peer Review
 
 <p style="color: var(--secondary); margin-top: -8px; margin-bottom: 18px; font-size: 0.95em;">
-  Invited referee service across 23 peer-reviewed journals, organized into four primary disciplinary clusters (Statistical Methodology selected by default). Filter by domain or search by journal title, publisher, or methodology.
+  Invited referee service across 23 peer-reviewed journals, organized into four primary disciplinary clusters:
 </p>
 
 <div class="filter-container" style="margin-bottom: 25px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
@@ -53,7 +49,7 @@ A verified catalog of my **referee service, departmental governance appointments
   </div>
 </div>
 
-<div id="journalCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 5 of 23 peer-reviewed journals (Statistical Methodology selected by default)</div>
+<div id="journalCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 5 of 23 journals</div>
 
 <ul id="masterJournalList" style="list-style: none; padding-left: 0; margin-top: 15px; margin-bottom: 45px;">
 
@@ -571,11 +567,9 @@ A verified catalog of my **referee service, departmental governance appointments
 
       if (countHeader) {
         if (state.domain === 'all' && !q) {
-          countHeader.textContent = 'Showing all ' + items.length + ' peer-reviewed journals';
-        } else if (state.domain === 'methodology' && !q) {
-          countHeader.textContent = 'Showing ' + visible + ' of ' + items.length + ' peer-reviewed journals (Statistical Methodology selected by default)';
+          countHeader.textContent = 'Showing all ' + items.length + ' journals';
         } else {
-          countHeader.textContent = 'Showing ' + visible + ' of ' + items.length + ' peer-reviewed journals';
+          countHeader.textContent = 'Showing ' + visible + ' of ' + items.length + ' journals';
         }
       }
     }

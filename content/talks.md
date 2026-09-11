@@ -5,10 +5,10 @@ draft: false
 hidemeta: true
 ---
 
-A comprehensive, interactive catalog of my **42 academic presentations, invited seminars, contributed talks, and conference posters** (2019–2026).
+A comprehensive catalog of my **42 academic presentations, invited seminars, contributed talks, and conference posters** (2019–2026).
 
-<div style="padding: 12px 15px; border-left: 4px solid var(--accent-teal); background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
-  💡 <strong>Note:</strong> Presentations highlighted in teal represent <strong>Invited</strong> keynotes and departmental seminars (<strong>Invited</strong> selected by default). Use the interactive filter tags below to slice presentations by <strong>Category</strong>, <strong>Status</strong>, <strong>Forum Type</strong>, or <strong>Research Project</strong>.
+<div style="font-size: 0.88em; color: var(--secondary); margin: 12px 0 20px 0;">
+  <em>Teal titles denote invited keynotes and seminars.</em>
 </div>
 
 <div class="filter-container" style="margin-bottom: 25px; padding: 18px; border-index: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
@@ -49,7 +49,7 @@ A comprehensive, interactive catalog of my **42 academic presentations, invited 
   </div>
 </div>
 
-<div id="talksCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 12 of 42 presentations (Invited selected by default)</div>
+<div id="talksCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 12 of 42 presentations</div>
 
 <ul id="masterTalksList" style="list-style: none; padding-left: 0; margin-top: 15px;">
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="gpvibes" data-search="gpvibes: bayesian gaussian process-based varying coefficient models for incorporating tumor heterogeneity in clinicogenomic studies international indian statistical association annual conference (iisa 2026) banaras hindu university, varanasi, india december 2026 gpvibes: bayesian gaussian process-based varying coefficient models for incorporating tumor heterogeneity in clinicogenomic studies (in prep) invited statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
