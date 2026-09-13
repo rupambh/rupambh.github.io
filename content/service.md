@@ -5,19 +5,19 @@ draft: false
 hidemeta: true
 ---
 
-A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 33 manuscript review records across 23 distinct international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
+A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 35 manuscript review records across 24 distinct international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 20px 0 30px 0;">
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">23</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">24</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Peer-Reviewed Journals</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">33</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">35</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Manuscripts Refereed</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">36</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">38</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Verified Review Rounds</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
@@ -33,7 +33,7 @@ A verified catalog of my **referee service, departmental governance appointments
 ## 📖 Academic Journal Peer Review
 
 <p style="color: var(--secondary); margin-top: -8px; margin-bottom: 18px; font-size: 0.95em;">
-  Invited referee service across 23 peer-reviewed journals, organized into four primary disciplinary clusters:
+  Invited referee service across 24 peer-reviewed journals, organized into four primary disciplinary clusters:
 </p>
 
 <div class="filter-container" style="margin-bottom: 25px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
@@ -44,12 +44,12 @@ A verified catalog of my **referee service, departmental governance appointments
     <button class="filter-btn active" data-domain="methodology">Statistical Methodology (5)</button>
     <button class="filter-btn" data-domain="genomics">Clinical & Cancer Genomics (6)</button>
     <button class="filter-btn" data-domain="pubhealth">Public Health & Epidemiology (6)</button>
-    <button class="filter-btn" data-domain="interdisciplinary">Interdisciplinary & Economics (6)</button>
-    <button class="filter-btn" data-domain="all">All Journals (23)</button>
+    <button class="filter-btn" data-domain="interdisciplinary">Interdisciplinary & Economics (7)</button>
+    <button class="filter-btn" data-domain="all">All Journals (24)</button>
   </div>
 </div>
 
-<div id="journalCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 5 of 23 journals</div>
+<div id="journalCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 5 of 24 journals</div>
 
 <ul id="masterJournalList" style="list-style: none; padding-left: 0; margin-top: 15px; margin-bottom: 45px;">
 
@@ -376,10 +376,28 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 19. Discover Applied Sciences -->
+  <!-- 19. Scientific Reports -->
+  <li class="journal-entry" data-domain="interdisciplinary" data-search="scientific reports springer nature machine learning record linkage brazilian health databases lightgbm public health informatics sus trauma cidacs-rl 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px;">
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">19. Scientific Reports</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">1 Manuscript • 2026</span>
+    </div>
+    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
+      🏛️ <strong>Publisher:</strong> Springer Nature &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Interdisciplinary & Economics
+    </div>
+    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
+      <em>Topics & Methodology Refereed:</em> Supervised machine learning pipelines based on LightGBM for non-deterministic health record linkage across Brazilian Unified Health System (SUS) administrative databases (SIM, SIH-SUS, Sinan, e-SUS VS) without unique identifiers, benchmarking against CIDACS-RL, evaluating blocking reduction ratios, class imbalance, and paired classification inference.
+    </div>
+    <div style="margin-top: 6px;">
+      <a href="https://www.nature.com/srep/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
+      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
+    </div>
+  </li>
+
+  <!-- 20. Discover Applied Sciences -->
   <li class="journal-entry" data-domain="interdisciplinary" data-search="discover applied sciences springer nature bayesian logistic regression clinical data applied machine learning 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px;">
-      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">19. Discover Applied Sciences</span>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">20. Discover Applied Sciences</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">1 Manuscript • 2025</span>
     </div>
     <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
@@ -394,10 +412,10 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 20. Discover Social Science and Health -->
+  <!-- 21. Discover Social Science and Health -->
   <li class="journal-entry" data-domain="interdisciplinary" data-search="discover social science and health springer nature spatial temporal population factors testing rates toronto 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px;">
-      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">20. Discover Social Science and Health</span>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">21. Discover Social Science and Health</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">2 Review Rounds (Original & Revision) • 2026</span>
     </div>
     <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
@@ -412,10 +430,10 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 21. IJCIS -->
+  <!-- 22. IJCIS -->
   <li class="journal-entry" data-domain="interdisciplinary" data-search="international journal of computational intelligence systems ijcis atlantis press springer nature federated adaptive epidemiological learning fael ai framework 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px;">
-      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">21. International Journal of Computational Intelligence Systems (IJCIS)</span>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">22. International Journal of Computational Intelligence Systems (IJCIS)</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">1 Manuscript • 2025</span>
     </div>
     <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
@@ -430,10 +448,10 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 22. Frontiers in Psychology -->
+  <!-- 23. Frontiers in Psychology -->
   <li class="journal-entry" data-domain="interdisciplinary" data-search="frontiers in psychology financial well-being social innovation food security sociodemographic factors physical activity 2021" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px;">
-      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">22. Frontiers in Psychology</span>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">23. Frontiers in Psychology</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">3 Manuscripts • 2021</span>
     </div>
     <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
@@ -448,17 +466,17 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 23. Organizations and Markets in Emerging Economies -->
-  <li class="journal-entry" data-domain="interdisciplinary" data-search="organizations and markets in emerging economies omee vilnius university press stock market liquidity volatility oil price shocks gold bitcoin trading volume covid-19 2020 2021 2022 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <!-- 24. Organizations and Markets in Emerging Economies -->
+  <li class="journal-entry" data-domain="interdisciplinary" data-search="organizations and markets in emerging economies omee vilnius university press double materiality esg disclosure b3 brazil llm-rag stock market liquidity volatility oil price shocks gold bitcoin trading volume covid-19 2020 2021 2022 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px;">
-      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">23. Organizations and Markets in Emerging Economies (OMEE)</span>
-      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">5 Manuscripts • 2020–2026</span>
+      <span style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">24. Organizations and Markets in Emerging Economies (OMEE)</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">6 Manuscripts • 2020–2026</span>
     </div>
     <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
       🏛️ <strong>Publisher:</strong> Vilnius University Press &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Interdisciplinary & Economics
     </div>
     <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
-      <em>Topics & Methodology Refereed:</em> Econometric time-series and volatility modeling across five studies: (1) Vector autoregression and spillover dynamics between crude oil shocks, equities, gold, and cryptocurrency in India (2026); (2–3) Liquidity and market resilience during macroeconomic stress (2022); (4) Microstructure trading volume and return asymmetry (2021); (5) Sectoral asset return dynamics during early pandemic shocks (2020).
+      <em>Topics & Methodology Refereed:</em> Econometric time-series, volatility modeling, and corporate disclosure analysis across six studies: (1) Double materiality matrix evaluation and ESG disclosure analysis in emerging capital markets (B3 Brazil) using LLM-RAG pipelines (2026); (2) Vector autoregression and spillover dynamics between crude oil shocks, equities, gold, and cryptocurrency in India (2026); (3–4) Liquidity and market resilience during macroeconomic stress (2022); (5) Microstructure trading volume and return asymmetry (2021); (6) Sectoral asset return dynamics during early pandemic shocks (2020).
     </div>
     <div style="margin-top: 6px;">
       <a href="https://www.journals.vu.lt/omee" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
