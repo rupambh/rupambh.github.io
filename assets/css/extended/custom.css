@@ -32,10 +32,10 @@ body.dark,
     /* --- Palette 2A: Warm Obsidian (Dark Mode) --- */
     --theme: #18181B;
     --entry: #27272A;
-    --primary: #FAFAFA;
-    --secondary: #A1A1AA;
+    --primary: #E2DDD5;
+    --secondary: #9C958A;
     --tertiary: #3F3F46;
-    --content: #FAFAFA;
+    --content: #E2DDD5;
     --code-bg: #202023;
     --border: #3F3F46;
 
