@@ -1,16 +1,54 @@
 :root {
-    /* Teal accent colors */
-    --accent-teal: #008080;
-    --accent-teal-hover: #006666;
+    /* --- Palette 2A: Cambridge Warm Parchment (Light Mode) --- */
+    --theme: #F4EFEA;
+    --entry: #FAF7F2;
+    --primary: #292524;
+    --secondary: #78716C;
+    --tertiary: #E2DDD5;
+    --content: #292524;
+    --code-bg: #EAE4DC;
+    --border: #E2DDD5;
+
+    /* Accents */
+    --accent-primary: #1E3A8A;
+    --accent-primary-hover: #172554;
+    --accent-award: #9A3412;
+    --accent-award-bg: #FFEDD5;
+    --accent-award-border: #FED7AA;
+
+    /* Backward compatibility aliases */
+    --accent-teal: var(--accent-primary);
+    --accent-teal-hover: var(--accent-primary-hover);
     
     /* Responsive Layout Width overrides - making the site wider and more spacious */
     --nav-width: 1200px;
     --main-width: 1000px;
 }
 
-:root[data-theme="dark"] {
-    --accent-teal: #4db6ac;
-    --accent-teal-hover: #80cbc4;
+:root[data-theme="dark"],
+html[data-theme="dark"],
+body.dark,
+.dark {
+    /* --- Palette 2A: Warm Obsidian (Dark Mode) --- */
+    --theme: #18181B;
+    --entry: #27272A;
+    --primary: #FAFAFA;
+    --secondary: #A1A1AA;
+    --tertiary: #3F3F46;
+    --content: #FAFAFA;
+    --code-bg: #202023;
+    --border: #3F3F46;
+
+    /* Accents */
+    --accent-primary: #93C5FD;
+    --accent-primary-hover: #BFDBFE;
+    --accent-award: #FB923C;
+    --accent-award-bg: rgba(251, 146, 60, 0.12);
+    --accent-award-border: rgba(251, 146, 60, 0.3);
+
+    /* Backward compatibility aliases */
+    --accent-teal: var(--accent-primary);
+    --accent-teal-hover: var(--accent-primary-hover);
 }
 
 /* Override link colors */
@@ -182,16 +220,33 @@ a:hover {
 
 /* --- First-Authored Publication Highlight --- */
 .first-author-pub {
-    border-left: 3px solid var(--accent-teal);
+    border-left: 3px solid var(--accent-primary);
     padding-left: 12px;
     margin-left: -15px;
-    background-color: rgba(0, 128, 128, 0.03);
+    background-color: rgba(30, 58, 138, 0.05);
     margin-bottom: 8px;
     border-radius: 0 var(--radius) var(--radius) 0;
 }
 
-[data-theme="dark"] .first-author-pub {
-    background-color: rgba(77, 182, 172, 0.05);
+:root[data-theme="dark"] .first-author-pub,
+html[data-theme="dark"] .first-author-pub,
+body.dark .first-author-pub,
+.dark .first-author-pub {
+    background-color: rgba(147, 197, 253, 0.06);
+}
+
+/* --- Academic Honors & Award Badges --- */
+.award-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.88em;
+    font-weight: 600;
+    color: var(--accent-award);
+    background-color: var(--accent-award-bg);
+    border: 1px solid var(--accent-award-border);
 }
 
 /* --- Sub-Accordions for Creative & Hobbies --- */

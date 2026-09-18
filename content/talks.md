@@ -145,7 +145,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data (JASA 2024)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Travel Award – National Science Foundation (NSF)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – National Science Foundation (NSF)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="biomedical" data-paper="baysyn" data-search="baysyn: bayesian evidence synthesis for multi-system multiomic integration pacific symposium on biocomputing (psb 2023) big island, hi, usa january 2023 baysyn: bayesian evidence synthesis for multi-system multiomic integration (psb 2023) contributed biomedical travel award – national library of medicine / national institutes of health (nlm/nih)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -157,7 +157,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>BaySyn: Bayesian evidence synthesis for multi-system multiomic integration (PSB 2023)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Travel Award – National Library of Medicine / National Institutes of Health (NLM/NIH)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – National Library of Medicine / National Institutes of Health (NLM/NIH)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1142/9789811270611_0026" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/BaySyn/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="selected" data-has-award="true" data-forum="datascience" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform clinicogenomic data international conference on statistics and data science (icsds 2022) virtual (university of florence, florence, italy) december 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed data science travel award – international conference on statistics and data science (icsds)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -169,7 +169,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data (JASA 2024)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Travel Award – International Conference on Statistics and Data Science (ICSDS)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – International Conference on Statistics and Data Science (ICSDS)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="biomedical" data-paper="fibag" data-search="fibag: functional integrative bayesian analysis of high-dimensional multiplatform genomic data michigan postdoctoral pioneer program symposium (mp3 2022) university of michigan, ann arbor, mi, usa october 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed biomedical none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -193,7 +193,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>BaySyn: Bayesian evidence synthesis for multi-system multiomic integration (PSB 2023)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Presentation Award (Runner-up) – Environmental Mutagenesis and Genomics Society (EMGS)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Presentation Award (Runner-up) – Environmental Mutagenesis and Genomics Society (EMGS)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1142/9789811270611_0026" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/BaySyn/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="biostatistics" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform genomic data american statistical association biopharmaceutical section regulatory-industry statistics workshop (biop 2022) virtual (rockville, md, usa) september 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed biostatistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -217,7 +217,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data (JASA 2024)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Travel Award – University of Michigan Rackham Graduate School (Rackham)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – University of Michigan Rackham Graduate School (Rackham)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform genomic data indian statistical institute interdisciplinary statistical research unit seminar (isru 2022) virtual (indian statistical institute, kolkata, india) july 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) invited statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -241,7 +241,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>BaySyn: Bayesian evidence synthesis for multi-system multiomic integration (PSB 2023)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Travel Award – International Society for Bayesian Analysis (ISBA)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – International Society for Bayesian Analysis (ISBA)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1142/9789811270611_0026" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/BaySyn/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="datascience" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform genomic data american statistical association symposium on data science and statistics (sdss 2022) pittsburgh, pa, usa june 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed data science travel award – american statistical association (asa)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -253,7 +253,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data (JASA 2024)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Travel Award – American Statistical Association (ASA)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – American Statistical Association (ASA)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="datascience" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform genomic data texas a&m university conference on advances in data science (cads 2022) texas a&m university, college station, tx, usa may 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed data science travel award – national science foundation (nsf)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -265,7 +265,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data (JASA 2024)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Travel Award – National Science Foundation (NSF)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – National Science Foundation (NSF)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="biostatistics" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform clinicogenomic data statistical methods in oncology annual symposium (stat4onc 2022) virtual (university of chicago / stanford / uconn) may 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed biostatistics poster award (runner-up) – statistical methods in oncology (stat4onc)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -277,7 +277,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data (JASA 2024)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Poster Award (Runner-up) – Statistical Methods in Oncology (Stat4Onc)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Poster Award (Runner-up) – Statistical Methods in Oncology (Stat4Onc)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform genomic data michigan student symposium for interdisciplinary statistical sciences (mssiss 2022) university of michigan, ann arbor, mi, usa april 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -349,7 +349,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Network-based modeling of COVID-19 dynamics: early pandemic spread in India (J. Indian Statistical Association 2021)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Funding Award – American Statistical Association (ASA)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Funding Award – American Statistical Association (ASA)</div>
   <div style="margin-top: 6px;"><a href="https://www.indstatassoc.org/journal-jisa/previous-volumes/june-2022-vol-601" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="transprecise" data-search="transprecise: personalized network modeling of the pan-cancer patient and cell line interactome international indian statistical association annual conference (iisa 2021) virtual (university of illinois chicago, chicago, il) may 2021 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) invited statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -421,7 +421,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Predictions, role of interventions and effects of a historic national lockdown in India's response to the COVID-19 pandemic (Harvard Data Science Review 2020)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Poster Award – American Public Health Association Applied Public Health Statistics Section (APHA APHS)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Poster Award – American Public Health Association Applied Public Health Statistics Section (APHA APHS)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1162/99608f92.60e08ed5" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="biomedical" data-paper="transprecise" data-search="transprecise: personalized network modeling of the pan-cancer patient and cell line interactome national cancer institute informatics technology for cancer research annual meeting (nci itcr 2020) virtual (national cancer institute) september 2020 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) contributed biomedical none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -445,7 +445,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Personalized network modeling of the pan-cancer patient and cell line interactome (JCO Clinical Cancer Informatics 2020)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Poster Award – American Statistical Association Biopharmaceutical Section (ASA BIOP)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Poster Award – American Statistical Association Biopharmaceutical Section (ASA BIOP)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1200/CCI.19.00140" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/TransPRECISE/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="transprecise" data-search="transprecise: personalized network modeling of the pan-cancer patient and cell line interactome joint statistical meetings (jsm 2020) virtual (philadelphia, pa) august 2020 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) contributed statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -469,7 +469,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Personalized network modeling of the pan-cancer patient and cell line interactome (JCO Clinical Cancer Informatics 2020)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Paper Award – International Indian Statistical Association (IISA)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Paper Award – International Indian Statistical Association (IISA)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1200/CCI.19.00140" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/TransPRECISE/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="datascience" data-paper="covid" data-search="predictions, role of interventions and effects of a historic national lockdown in india's response to the covid-19 pandemic china data institute and future data lab webinar series (cdi/fdl 2020) virtual (harvard university / china data institute, cambridge, ma) july 2020 predictions, role of interventions and effects of a historic national lockdown in india's response to the covid-19 pandemic (harvard data science review 2020) invited data science none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -517,7 +517,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Personalized network modeling of the pan-cancer patient and cell line interactome (JCO Clinical Cancer Informatics 2020)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Presentation Award (Best Speed Oral) – Michigan Student Symposium for Interdisciplinary Statistical Sciences (MSSISS)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Presentation Award (Best Speed Oral) – Michigan Student Symposium for Interdisciplinary Statistical Sciences (MSSISS)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1200/CCI.19.00140" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/TransPRECISE/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="datascience" data-paper="transprecise" data-search="transprecise: personalized network modeling of the pan-cancer patient and cell line interactome michigan institute for data science data for public good symposium (midas dpg 2020) university of michigan, ann arbor, mi, usa february 2020 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) contributed data science none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -541,7 +541,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Personalized network modeling of the pan-cancer patient and cell line interactome (JCO Clinical Cancer Informatics 2020)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> Travel Award – MD Anderson Cancer Center (MDACC)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – MD Anderson Cancer Center (MDACC)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1200/CCI.19.00140" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/TransPRECISE/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="datascience" data-paper="transprecise" data-search="transprecise: proteomics-based network modeling of pan-cancer human and cell line interactome michigan institute for data science annual symposium (midas 2019) university of michigan, ann arbor, mi, usa november 2019 personalized network modeling of the pan-cancer patient and cell line interactome (jco clinical cancer informatics 2020) contributed data science 1. poster award (best overall poster) – michigan institute for data science (midas)<br>2. poster award (most innovative use of data) – michigan institute for data science (midas)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
@@ -553,7 +553,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="font-size: 0.88em; color: var(--primary);">
     🔗 <strong>Project:</strong> <em>Personalized network modeling of the pan-cancer patient and cell line interactome (JCO Clinical Cancer Informatics 2020)</em>
   </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: #e65100;">Award Won:</strong> 1. Poster Award (Best Overall Poster) – Michigan Institute for Data Science (MIDAS)<br>2. Poster Award (Most Innovative Use of Data) – Michigan Institute for Data Science (MIDAS)</div>
+  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> 1. Poster Award (Best Overall Poster) – Michigan Institute for Data Science (MIDAS)<br>2. Poster Award (Most Innovative Use of Data) – Michigan Institute for Data Science (MIDAS)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1200/CCI.19.00140" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/TransPRECISE/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 </ul>
