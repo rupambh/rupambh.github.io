@@ -5,7 +5,7 @@ draft: false
 hidemeta: true
 ---
 
-A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 35 manuscript review records across 24 distinct international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
+A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 36 manuscript review records across 24 distinct international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 20px 0 30px 0;">
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
@@ -13,11 +13,11 @@ A verified catalog of my **referee service, departmental governance appointments
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Peer-Reviewed Journals</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">35</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">36</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Manuscripts Refereed</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">38</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">39</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Verified Review Rounds</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
@@ -157,7 +157,25 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 6. International Journal of Computational Intelligence Systems (2025) -->
+  <!-- 6. PLOS ONE (2024–2026) -->
+  <li class="journal-entry" data-domain="pubhealth" data-search="plos one public library of science public health epidemiology machine learning colorectal cancer neoantigen ranking immunoinformatics hepatocellular carcinoma mitotic cell cycle formula feeding nutrition 2024 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">PLOS ONE</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">3 Manuscripts (4 Review Rounds) • 2024–2026</span>
+    </div>
+    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
+      🏛️ <strong>Publisher:</strong> Public Library of Science &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Public Health & Epidemiology
+    </div>
+    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
+      <em>Topics & Methodology Refereed:</em> (1) Statistical and immunoinformatics evaluation of neoantigen candidate prioritization and ranking frameworks in colorectal cancer (2026); (2) Multi-round peer review of machine learning feature selection for mitotic cell cycle prognostic gene panels in HCC (Original R1 + Revision R2, 2025); (3) Statistical survey evaluation of maternal formula feeding determinants (2024).
+    </div>
+    <div style="margin-top: 6px;">
+      <a href="https://journals.plos.org/plosone/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
+      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
+    </div>
+  </li>
+
+  <!-- 7. International Journal of Computational Intelligence Systems (2025) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-search="international journal of computational intelligence systems ijcis atlantis press springer nature federated adaptive epidemiological learning fael ai framework 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">International Journal of Computational Intelligence Systems (IJCIS)</span>
@@ -175,7 +193,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 7. Frontiers in Oncology (2025) -->
+  <!-- 8. Frontiers in Oncology (2025) -->
   <li class="journal-entry" data-domain="genomics" data-search="frontiers in oncology cancer genomics whole exome sequencing wes melanoma bioinformatics 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Oncology</span>
@@ -189,24 +207,6 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
     <div style="margin-top: 6px;">
       <a href="https://www.frontiersin.org/journals/oncology" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
-      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
-    </div>
-  </li>
-
-  <!-- 8. PLOS ONE (2024–2025) -->
-  <li class="journal-entry" data-domain="pubhealth" data-search="plos one public library of science public health epidemiology machine learning hepatocellular carcinoma mitotic cell cycle formula feeding nutrition 2024 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
-    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
-      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">PLOS ONE</span>
-      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">2 Manuscripts (3 Review Rounds) • 2024–2025</span>
-    </div>
-    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
-      🏛️ <strong>Publisher:</strong> Public Library of Science &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Public Health & Epidemiology
-    </div>
-    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
-      <em>Topics & Methodology Refereed:</em> Multi-round peer review of machine learning feature selection for mitotic cell cycle prognostic gene panels in HCC (Original R1 + Revision R2, 2025); statistical survey evaluation of maternal formula feeding determinants (2024).
-    </div>
-    <div style="margin-top: 6px;">
-      <a href="https://journals.plos.org/plosone/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
       <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
     </div>
   </li>
