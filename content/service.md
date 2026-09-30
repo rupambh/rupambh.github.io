@@ -67,8 +67,26 @@ A verified catalog of my **referee service, departmental governance appointments
 
 <ul id="masterJournalList" style="margin-top: 15px; margin-bottom: 45px;">
 
-  <!-- 1. Scientific Reports (2026) -->
-  <li class="journal-entry" data-domain="interdisciplinary" data-search="scientific reports springer nature machine learning record linkage brazilian health databases lightgbm public health informatics sus trauma cidacs-rl 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <!-- 1. PLOS ONE (2024–2026) -->
+  <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2026-09-30" data-search="plos one public library of science public health epidemiology machine learning colorectal cancer neoantigen ranking immunoinformatics hepatocellular carcinoma mitotic cell cycle formula feeding nutrition 2024 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">PLOS ONE</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">3 Manuscripts (4 Review Rounds) • 2024–2026</span>
+    </div>
+    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
+      🏛️ <strong>Publisher:</strong> Public Library of Science &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Public Health & Epidemiology
+    </div>
+    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
+      <em>Topics & Methodology Refereed:</em> (1) Statistical and immunoinformatics evaluation of neoantigen candidate prioritization and ranking frameworks in colorectal cancer (2026); (2) Multi-round peer review of machine learning feature selection for mitotic cell cycle prognostic gene panels in HCC (Original R1 + Revision R2, 2025); (3) Statistical survey evaluation of maternal formula feeding determinants (2024).
+    </div>
+    <div style="margin-top: 6px;">
+      <a href="https://journals.plos.org/plosone/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
+      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
+    </div>
+  </li>
+
+  <!-- 2. Scientific Reports (2026) -->
+  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-09-13" data-search="scientific reports springer nature machine learning record linkage brazilian health databases lightgbm public health informatics sus trauma cidacs-rl 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Scientific Reports</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">1 Manuscript • 2026</span>
@@ -85,8 +103,8 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 2. Organizations and Markets in Emerging Economies (2020–2026) -->
-  <li class="journal-entry" data-domain="interdisciplinary" data-search="organizations and markets in emerging economies omee vilnius university press double materiality esg disclosure b3 brazil llm-rag stock market liquidity volatility oil price shocks gold bitcoin trading volume covid-19 2020 2021 2022 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <!-- 3. Organizations and Markets in Emerging Economies (2020–2026) -->
+  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-09-13" data-search="organizations and markets in emerging economies omee vilnius university press double materiality esg disclosure b3 brazil llm-rag stock market liquidity volatility oil price shocks gold bitcoin trading volume covid-19 2020 2021 2022 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Organizations and Markets in Emerging Economies (OMEE)</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">6 Manuscripts • 2020–2026</span>
@@ -103,8 +121,8 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 3. npj Complexity (2026) -->
-  <li class="journal-entry" data-domain="interdisciplinary" data-search="npj complexity nature springer nature dynamic demographic projections multimorbidity mortality preventive interventions 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <!-- 4. npj Complexity (2026) -->
+  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-08-01" data-search="npj complexity nature springer nature dynamic demographic projections multimorbidity mortality preventive interventions 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">npj Complexity</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">1 Manuscript • 2026</span>
@@ -121,8 +139,8 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 4. Discover Social Science and Health (2026) -->
-  <li class="journal-entry" data-domain="interdisciplinary" data-search="discover social science and health springer nature spatial temporal population factors testing rates toronto 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <!-- 5. Discover Social Science and Health (2026) -->
+  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-07-01" data-search="discover social science and health springer nature spatial temporal population factors testing rates toronto 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Social Science and Health</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">2 Review Rounds (Original & Revision) • 2026</span>
@@ -139,8 +157,8 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 5. BMJ Open (2025–2026) -->
-  <li class="journal-entry" data-domain="pubhealth" data-search="bmj open bmj publishing group public health epidemiology bayesian modelling adolescent fertility interrupted time series measles covid-19 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <!-- 6. BMJ Open (2025–2026) -->
+  <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2026-06-01" data-search="bmj open bmj publishing group public health epidemiology bayesian modelling adolescent fertility interrupted time series measles covid-19 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">BMJ Open</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">2 Manuscripts • 2025–2026</span>
@@ -153,24 +171,6 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
     <div style="margin-top: 6px;">
       <a href="https://bmjopen.bmj.com/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
-      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
-    </div>
-  </li>
-
-  <!-- 6. PLOS ONE (2024–2026) -->
-  <li class="journal-entry" data-domain="pubhealth" data-search="plos one public library of science public health epidemiology machine learning colorectal cancer neoantigen ranking immunoinformatics hepatocellular carcinoma mitotic cell cycle formula feeding nutrition 2024 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
-    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
-      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">PLOS ONE</span>
-      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">3 Manuscripts (4 Review Rounds) • 2024–2026</span>
-    </div>
-    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
-      🏛️ <strong>Publisher:</strong> Public Library of Science &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Public Health & Epidemiology
-    </div>
-    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
-      <em>Topics & Methodology Refereed:</em> (1) Statistical and immunoinformatics evaluation of neoantigen candidate prioritization and ranking frameworks in colorectal cancer (2026); (2) Multi-round peer review of machine learning feature selection for mitotic cell cycle prognostic gene panels in HCC (Original R1 + Revision R2, 2025); (3) Statistical survey evaluation of maternal formula feeding determinants (2024).
-    </div>
-    <div style="margin-top: 6px;">
-      <a href="https://journals.plos.org/plosone/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
       <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
     </div>
   </li>
@@ -573,6 +573,18 @@ A verified catalog of my **referee service, departmental governance appointments
       domain: 'methodology',
       search: ''
     };
+
+    var list = document.getElementById('masterJournalList');
+    if (list) {
+      var entries = Array.prototype.slice.call(list.querySelectorAll('.journal-entry'));
+      entries.sort(function(a, b) {
+        var da = a.getAttribute('data-last-reviewed') || '';
+        var db = b.getAttribute('data-last-reviewed') || '';
+        if (da !== db) return db.localeCompare(da);
+        return 0;
+      });
+      entries.forEach(function(el) { list.appendChild(el); });
+    }
 
     var items = document.querySelectorAll('.journal-entry');
     var countHeader = document.getElementById('journalCountHeader');
