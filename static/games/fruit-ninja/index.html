@@ -417,11 +417,17 @@ button,a,input,select{touch-action:manipulation}
       const y = H+r+12, peak = crest + Math.abs(offset) * H * .09, vy = -Math.sqrt(2*g*(y-peak));
       entities.push({id:Math.random(),type,x,y,px:x,py:y,r,vx:(targetX-x)/(-vy/g),vy,a:rand(-.7,.7),spin:rand(-1.15,1.15),bomb:false,dead:false,warned:false});
     }
-    const bombsAllowed = selectedMode !== 'zen' && wave > 2 && frenzy <= 0;
-    if (bombsAllowed && Math.random() < (selectedMode === 'classic' ? .45 : .4)) {
-      const r=radiusFor('bomb'), x=center>W*.5 ? r*1.65 : W-r*1.65, y=H+r+10;
-      const peak=rand(H*.35,H*.49), vy=-Math.sqrt(2*g*(y-peak));
-      entities.push({id:Math.random(),type:'bomb',x,y,px:x,py:y,r,vx:0,vy,a:rand(-.4,.4),spin:rand(-.5,.5),bomb:true,dead:false});
+    const bombsAllowed = selectedMode !== 'zen' && wave > 1 && frenzy <= 0;
+    if (bombsAllowed && Math.random() < (selectedMode === 'classic' ? .55 : .45)) {
+      const bombCount = (selectedMode === 'classic' && wave >= 6 && Math.random() < .35) ? 2 : 1;
+      for (let b = 0; b < bombCount; b++) {
+        const r = radiusFor('bomb'), y = H + r + 10;
+        const targetX = clamp(center + rand(-spread * .78, spread * .78), r * 1.35, W - r * 1.35);
+        const x = clamp(targetX + rand(-spread * .95, spread * .95), r * 1.25, W - r * 1.25);
+        const peak = clamp(crest + rand(-H * .05, H * .12), H * .26, H * .5);
+        const vy = -Math.sqrt(2 * g * (y - peak));
+        entities.push({id:Math.random(),type:'bomb',x,y,px:x,py:y,r,vx:(targetX-x)/(-vy/g),vy,a:rand(-.4,.4),spin:rand(-.5,.5),bomb:true,dead:false});
+      }
     }
     spawnIn = frenzy > 0 ? .64 : Math.max(1, rand(1.48,1.82)-level*.18);
     if (wave === 1) tone(260, .12, 'triangle', .035, 520);
