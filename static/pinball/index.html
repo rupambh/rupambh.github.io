@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="robots" content="noindex, nofollow">
+  <title>3D Pinball for Windows – Space Cadet</title>
+  <style>
+    :root {
+      --win-teal: rgb(0, 128, 128);
+      --active-border: rgb(212, 208, 200);
+      --active-title: rgb(10, 36, 106);
+      --gradient-active-title: rgb(166, 202, 240);
+      --button-face: rgb(212, 208, 200);
+      --button-hilight: rgb(255, 255, 255);
+      --button-light: rgb(224, 224, 224);
+      --button-shadow: rgb(128, 128, 128);
+      --button-dk-shadow: rgb(64, 64, 64);
+      --button-text: rgb(0, 0, 0);
+      --title-text: rgb(255, 255, 255);
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: "MS Sans Serif", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--win-teal);
+      color: var(--button-text);
+      padding: 8px;
+      user-select: none;
+      touch-action: manipulation;
+    }
+
+    .window {
+      font-size: 11px;
+      background-color: var(--button-face);
+      border: 1px solid var(--active-border);
+      box-shadow:
+        -1px -1px 0 0 var(--button-hilight),
+        1px 1px 0 0 var(--button-dk-shadow),
+        -2px -2px 0 0 var(--button-light),
+        2px 2px 0 0 var(--button-shadow);
+      padding: 2px;
+      display: inline-flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+
+    .titlebar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 4px;
+      min-height: 22px;
+      padding: 2px 3px 2px 6px;
+      background: linear-gradient(90deg, var(--active-title), var(--gradient-active-title));
+      color: var(--title-text);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .titlebar-controls {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .win-btn {
+      background-color: var(--button-face);
+      color: var(--button-text);
+      border: none;
+      font-family: inherit;
+      font-size: 11px;
+      padding: 2px 8px;
+      cursor: pointer;
+      touch-action: none;
+      box-shadow:
+        inset 1px 1px 0 var(--button-hilight),
+        inset -1px -1px 0 var(--button-dk-shadow),
+        inset 2px 2px 0 var(--button-light),
+        inset -2px -2px 0 var(--button-shadow);
+    }
+
+    .win-btn:active,
+    .win-btn.pressed {
+      box-shadow:
+        inset 1px 1px 0 var(--button-dk-shadow),
+        inset -1px -1px 0 var(--button-hilight);
+      padding: 3px 7px 1px 9px;
+    }
+
+    .viewport-bevel {
+      margin: 2px;
+      background-color: #000;
+      box-shadow:
+        inset 1px 1px 0 var(--button-shadow),
+        inset -1px -1px 0 var(--button-hilight),
+        inset 2px 2px 0 var(--button-dk-shadow),
+        inset -2px -2px 0 var(--button-light);
+      padding: 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+    }
+
+    canvas.emscripten {
+      border: 0 none;
+      background-color: #000;
+      display: block;
+      outline: none;
+      max-width: calc(100vw - 28px);
+      max-height: 68vh;
+      width: auto;
+      height: auto;
+    }
+
+    #status {
+      color: #fff;
+      font-size: 12px;
+      margin: 24px 32px 12px;
+      text-align: center;
+    }
+
+    #progress {
+      margin-bottom: 24px;
+    }
+
+    /* Tactile Windows 98 Touch / Mouse Controller Dock */
+    .touch-dock {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin: 2px;
+      padding: 4px;
+      background-color: var(--button-face);
+      box-shadow:
+        inset 1px 1px 0 var(--button-shadow),
+        inset -1px -1px 0 var(--button-hilight);
+    }
+
+    .nudge-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4px;
+    }
+
+    .flipper-row {
+      display: grid;
+      grid-template-columns: 1.35fr 0.9fr 1.35fr;
+      gap: 6px;
+    }
+
+    .pad-btn {
+      font-weight: 700;
+      font-size: 12px;
+      min-height: 44px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1px;
+    }
+
+    .nudge-btn {
+      font-size: 11px;
+      min-height: 28px;
+    }
+
+    .plunger-btn {
+      background-color: rgb(224, 218, 206);
+    }
+
+    .statusbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin: 2px 2px 1px;
+      padding: 3px 6px;
+      background-color: var(--button-face);
+      box-shadow:
+        inset 1px 1px 0 var(--button-shadow),
+        inset -1px -1px 0 var(--button-hilight);
+      font-size: 11px;
+    }
+
+    kbd {
+      display: inline-block;
+      padding: 0 4px;
+      font-family: monospace;
+      font-size: 10px;
+      font-weight: 700;
+      background: #fff;
+      border: 1px solid var(--button-dk-shadow);
+    }
+  </style>
+</head>
+<body>
+  <div class="window" id="appWindow">
+    <div class="titlebar">
+      <span>3D Pinball for Windows – Space Cadet</span>
+      <div class="titlebar-controls">
+        <button class="win-btn" type="button" onclick="tapKey('F2')" title="Start New Game (F2)">F2 New</button>
+        <button class="win-btn" type="button" onclick="tapKey('F3')" title="Pause / Resume (F3)">F3 Pause</button>
+        <button class="win-btn" type="button" onclick="tapKey('F8')" title="Player Controls Dialog (F8)">F8 Keys</button>
+        <button class="win-btn" type="button" onclick="toggleFullscreen()" title="Fullscreen">Fullscreen</button>
+      </div>
+    </div>
+
+    <div class="viewport-bevel" onclick="focusCanvas()">
+      <div id="status">Loading 3D Pinball for Windows – Space Cadet...</div>
+      <progress hidden id="progress" max="100" value="0"></progress>
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" style="display:none" tabindex="0"></canvas>
+    </div>
+
+    <div class="touch-dock" aria-label="Touch and Click Pinball Controls">
+      <div class="nudge-row">
+        <button class="win-btn nudge-btn" type="button" data-hold-key="KeyX">Bump Left (X)</button>
+        <button class="win-btn nudge-btn" type="button" data-hold-key="ArrowUp">Bump Up (&uarr;)</button>
+        <button class="win-btn nudge-btn" type="button" data-hold-key="Period">Bump Right (.)</button>
+      </div>
+      <div class="flipper-row">
+        <button class="win-btn pad-btn" type="button" data-hold-key="KeyZ">
+          <span>&#9664; LEFT FLIPPER</span>
+          <small><kbd>Z</kbd></small>
+        </button>
+        <button class="win-btn pad-btn plunger-btn" type="button" data-hold-key="Space">
+          <span>LAUNCH</span>
+          <small>Hold <kbd>Space</kbd></small>
+        </button>
+        <button class="win-btn pad-btn" type="button" data-hold-key="Slash">
+          <span>RIGHT FLIPPER &#9654;</span>
+          <small><kbd>/</kbd></small>
+        </button>
+      </div>
+    </div>
+
+    <div class="statusbar">
+      <span>
+        Keyboard: <kbd>Z</kbd> / <kbd>/</kbd> Flippers &nbsp;|&nbsp;
+        <kbd>Space</kbd> Plunger &nbsp;|&nbsp;
+        <kbd>X</kbd> <kbd>.</kbd> <kbd>&uarr;</kbd> Bump &nbsp;|&nbsp;
+        <kbd>F2</kbd> New
+      </span>
+      <span id="focusHint">Desktop Keyboard + Multi-Touch Ready</span>
+    </div>
+  </div>
+
+  <script>
+    const statusElement = document.getElementById("status");
+    const progressElement = document.getElementById("progress");
+    const canvasElement = document.getElementById("canvas");
+
+    const KEY_DEFS = {
+      KeyZ: { key: "z", keyCode: 90 },
+      Slash: { key: "/", keyCode: 191 },
+      Space: { key: " ", keyCode: 32 },
+      KeyX: { key: "x", keyCode: 88 },
+      Period: { key: ".", keyCode: 190 },
+      ArrowUp: { key: "ArrowUp", keyCode: 38 },
+      F2: { key: "F2", keyCode: 113 },
+      F3: { key: "F3", keyCode: 114 },
+      F8: { key: "F8", keyCode: 119 }
+    };
+
+    const GAME_KEYS = new Set([
+      "Slash", "Period", "Space", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight",
+      "F2", "F3", "F4", "F8"
+    ]);
+
+    function focusCanvas() {
+      canvasElement.focus({ preventScroll: true });
+    }
+
+    window.addEventListener("keydown", function(e) {
+      if (GAME_KEYS.has(e.code) && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+
+    function dispatchSynthetic(type, code) {
+      const def = KEY_DEFS[code];
+      if (!def) return;
+      const ev = new KeyboardEvent(type, {
+        key: def.key,
+        code: code,
+        keyCode: def.keyCode,
+        which: def.keyCode,
+        bubbles: true,
+        cancelable: true
+      });
+      window.dispatchEvent(ev);
+    }
+
+    function tapKey(code) {
+      focusCanvas();
+      dispatchSynthetic("keydown", code);
+      setTimeout(function() { dispatchSynthetic("keyup", code); }, 65);
+    }
+
+    // Bind independent multi-touch pointer capture to every hold button
+    document.querySelectorAll("[data-hold-key]").forEach(function(btn) {
+      const code = btn.getAttribute("data-hold-key");
+      let activePointers = 0;
+
+      btn.addEventListener("pointerdown", function(e) {
+        e.preventDefault();
+        btn.setPointerCapture(e.pointerId);
+        if (activePointers === 0) {
+          btn.classList.add("pressed");
+          dispatchSynthetic("keydown", code);
+        }
+        activePointers++;
+      });
+
+      function release(e) {
+        if (activePointers > 0) {
+          activePointers--;
+          if (activePointers === 0) {
+            btn.classList.remove("pressed");
+            dispatchSynthetic("keyup", code);
+            focusCanvas();
+          }
+        }
+      }
+
+      btn.addEventListener("pointerup", release);
+      btn.addEventListener("pointercancel", release);
+      btn.addEventListener("lostpointercapture", release);
+    });
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.getElementById("appWindow").requestFullscreen().catch(function() {});
+      } else {
+        document.exitFullscreen().catch(function() {});
+      }
+      focusCanvas();
+    }
+
+    var Module = {
+      preRun: [],
+      postRun: [function() { focusCanvas(); }],
+      print: function() {
+        return function(text) {
+          if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(" ");
+          console.log(text);
+        };
+      }(),
+      printErr: function(text) {
+        if (arguments.length > 1) text = Array.prototype.slice.call(arguments).join(" ");
+        console.error(text);
+      },
+      canvas: (function() {
+        canvasElement.addEventListener("webglcontextlost", function(e) {
+          alert("WebGL context lost. Reloading page.");
+          e.preventDefault();
+        }, false);
+        return canvasElement;
+      })(),
+      setStatus: function(text) {
+        if (!Module.setStatus.last) Module.setStatus.last = { time: Date.now(), text: "" };
+        if (text === Module.setStatus.last.text) return;
+        var m = text.match(/([^(]+)\((\d+(\.\d+)?)\/(\d+)\)/);
+        var now = Date.now();
+        if (m && now - Module.setStatus.last.time < 30) return;
+        Module.setStatus.last.time = now;
+        Module.setStatus.last.text = text;
+        if (m) {
+          text = m[1];
+          progressElement.value = parseInt(m[2], 10) * 100;
+          progressElement.max = parseInt(m[4], 10) * 100;
+          progressElement.hidden = false;
+        } else {
+          progressElement.value = null;
+          progressElement.max = null;
+          progressElement.hidden = true;
+          canvasElement.style.display = "block";
+        }
+        statusElement.innerHTML = text;
+        if (text === "") {
+          statusElement.style.display = "none";
+          progressElement.style.display = "none";
+          focusCanvas();
+        } else {
+          statusElement.style.display = "block";
+        }
+      },
+      totalDependencies: 0,
+      monitorRunDependencies: function(left) {
+        this.totalDependencies = Math.max(this.totalDependencies, left);
+        Module.setStatus(
+          left
+            ? "Preparing assets... (" + (this.totalDependencies - left) + "/" + this.totalDependencies + ")"
+            : "All downloads complete."
+        );
+      }
+    };
+
+    Module.setStatus("Downloading engine & table data...");
+  </script>
+  <script async src="SpaceCadetPinball.js"></script>
+</body>
+</html>
