@@ -227,36 +227,23 @@
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" style="display:none" tabindex="0"></canvas>
     </div>
 
-    <div class="touch-dock" aria-label="Touch and Click Pinball Controls">
+    <div class="touch-dock" aria-label="Touch Controls">
       <div class="nudge-row">
-        <button class="win-btn nudge-btn" type="button" data-hold-key="KeyX">Bump Left (X)</button>
-        <button class="win-btn nudge-btn" type="button" data-hold-key="ArrowUp">Bump Up (&uarr;)</button>
-        <button class="win-btn nudge-btn" type="button" data-hold-key="Period">Bump Right (.)</button>
+        <button class="win-btn nudge-btn" type="button" data-hold-key="KeyX">&#9664; X</button>
+        <button class="win-btn nudge-btn" type="button" data-hold-key="ArrowUp">&uarr;</button>
+        <button class="win-btn nudge-btn" type="button" data-hold-key="Period">. &#9654;</button>
       </div>
       <div class="flipper-row">
         <button class="win-btn pad-btn" type="button" data-hold-key="KeyZ">
-          <span>&#9664; LEFT FLIPPER</span>
-          <small><kbd>Z</kbd></small>
+          <span>&#9664; Z</span>
         </button>
         <button class="win-btn pad-btn plunger-btn" type="button" data-hold-key="Space">
-          <span>LAUNCH</span>
-          <small>Hold <kbd>Space</kbd></small>
+          <span>Space</span>
         </button>
         <button class="win-btn pad-btn" type="button" data-hold-key="Slash">
-          <span>RIGHT FLIPPER &#9654;</span>
-          <small><kbd>/</kbd></small>
+          <span>/ &#9654;</span>
         </button>
       </div>
-    </div>
-
-    <div class="statusbar">
-      <span>
-        Keyboard: <kbd>Z</kbd> / <kbd>/</kbd> Flippers &nbsp;|&nbsp;
-        <kbd>Space</kbd> Plunger &nbsp;|&nbsp;
-        <kbd>X</kbd> <kbd>.</kbd> <kbd>&uarr;</kbd> Bump &nbsp;|&nbsp;
-        <kbd>F2</kbd> New
-      </span>
-      <span id="focusHint">Desktop Keyboard + Multi-Touch Ready</span>
     </div>
   </div>
 

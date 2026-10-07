@@ -25,54 +25,50 @@ button,a,input,select{touch-action:manipulation}
 <body>
   <div class="app">
     <header class="topbar">
-      <a class="brand" href="../" id="brand-back" style="font-size:13px;letter-spacing:1px;padding:6px 12px;border:1px solid #a5b39138;border-radius:6px;margin-right:8px" title="Back to Games Lounge">&#8592; Games</a><a class="brand" href="#" id="brand" aria-label="Fruit Ninja Home"><span class="brand-mark" aria-hidden="true"></span><span>FRUIT NINJA<small>DOJO EDITION</small></span></a>
-      <span class="header-note">SWIPE CLEAN · AVOID BOMBS · HIT FRENZY</span>
+      <a class="brand" href="../" id="brand-back" style="font-size:13px;letter-spacing:1px;padding:6px 12px;border:1px solid #a5b39138;border-radius:6px;margin-right:8px" title="Games">&#8592; Games</a><a class="brand" href="#" id="brand" aria-label="Fruit Ninja"><span class="brand-mark" aria-hidden="true"></span><span>FRUIT NINJA<small>DOJO EDITION</small></span></a>
+      <span class="header-note"></span>
       <div class="utilities">
         <button class="icon-button" id="settings-button" aria-label="Settings" title="Settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16M8 4v6m8 4v6"/></svg></button>
-        <button class="icon-button" id="help-button" aria-label="How to Play" title="How to Play"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 .5c0 1.7-2.5 2-2.5 3.5M12 16.5v.1"/></svg></button>
-        <button class="icon-button" id="sound-button" aria-label="Mute Sound" aria-pressed="true" title="Toggle Sound (M)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m11 5-6 4H2v6h3l6 4zM15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/><path class="mute-stroke" d="m3 3 18 18"/></svg></button>
+        <button class="icon-button" id="help-button" aria-label="Controls" title="Controls"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 0 1 5 .5c0 1.7-2.5 2-2.5 3.5M12 16.5v.1"/></svg></button>
+        <button class="icon-button" id="sound-button" aria-label="Sound" aria-pressed="true" title="Sound (M)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m11 5-6 4H2v6h3l6 4zM15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/><path class="mute-stroke" d="m3 3 18 18"/></svg></button>
         <button class="icon-button fullscreen-button" id="fullscreen-button" aria-label="Fullscreen" title="Fullscreen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button>
       </div>
     </header>
 
-    <main class="arena" id="arena" aria-label="Fruit Ninja Game Arena">
+    <main class="arena" id="arena" aria-label="Fruit Ninja">
       <canvas id="backdrop" aria-hidden="true"></canvas>
-      <canvas id="game" tabindex="0" aria-label="Hold mouse or swipe finger to slice fruit and avoid bombs"></canvas>
+      <canvas id="game" tabindex="0" aria-label="Fruit Ninja Canvas"></canvas>
       <div class="corner corner-tl"></div><div class="corner corner-tr"></div><div class="corner corner-bl"></div><div class="corner corner-br"></div>
 
       <section id="menu" class="menu screen">
         <div class="hero-copy">
-          <div class="eyebrow"><span></span> CLASSIC DOJO · 120HZ BLADE PHYSICS</div>
           <h1><span>FRUIT</span><span>NINJA<span class="title-dot">.</span></span></h1>
-          <p class="tagline">One swipe. Pure arcade flow.</p>
-          <p class="hero-description">Swipe across flying fruit with finger or mouse. Chain 3+ in a single stroke for combo bonuses.</p>
-          <button class="start-button" id="start-button"><span>START SLICING</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
-          <div class="personal-best"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h8v6a4 4 0 0 1-8 0zM8 5H4v3a4 4 0 0 0 4 4m8-7h4v3a4 4 0 0 1-4 4m-4 1v5m-4 3h8m-6-3h4"/></svg><span id="menu-best">Select a mode below to set your first high score</span></div>
+          <button class="start-button" id="start-button"><span>PLAY</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+          <div class="personal-best"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h8v6a4 4 0 0 1-8 0zM8 5H4v3a4 4 0 0 0 4 4m8-7h4v3a4 4 0 0 1-4 4m-4 1v5m-4 3h8m-6-3h4"/></svg><span id="menu-best">Best: 0</span></div>
         </div>
         <div class="hero-seal" aria-hidden="true">D<br>O<br>J<br>O</div>
         <div class="mode-section">
-          <div class="mode-heading">SELECT MODE<span>CHOOSE YOUR FLOW</span></div>
           <div class="mode-options" role="group" aria-label="Game Modes">
-            <button class="mode selected" data-mode="classic" aria-pressed="true"><span class="mode-symbol" aria-hidden="true">I</span><span class="mode-copy"><strong>CLASSIC <small>3 STRIKES</small></strong><span>3 misses or 1 bomb ends the run</span></span><span class="mode-check" aria-hidden="true"></span></button>
-            <button class="mode" data-mode="arcade" aria-pressed="false"><span class="mode-symbol" aria-hidden="true">II</span><span class="mode-copy"><strong>ARCADE <small>60 SECONDS</small></strong><span>20 slices trigger 2x Frenzy mode</span></span><span class="mode-check" aria-hidden="true"></span></button>
-            <button class="mode" data-mode="zen" aria-pressed="false"><span class="mode-symbol" aria-hidden="true">III</span><span class="mode-copy"><strong>ZEN <small>90 SECONDS</small></strong><span>Zero bombs, zero strikes—pure slicing</span></span><span class="mode-check" aria-hidden="true"></span></button>
+            <button class="mode selected" data-mode="classic" aria-pressed="true"><span class="mode-symbol" aria-hidden="true">I</span><span class="mode-copy"><strong>CLASSIC <small>3 STRIKES</small></strong></span><span class="mode-check" aria-hidden="true"></span></button>
+            <button class="mode" data-mode="arcade" aria-pressed="false"><span class="mode-symbol" aria-hidden="true">II</span><span class="mode-copy"><strong>ARCADE <small>60s</small></strong></span><span class="mode-check" aria-hidden="true"></span></button>
+            <button class="mode" data-mode="zen" aria-pressed="false"><span class="mode-symbol" aria-hidden="true">III</span><span class="mode-copy"><strong>ZEN <small>90s</small></strong></span><span class="mode-check" aria-hidden="true"></span></button>
           </div>
         </div>
       </section>
 
       <section class="hud" id="hud" hidden aria-label="Game HUD">
         <div class="score-block"><span class="hud-label">SCORE</span><strong id="score">0</strong><span class="record">BEST <b id="best">0</b></span></div>
-        <div class="hud-center"><span id="mode-label">CLASSIC</span><span id="wave-label">Ready</span></div>
-        <div class="hud-right"><div class="lives" id="lives" aria-label="3 lives remaining"><span>×</span><span>×</span><span>×</span></div><div class="timer" id="timer" hidden><small>TIME LEFT</small><strong id="time">60</strong><span>s</span></div><button class="icon-button pause-button" id="pause-button" aria-label="Pause Game" title="Pause (Space)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg></button></div>
+        <div class="hud-center"><span id="mode-label">CLASSIC</span><span id="wave-label"></span></div>
+        <div class="hud-right"><div class="lives" id="lives" aria-label="3 lives remaining"><span>×</span><span>×</span><span>×</span></div><div class="timer" id="timer" hidden><small>TIME</small><strong id="time">60</strong><span>s</span></div><button class="icon-button pause-button" id="pause-button" aria-label="Pause" title="Pause (Space)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg></button></div>
       </section>
-      <div class="game-tip" id="game-tip" hidden>Swipe across fruit · Avoid bombs</div>
-      <div class="frenzy-banner" id="frenzy-banner" hidden><strong>FRENZY MODE</strong><span>2X POINTS!</span><i id="frenzy-progress"></i></div>
+      <div class="game-tip" id="game-tip" hidden></div>
+      <div class="frenzy-banner" id="frenzy-banner" hidden><strong>FRENZY</strong><span>2X</span><i id="frenzy-progress"></i></div>
       <div class="countdown" id="countdown" hidden></div>
       <div class="flash" id="flash"></div>
       <div class="miss-flash" id="miss-flash"></div>
       <div class="miss-notice" id="miss-notice" role="status" aria-live="polite" hidden></div>
       <div class="combo-readout" id="combo-readout" hidden><strong id="combo-value">3</strong><span>COMBO</span></div>
-      <div class="arena-bottom" id="arena-bottom"><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="6"/><path d="M12 2v7"/></svg>Hold mouse &amp; drag / Swipe on touchscreen</span><span>Slice fruit · Dodge bombs</span><span class="bottom-right">CLASSIC · ARCADE · ZEN</span></div>
+      <div class="arena-bottom" id="arena-bottom" hidden></div>
 
       <dialog id="pause-dialog" class="modal"><div class="modal-kicker">TAKE A BREATH</div><h2>GAME PAUSED</h2><p>Your blade is ready whenever you are.</p><button class="start-button" id="resume-button">RESUME GAME <span aria-hidden="true">↗</span></button><button class="secondary-button" id="pause-home">MAIN MENU</button></dialog>
       <dialog id="settings-dialog" class="modal settings-modal"><button class="dialog-close icon-button" id="close-settings" aria-label="Close Settings">×</button><div class="modal-kicker">FIND YOUR FEEL</div><h2>BLADE SETTINGS</h2><label class="setting-row" for="volume"><span>Audio Volume<small>Slice acoustics, combos &amp; strike alerts</small></span><input id="volume" type="range" min="0" max="100" value="65" aria-label="Audio Volume"></label><label class="setting-row" for="quality"><span>Visual Detail<small>Balance particle density automatically</small></span><select id="quality"><option value="auto">Auto</option><option value="rich">High</option><option value="light">Performance</option></select></label><label class="setting-row" for="motion"><span>Screen Shake &amp; Hitstop<small>Subtle impact shake and mobile haptics</small></span><input id="motion" type="checkbox" checked></label><label class="setting-row" for="blade"><span>Blade Trail Color<small>Choose your katana arc tint</small></span><select id="blade"><option value="mint">Jade Mint</option><option value="gold">Sunset Gold</option><option value="ice">Glacier Ice</option></select></label><button class="start-button" id="settings-done">DONE <span aria-hidden="true">↗</span></button></dialog>
@@ -88,9 +84,9 @@ button,a,input,select{touch-action:manipulation}
   const canvas = $('game'), ctx = canvas.getContext('2d'), arena = $('arena');
   const TAU = Math.PI * 2;
   const modes = {
-    classic: { name: 'CLASSIC MODE', seconds: 0, tip: 'Swipe fruit · 3 misses or 1 bomb ends run' },
-    arcade: { name: 'ARCADE MODE', seconds: 60, tip: 'Slice 20 fruits for 2X Frenzy · Bombs -10 pts' },
-    zen: { name: 'ZEN MODE', seconds: 90, tip: 'No bombs · No strikes · Pure slicing flow' }
+    classic: { name: 'CLASSIC', seconds: 0, tip: '' },
+    arcade: { name: 'ARCADE', seconds: 60, tip: '' },
+    zen: { name: 'ZEN', seconds: 90, tip: '' }
   };
   const fruits = {
     watermelon: { color: '#f65461', mid: '#529646', dark: '#174731', light: '#afd65c', juice: '#ff5165', size: 1.13, pitch: 150 },
@@ -351,7 +347,7 @@ button,a,input,select{touch-action:manipulation}
   function setSound() { $('sound-button').classList.toggle('muted', !soundOn); $('sound-button').setAttribute('aria-pressed', String(soundOn)); $('sound-button').setAttribute('aria-label', soundOn ? 'Mute Sound' : 'Unmute Sound'); }
   function toggleSound() { soundOn = !soundOn; setSound(); save(); if (masterGain) masterGain.gain.setTargetAtTime(soundOn ? prefs.volume : 0, audioCtx.currentTime, .015); if (soundOn) { initAudio(); tone(620, .1); } }
 
-  function updateBest() { $('menu-best').textContent = records[selectedMode] > 0 ? `${modes[selectedMode].name} · Personal Best: ${records[selectedMode]} pts` : 'Select a mode below to set your first high score'; }
+  function updateBest() { $('menu-best').textContent = `Best: ${records[selectedMode]}`; }
   function selectMode(mode) {
     selectedMode = mode;
     document.querySelectorAll('[data-mode]').forEach(button => { const active = button.dataset.mode === mode; button.classList.toggle('selected', active); button.setAttribute('aria-pressed', String(active)); }); updateBest();
@@ -362,7 +358,7 @@ button,a,input,select{touch-action:manipulation}
     if (changed && score) pulse('score',[{transform:'scale(1.14)'},{transform:'scale(1)'}],190);
     if (uiValues.misses !== misses) { [...$('lives').children].forEach((life,i)=>life.classList.toggle('lost',i<misses)); $('lives').setAttribute('aria-label',`${Math.max(0,3-misses)} lives remaining`); uiValues.misses = misses; }
     setText('time', Math.max(0,Math.ceil(remaining))); $('timer').classList.toggle('urgent', remaining <= 10);
-    setText('wave-label', selectedMode === 'arcade' ? `Frenzy Charge ${sliced % 20} / 20` : selectedMode === 'zen' ? `Sliced ${sliced} Fruit` : `Streak ${streak} · Wave ${Math.max(1,wave)}`);
+    setText('wave-label', selectedMode === 'arcade' ? `Frenzy ${sliced % 20} / 20` : '');
     $('frenzy-banner').hidden = frenzy <= 0; if (frenzy > 0) $('frenzy-progress').style.transform = `scaleX(${frenzy / 6})`;
   }
   function closeDialogs() { document.querySelectorAll('dialog[open]').forEach(dialog => dialog.close()); }
@@ -376,13 +372,13 @@ button,a,input,select{touch-action:manipulation}
     priorRecord = records[selectedMode]; newRecord = false; countdown = 2.4; phase = 'countdown';
     arena.classList.add('playing'); $('menu').hidden = true; $('hud').hidden = false; $('arena-bottom').hidden = true;
     $('lives').hidden = selectedMode !== 'classic'; $('timer').hidden = selectedMode === 'classic'; $('mode-label').textContent = modes[selectedMode].name;
-    $('game-tip').hidden = false; $('game-tip').textContent = modes[selectedMode].tip;
+    $('game-tip').hidden = true;
     $('countdown').hidden = false; $('countdown').textContent = '3'; syncUI();
     tone(440, .12, 'sine', .07); canvas.focus({ preventScroll: true });
   }
   function goHome() {
     closeDialogs(); phase = 'menu'; helpPaused = false; entities = []; pieces = []; particles = []; texts = []; splats = []; trails = []; pointer = null; stroke = [];
-    $('menu').hidden = false; $('hud').hidden = true; $('arena-bottom').hidden = false; $('game-tip').hidden = true; $('countdown').hidden = true; $('frenzy-banner').hidden = true;
+    $('menu').hidden = false; $('hud').hidden = true; $('arena-bottom').hidden = true; $('game-tip').hidden = true; $('countdown').hidden = true; $('frenzy-banner').hidden = true;
     arena.classList.remove('playing'); updateBest(); $('start-button').focus({ preventScroll: true });
     $('miss-notice').hidden = $('combo-readout').hidden = true; missFlash = 0; impacts = []; settingsPaused = false;
   }
@@ -619,7 +615,6 @@ button,a,input,select{touch-action:manipulation}
     ctx.fillStyle = grad; ctx.shadowColor = '#ffe4a4'; ctx.shadowBlur = 16;
     ctx.beginPath(); ctx.moveTo(-240, 6); ctx.quadraticCurveTo(-10, 1, 220, -30); ctx.quadraticCurveTo(42, -6, -240, 6); ctx.fill(); ctx.restore();
     leaf(ctx, mobile ? 49 : -132, mobile ? 152 : -119, -.55 + Math.sin(t) * .06, mobile ? 31 : 48);
-    if (!mobile) { ctx.fillStyle = '#d2b48b'; ctx.font = '11px Microsoft YaHei, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('SWIPE TO SLICE · DESKTOP & MOBILE', 3, 241); }
     ctx.restore();
   }
   function randHero(rng, a, b) { return a + rng() * (b - a); }
