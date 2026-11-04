@@ -5,7 +5,7 @@ draft: false
 hidemeta: true
 ---
 
-A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 39 manuscript review records across 26 distinct international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
+A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 40 manuscript review records across 26 distinct international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 20px 0 30px 0;">
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
@@ -13,11 +13,11 @@ A verified catalog of my **referee service, departmental governance appointments
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Peer-Reviewed Journals</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">39</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">40</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Manuscripts Refereed</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">42</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">43</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Verified Review Rounds</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
@@ -67,7 +67,25 @@ A verified catalog of my **referee service, departmental governance appointments
 
 <ul id="masterJournalList" style="margin-top: 15px; margin-bottom: 45px;">
 
-  <!-- 1. Discover Applied Sciences (2025–2026) -->
+  <!-- 1. Scientific Reports (2026) -->
+  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-10-28" data-search="scientific reports springer nature machine learning record linkage brazilian health databases lightgbm public health informatics sus trauma cidacs-rl explainable machine learning hpv genotyping cin2 cervical intraepithelial neoplasia random forest shap 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Scientific Reports</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">2 Manuscripts • 2026</span>
+    </div>
+    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
+      🏛️ <strong>Publisher:</strong> Springer Nature &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Interdisciplinary & Economics
+    </div>
+    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
+      <em>Topics & Methodology Refereed:</em> (1) Supervised and explainable machine learning classifiers (Random Forest, XGBoost, SVM, kNN) with TreeSHAP and co-occurrence networks for 24-month progression risk prediction from low-grade dysplasia to high-grade cervical intraepithelial neoplasia (CIN2+) in longitudinal HPV genotyping cohorts (2026); (2) Supervised machine learning pipelines based on LightGBM for non-deterministic health record linkage across Brazilian Unified Health System (SUS) administrative databases without unique identifiers (2026).
+    </div>
+    <div style="margin-top: 6px;">
+      <a href="https://www.nature.com/srep/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
+      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
+    </div>
+  </li>
+
+  <!-- 2. Discover Applied Sciences (2025–2026) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-10-28" data-search="discover applied sciences springer nature bayesian logistic regression clinical data applied machine learning omics multi-omics dataset diversity ancestry batch effects reproducibility 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Applied Sciences</span>
@@ -85,7 +103,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 2. Frontiers in Genetics (2026) -->
+  <!-- 3. Frontiers in Genetics (2026) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2026-10-25" data-search="frontiers in genetics computational genomics clinical cancer genomics multi-omics phenotype prediction missing modalities distribution shift uncertainty quantification calibration explainable ai tcga brca luad gbm metabric 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Genetics</span>
@@ -103,7 +121,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 3. Discover Oncology (2026) -->
+  <!-- 4. Discover Oncology (2026) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2026-10-05" data-search="discover oncology springer nature clinical cancer genomics metabolic immune modeling immune checkpoint inhibitor response single-cell rna-seq urothelial hepatocellular colorectal carcinoma 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Oncology</span>
@@ -121,7 +139,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 4. PLOS ONE (2024–2026) -->
+  <!-- 5. PLOS ONE (2024–2026) -->
   <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2026-09-30" data-search="plos one public library of science public health epidemiology machine learning colorectal cancer neoantigen ranking immunoinformatics hepatocellular carcinoma mitotic cell cycle formula feeding nutrition 2024 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">PLOS ONE</span>
@@ -139,23 +157,6 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 5. Scientific Reports (2026) -->
-  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-09-13" data-search="scientific reports springer nature machine learning record linkage brazilian health databases lightgbm public health informatics sus trauma cidacs-rl 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
-    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
-      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Scientific Reports</span>
-      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">1 Manuscript • 2026</span>
-    </div>
-    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
-      🏛️ <strong>Publisher:</strong> Springer Nature &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Interdisciplinary & Economics
-    </div>
-    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
-      <em>Topics & Methodology Refereed:</em> Supervised machine learning pipelines based on LightGBM for non-deterministic health record linkage across Brazilian Unified Health System (SUS) administrative databases (SIM, SIH-SUS, Sinan, e-SUS VS) without unique identifiers, benchmarking against CIDACS-RL, evaluating blocking reduction ratios, class imbalance, and paired classification inference.
-    </div>
-    <div style="margin-top: 6px;">
-      <a href="https://www.nature.com/srep/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
-      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
-    </div>
-  </li>
 
   <!-- 6. Organizations and Markets in Emerging Economies (2020–2026) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-09-13" data-search="organizations and markets in emerging economies omee vilnius university press double materiality esg disclosure b3 brazil llm-rag stock market liquidity volatility oil price shocks gold bitcoin trading volume covid-19 2020 2021 2022 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
