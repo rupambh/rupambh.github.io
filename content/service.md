@@ -5,7 +5,7 @@ draft: false
 hidemeta: true
 ---
 
-A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 40 manuscript review records across 26 distinct international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
+A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 46 verified review rounds across 40 distinct manuscripts and 26 international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 20px 0 30px 0;">
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
@@ -17,7 +17,7 @@ A verified catalog of my **referee service, departmental governance appointments
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Manuscripts Refereed</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">43</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">46</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Verified Review Rounds</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
@@ -68,7 +68,7 @@ A verified catalog of my **referee service, departmental governance appointments
 <ul id="masterJournalList" style="margin-top: 15px; margin-bottom: 45px;">
 
   <!-- 1. Scientific Reports (2026) -->
-  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-10-28" data-search="scientific reports springer nature machine learning record linkage brazilian health databases lightgbm public health informatics sus trauma cidacs-rl explainable machine learning hpv genotyping cin2 cervical intraepithelial neoplasia random forest shap 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-11-04" data-search="scientific reports springer nature machine learning record linkage brazilian health databases lightgbm public health informatics sus trauma cidacs-rl explainable machine learning hpv genotyping cin2 cervical intraepithelial neoplasia random forest shap 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Scientific Reports</span>
       <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">2 Manuscripts • 2026</span>
@@ -85,7 +85,25 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 2. Discover Applied Sciences (2025–2026) -->
+  <!-- 2. Discover Oncology (2026) -->
+  <li class="journal-entry" data-domain="genomics" data-last-reviewed="2026-11-04" data-search="discover oncology springer nature clinical cancer genomics metabolic immune modeling immune checkpoint inhibitor response single-cell rna-seq urothelial hepatocellular colorectal carcinoma nested cross-validation permutation revision round 2 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Oncology</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">2 Review Rounds (Original & Revision) • 2026</span>
+    </div>
+    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
+      🏛️ <strong>Publisher:</strong> Springer Nature &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Clinical & Cancer Genomics
+    </div>
+    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
+      <em>Topics & Methodology Refereed:</em> Multi-round review (Original R1 + Revision R2, 2026) of cancer-context-aware metabolic and immune transcriptomic prognostic modeling (MetaScore, ImmuneScore, JointScore) for immune checkpoint inhibitor response across urothelial, hepatocellular, and colorectal carcinomas, evaluating patient-level nested cross-validation, 199-permutation full-pipeline audits, single-cell localization, pharmacogenomic sensitivity, and statistical replication audits of functional knockdown assays.
+    </div>
+    <div style="margin-top: 6px;">
+      <a href="https://link.springer.com/journal/12672" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
+      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
+    </div>
+  </li>
+
+  <!-- 3. Discover Applied Sciences (2025–2026) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-10-28" data-search="discover applied sciences springer nature bayesian logistic regression clinical data applied machine learning omics multi-omics dataset diversity ancestry batch effects reproducibility 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Applied Sciences</span>
@@ -103,7 +121,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 3. Frontiers in Genetics (2026) -->
+  <!-- 4. Frontiers in Genetics (2026) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2026-10-25" data-search="frontiers in genetics computational genomics clinical cancer genomics multi-omics phenotype prediction missing modalities distribution shift uncertainty quantification calibration explainable ai tcga brca luad gbm metabric 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Genetics</span>
@@ -121,35 +139,17 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 4. Discover Oncology (2026) -->
-  <li class="journal-entry" data-domain="genomics" data-last-reviewed="2026-10-05" data-search="discover oncology springer nature clinical cancer genomics metabolic immune modeling immune checkpoint inhibitor response single-cell rna-seq urothelial hepatocellular colorectal carcinoma 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
-    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
-      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Oncology</span>
-      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">1 Manuscript • 2026</span>
-    </div>
-    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
-      🏛️ <strong>Publisher:</strong> Springer Nature &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Clinical & Cancer Genomics
-    </div>
-    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
-      <em>Topics & Methodology Refereed:</em> Cancer-context-aware metabolic and immune transcriptomic prognostic modeling (MetaScore, ImmuneScore, JointScore) for immune checkpoint inhibitor response across urothelial, hepatocellular, and colorectal carcinomas, evaluating multi-algorithm screening, nested resampling and permutation audits, single-cell localization, pharmacogenomic sensitivity, and functional knockdown assays (2026).
-    </div>
-    <div style="margin-top: 6px;">
-      <a href="https://link.springer.com/journal/12672" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
-      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
-    </div>
-  </li>
-
   <!-- 5. PLOS ONE (2024–2026) -->
-  <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2026-09-30" data-search="plos one public library of science public health epidemiology machine learning colorectal cancer neoantigen ranking immunoinformatics hepatocellular carcinoma mitotic cell cycle formula feeding nutrition 2024 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2026-09-30" data-search="plos one public library of science public health epidemiology machine learning colorectal cancer neoantigen ranking immunoinformatics hepatocellular carcinoma mitotic cell cycle formula feeding nutrition sub-saharan africa multilevel demographic health survey revision round 2 2024 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">PLOS ONE</span>
-      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">3 Manuscripts (4 Review Rounds) • 2024–2026</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">3 Manuscripts (5 Review Rounds) • 2024–2026</span>
     </div>
     <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
       🏛️ <strong>Publisher:</strong> Public Library of Science &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Public Health & Epidemiology
     </div>
     <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
-      <em>Topics & Methodology Refereed:</em> (1) Statistical and immunoinformatics evaluation of neoantigen candidate prioritization and ranking frameworks in colorectal cancer (2026); (2) Multi-round peer review of machine learning feature selection for mitotic cell cycle prognostic gene panels in HCC (Original R1 + Revision R2, 2025); (3) Statistical survey evaluation of maternal formula feeding determinants (2024).
+      <em>Topics & Methodology Refereed:</em> (1) Statistical and immunoinformatics evaluation of neoantigen candidate prioritization and ranking frameworks in colorectal cancer (2026); (2) Multi-round peer review of machine learning feature selection for mitotic cell cycle prognostic gene panels in HCC (Original R1 + Revision R2, 2025); (3) Multi-round multilevel survey analysis of maternal formula feeding determinants across six Sub-Saharan African countries (Original R1 + Revision R2, 2024).
     </div>
     <div style="margin-top: 6px;">
       <a href="https://journals.plos.org/plosone/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
@@ -159,16 +159,16 @@ A verified catalog of my **referee service, departmental governance appointments
 
 
   <!-- 6. Organizations and Markets in Emerging Economies (2020–2026) -->
-  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-09-13" data-search="organizations and markets in emerging economies omee vilnius university press double materiality esg disclosure b3 brazil llm-rag stock market liquidity volatility oil price shocks gold bitcoin trading volume covid-19 2020 2021 2022 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-09-13" data-search="organizations and markets in emerging economies omee vilnius university press double materiality esg disclosure b3 brazil llm-rag stock market liquidity volatility oil price shocks gold bitcoin trading volume sri-kehati indonesia saudi arabia granger causality return asymmetry covid-19 revision round 2 2020 2021 2022 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Organizations and Markets in Emerging Economies (OMEE)</span>
-      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">6 Manuscripts • 2020–2026</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">6 Manuscripts (7 Review Rounds) • 2020–2026</span>
     </div>
     <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
       🏛️ <strong>Publisher:</strong> Vilnius University Press &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Interdisciplinary & Economics
     </div>
     <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
-      <em>Topics & Methodology Refereed:</em> Econometric time-series, volatility modeling, and corporate disclosure analysis across six studies: (1) Double materiality matrix evaluation and ESG disclosure analysis in emerging capital markets (B3 Brazil) using LLM-RAG pipelines (2026); (2) Vector autoregression and spillover dynamics between crude oil shocks, equities, gold, and cryptocurrency in India (2026); (3–4) Liquidity and market resilience during macroeconomic stress (2022); (5) Microstructure trading volume and return asymmetry (2021); (6) Sectoral asset return dynamics during early pandemic shocks (2020).
+      <em>Topics & Methodology Refereed:</em> Econometric time-series, volatility modeling, and corporate disclosure analysis across six studies (seven verified review rounds): (1) Double materiality matrix evaluation and ESG disclosure analysis in emerging capital markets (B3 Brazil) using LLM-RAG pipelines (2026); (2) Vector autoregression and spillover dynamics between crude oil shocks, equities, gold, and cryptocurrency in India (2026); (3) Stock market liquidity and market efficiency evaluation in an emerging economy (2022); (4) Vector autoregression and Granger causality analysis of trading volume and market returns in Saudi Arabia (2021); (5) Non-financial information disclosure and firm value on the Indonesian Stock Exchange Sri-Kehati Index (2021); (6) Multi-round sectoral analysis of Indian stock market vulnerability and resilience during COVID-19 (Original R1 2020 + Revision R2 2021).
     </div>
     <div style="margin-top: 6px;">
       <a href="https://www.journals.vu.lt/omee" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
@@ -478,7 +478,8 @@ A verified catalog of my **referee service, departmental governance appointments
       <em>Topics & Methodology Refereed:</em> Impact assessment of community-based doula programs on maternal health equity, perinatal psychological resilience, and infant wellbeing.
     </div>
     <div style="margin-top: 6px;">
-      <a href="https://journals.publishing.umich.edu/ujph/" target="_blank" style="font-size: 0.84em; font-weight: bold;">📖 Journal Profile ↗</a>
+      <a href="https://journals.publishing.umich.edu/ujph/" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
+      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
     </div>
   </li>
 
