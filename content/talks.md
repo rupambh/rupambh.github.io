@@ -5,7 +5,7 @@ draft: false
 hidemeta: true
 ---
 
-A comprehensive catalog of my **42 academic presentations, invited seminars, contributed talks, and conference posters** (2019–2026).
+A comprehensive catalog of my **41 academic presentations, invited seminars, contributed talks, and conference posters** (2019–2026).
 
 <div style="font-size: 0.88em; color: var(--secondary); margin: 12px 0 20px 0;">
   <em>Teal titles denote invited keynotes and seminars.</em>
@@ -16,44 +16,44 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   
   <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
     <span style="font-size: 0.85em; font-weight: bold; color: var(--secondary); margin-right: 4px;">Category:</span>
-    <button class="filter-btn" data-filter-type="cat" data-filter-val="all">All (42)</button>
+    <button class="filter-btn" data-filter-type="cat" data-filter-val="all">All (41)</button>
     <button class="filter-btn active" data-filter-type="cat" data-filter-val="invited">Invited (12)</button>
-    <button class="filter-btn" data-filter-type="cat" data-filter-val="contributed">Contributed (30)</button>
+    <button class="filter-btn" data-filter-type="cat" data-filter-val="contributed">Contributed (29)</button>
   </div>
   
   <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px;">
     <span style="font-size: 0.85em; font-weight: bold; color: var(--secondary); margin-right: 4px;">Status:</span>
-    <button class="filter-btn active" data-filter-type="status" data-filter-val="all">All (42)</button>
+    <button class="filter-btn active" data-filter-type="status" data-filter-val="all">All (41)</button>
     <button class="filter-btn" data-filter-type="status" data-filter-val="presented">Personally Presented (39)</button>
-    <button class="filter-btn" data-filter-type="status" data-filter-val="selected">Selected (Did Not Present) (3)</button>
-    <button class="filter-btn" data-filter-type="status" data-filter-val="awards_only">🏆 Award Winning (16)</button>
+    <button class="filter-btn" data-filter-type="status" data-filter-val="selected">Selected (Did Not Present) (2)</button>
+    <button class="filter-btn" data-filter-type="status" data-filter-val="awards_only">🏆 Award Winning (15)</button>
   </div>
   
   <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px;">
     <span style="font-size: 0.85em; font-weight: bold; color: var(--secondary); margin-right: 4px;">Forum Type:</span>
-    <button class="filter-btn active" data-filter-type="forum" data-filter-val="all">All Forums (42)</button>
+    <button class="filter-btn active" data-filter-type="forum" data-filter-val="all">All Forums (41)</button>
     <button class="filter-btn" data-filter-type="forum" data-filter-val="statistics">Statistics (14)</button>
-    <button class="filter-btn" data-filter-type="forum" data-filter-val="datascience">Data Science (12)</button>
+    <button class="filter-btn" data-filter-type="forum" data-filter-val="datascience">Data Science (11)</button>
     <button class="filter-btn" data-filter-type="forum" data-filter-val="biostatistics">Biostatistics (8)</button>
     <button class="filter-btn" data-filter-type="forum" data-filter-val="biomedical">Biomedical (8)</button>
   </div>
   
   <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px;">
     <span style="font-size: 0.85em; font-weight: bold; color: var(--secondary); margin-right: 4px;">Research Project:</span>
-    <button class="filter-btn active" data-filter-type="paper" data-filter-val="all">All Projects (42)</button>
+    <button class="filter-btn active" data-filter-type="paper" data-filter-val="all">All Projects (41)</button>
     <button class="filter-btn" data-filter-type="paper" data-filter-val="gpvibes">GPVIBES (1)</button>
-    <button class="filter-btn" data-filter-type="paper" data-filter-val="fibag">fiBAG / JASA 2024 (15)</button>
+    <button class="filter-btn" data-filter-type="paper" data-filter-val="fibag">fiBAG / JASA 2024 (14)</button>
     <button class="filter-btn" data-filter-type="paper" data-filter-val="baysyn">BaySyn / PSB 2023 (6)</button>
     <button class="filter-btn" data-filter-type="paper" data-filter-val="covid">COVID-19 Resilience (8)</button>
     <button class="filter-btn" data-filter-type="paper" data-filter-val="transprecise">TransPRECISE / JCO 2020 (12)</button>
   </div>
 </div>
 
-<div id="talksCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 12 of 42 presentations</div>
+<div id="talksCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 12 of 41 presentations</div>
 
 <ul id="masterTalksList" style="list-style: none; padding-left: 0; margin-top: 15px;">
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="gpvibes" data-search="gpvibes: bayesian gaussian process-based varying coefficient models for incorporating tumor heterogeneity in clinicogenomic studies international indian statistical association annual conference (iisa 2026) banaras hindu university, varanasi, india december 2026 gpvibes: bayesian gaussian process-based varying coefficient models for incorporating tumor heterogeneity in clinicogenomic studies (in prep) invited statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">42. International Indian Statistical Association Annual Conference (IISA 2026)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">41. International Indian Statistical Association Annual Conference (IISA 2026)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>GPVIBES: Bayesian Gaussian Process-based Varying Coefficient Models for Incorporating Tumor Heterogeneity in Clinicogenomic Studies</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>December 2026</strong> &nbsp;•&nbsp; 📍 Banaras Hindu University, Varanasi, India &nbsp;•&nbsp; 🏷️ <strong>Invited Talk</strong> (Statistics)
@@ -65,7 +65,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="margin-top: 6px;"><a href="https://bayesrx.shinyapps.io/GPVIBES/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="selected" data-has-award="false" data-forum="datascience" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform clinicogenomic data international conference on artificial intelligence and statistics (aistats 2026) tangier, morocco may 2026 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed data science none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">41. International Conference on Artificial Intelligence and Statistics (AISTATS 2026)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">40. International Conference on Artificial Intelligence and Statistics (AISTATS 2026)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>Functional Integrative Bayesian Analysis of High-Dimensional Multiplatform Clinicogenomic Data</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>May 2026</strong> &nbsp;•&nbsp; 📍 Tangier, Morocco &nbsp;•&nbsp; 🏷️ <strong>Contributed Poster</strong> (Data Science) &nbsp;•&nbsp; <span style="font-size: 0.8em; color: var(--secondary); background: var(--border); padding: 2px 7px; border-radius: 4px; font-weight: 600;">Selected (Did Not Present)</span>
@@ -77,7 +77,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry first-author-pub" data-cat="invited" data-status="presented" data-has-award="false" data-forum="biostatistics" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform clinicogenomic data international biometric conference (ibc 2024) atlanta, ga, usa december 2024 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) invited biostatistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">40. International Biometric Conference (IBC 2024)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">39. International Biometric Conference (IBC 2024)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>Functional Integrative Bayesian Analysis of High-dimensional Multiplatform Clinicogenomic Data</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>December 2024</strong> &nbsp;•&nbsp; 📍 Atlanta, GA, USA &nbsp;•&nbsp; 🏷️ <strong>Invited Talk</strong> (Biostatistics)
@@ -89,7 +89,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="selected" data-has-award="false" data-forum="statistics" data-paper="baysyn" data-search="baysyn: bayesian evidence synthesis for multi-system multiomic integration joint statistical meetings (jsm 2023) toronto, on, canada august 2023 baysyn: bayesian evidence synthesis for multi-system multiomic integration (psb 2023) contributed statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">39. Joint Statistical Meetings (JSM 2023)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">38. Joint Statistical Meetings (JSM 2023)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>BaySyn: Bayesian Evidence Synthesis for Multi-system Multiomic Integration</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>August 2023</strong> &nbsp;•&nbsp; 📍 Toronto, ON, Canada &nbsp;•&nbsp; 🏷️ <strong>Contributed Talk</strong> (Statistics) &nbsp;•&nbsp; <span style="font-size: 0.8em; color: var(--secondary); background: var(--border); padding: 2px 7px; border-radius: 4px; font-weight: 600;">Selected (Did Not Present)</span>
@@ -101,7 +101,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1142/9789811270611_0026" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/BaySyn/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="biostatistics" data-paper="fibag" data-search="fibag: functional integrative bayesian analysis of high-dimensional multiplatform genomic data university of michigan biostatistics senior phd student research showcase symposium (spsrss 2023) university of michigan, ann arbor, mi, usa may 2023 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed biostatistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">38. University of Michigan Biostatistics Senior PhD Student Research Showcase Symposium (SPSRSS 2023)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">37. University of Michigan Biostatistics Senior PhD Student Research Showcase Symposium (SPSRSS 2023)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>fiBAG: Functional Integrative Bayesian Analysis of High-Dimensional Multiplatform Genomic Data</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>May 2023</strong> &nbsp;•&nbsp; 📍 University of Michigan, Ann Arbor, MI, USA &nbsp;•&nbsp; 🏷️ <strong>Contributed Talk</strong> (Biostatistics)
@@ -113,7 +113,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="statistics" data-paper="baysyn" data-search="baysyn: bayesian evidence synthesis for multi-system multiomic integration michigan student symposium for interdisciplinary statistical sciences (mssiss 2023) university of michigan, ann arbor, mi, usa april 2023 baysyn: bayesian evidence synthesis for multi-system multiomic integration (psb 2023) contributed statistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">37. Michigan Student Symposium for Interdisciplinary Statistical Sciences (MSSISS 2023)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">36. Michigan Student Symposium for Interdisciplinary Statistical Sciences (MSSISS 2023)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>BaySyn: Bayesian Evidence Synthesis for Multi-system Multiomic Integration</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>April 2023</strong> &nbsp;•&nbsp; 📍 University of Michigan, Ann Arbor, MI, USA &nbsp;•&nbsp; 🏷️ <strong>Contributed Speed Talk, Poster</strong> (Statistics)
@@ -125,7 +125,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1142/9789811270611_0026" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/BaySyn/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="biostatistics" data-paper="baysyn" data-search="baysyn: bayesian evidence synthesis for multi-system multiomic integration eastern north american region international biometric society spring meeting (enar 2023) nashville, tn, usa march 2023 baysyn: bayesian evidence synthesis for multi-system multiomic integration (psb 2023) contributed biostatistics none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">36. Eastern North American Region International Biometric Society Spring Meeting (ENAR 2023)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">35. Eastern North American Region International Biometric Society Spring Meeting (ENAR 2023)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>BaySyn: Bayesian Evidence Synthesis for Multi-system Multiomic Integration</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>March 2023</strong> &nbsp;•&nbsp; 📍 Nashville, TN, USA &nbsp;•&nbsp; 🏷️ <strong>Contributed Talk</strong> (Biostatistics)
@@ -137,7 +137,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1142/9789811270611_0026" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/BaySyn/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="biostatistics" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform genomic data advances in statistical and computational methods for analysis of biomedical, genetic, and omics data conference (abgod 2023) ut southwestern medical center, dallas, tx, usa march 2023 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed biostatistics travel award – national science foundation (nsf)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">35. Advances in Statistical and Computational Methods for Analysis of Biomedical, Genetic, and Omics Data Conference (ABGOD 2023)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">34. Advances in Statistical and Computational Methods for Analysis of Biomedical, Genetic, and Omics Data Conference (ABGOD 2023)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>Functional Integrative Bayesian Analysis of High-Dimensional Multiplatform Genomic Data</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>March 2023</strong> &nbsp;•&nbsp; 📍 UT Southwestern Medical Center, Dallas, TX, USA &nbsp;•&nbsp; 🏷️ <strong>Contributed Poster</strong> (Biostatistics)
@@ -149,7 +149,7 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="true" data-forum="biomedical" data-paper="baysyn" data-search="baysyn: bayesian evidence synthesis for multi-system multiomic integration pacific symposium on biocomputing (psb 2023) big island, hi, usa january 2023 baysyn: bayesian evidence synthesis for multi-system multiomic integration (psb 2023) contributed biomedical travel award – national library of medicine / national institutes of health (nlm/nih)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">34. Pacific Symposium on Biocomputing (PSB 2023)</div>
+  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">33. Pacific Symposium on Biocomputing (PSB 2023)</div>
   <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>BaySyn: Bayesian Evidence Synthesis for Multi-System Multiomic Integration</em></div>
   <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
     📅 <strong>January 2023</strong> &nbsp;•&nbsp; 📍 Big Island, HI, USA &nbsp;•&nbsp; 🏷️ <strong>Contributed Talk</strong> (Biomedical)
@@ -159,18 +159,6 @@ A comprehensive catalog of my **42 academic presentations, invited seminars, con
   </div>
   <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – National Library of Medicine / National Institutes of Health (NLM/NIH)</div>
   <div style="margin-top: 6px;"><a href="https://doi.org/10.1142/9789811270611_0026" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/BaySyn/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
-</li>
-<li class="talk-entry " data-cat="contributed" data-status="selected" data-has-award="true" data-forum="datascience" data-paper="fibag" data-search="functional integrative bayesian analysis of high-dimensional multiplatform clinicogenomic data international conference on statistics and data science (icsds 2022) virtual (university of florence, florence, italy) december 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed data science travel award – international conference on statistics and data science (icsds)" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
-  <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">33. International Conference on Statistics and Data Science (ICSDS 2022)</div>
-  <div style="font-size: 1.05em; font-weight: bold; color: var(--primary); margin-bottom: 5px; line-height: 1.35;"><em>Functional Integrative Bayesian Analysis of High-Dimensional Multiplatform Clinicogenomic Data</em></div>
-  <div style="font-size: 0.88em; color: var(--secondary); margin-bottom: 5px;">
-    📅 <strong>December 2022</strong> &nbsp;•&nbsp; 📍 Virtual (University of Florence, Florence, Italy) &nbsp;•&nbsp; 🏷️ <strong>Contributed Poster</strong> (Data Science) &nbsp;•&nbsp; <span style="font-size: 0.8em; color: var(--secondary); background: var(--border); padding: 2px 7px; border-radius: 4px; font-weight: 600;">Selected (Did Not Present)</span>
-  </div>
-  <div style="font-size: 0.88em; color: var(--primary);">
-    🔗 <strong>Project:</strong> <em>Functional integrative Bayesian analysis of high-dimensional multiplatform genomic data (JASA 2024)</em>
-  </div>
-  <div style="margin-top: 6px; font-size: 0.88em;">🏆 <strong style="color: var(--accent-award); font-weight: 700;">Award Won:</strong> Travel Award – International Conference on Statistics and Data Science (ICSDS)</div>
-  <div style="margin-top: 6px;"><a href="https://doi.org/10.1080/01621459.2024.2388909" target="_blank" style="font-size: 0.85em; font-weight: bold; margin-right: 15px;">📄 Associated Publication</a> <a href="https://bayesrx.shinyapps.io/fiBAG/" target="_blank" style="font-size: 0.85em; font-weight: bold;">🚀 R Shiny Dashboard</a></div>
 </li>
 <li class="talk-entry " data-cat="contributed" data-status="presented" data-has-award="false" data-forum="biomedical" data-paper="fibag" data-search="fibag: functional integrative bayesian analysis of high-dimensional multiplatform genomic data michigan postdoctoral pioneer program symposium (mp3 2022) university of michigan, ann arbor, mi, usa october 2022 functional integrative bayesian analysis of high-dimensional multiplatform genomic data (jasa 2024) contributed biomedical none" style="margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid var(--border);">
   <div style="font-size: 0.9em; font-weight: bold; color: var(--accent-teal); margin-bottom: 3px;">32. Michigan Postdoctoral Pioneer Program Symposium (MP3 2022)</div>

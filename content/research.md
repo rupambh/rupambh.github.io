@@ -187,5 +187,5 @@ For a complete bibliography, please refer to my [Google Scholar profile](https:/
 ---
 
 <div style="padding: 12px 15px; border-left: 4px solid var(--accent-primary); background-color: var(--code-bg); margin: 1.5em 0; border-radius: 4px; font-size: 0.95em;">
-  🎤 <strong>Conference Presentations:</strong> For a complete catalog of all 42 invited keynotes, seminars, contributed talks, and poster sessions, visit the <strong><a href="/talks/">Talks & Presentations</a></strong> page.
+  🎤 <strong>Conference Presentations:</strong> For a complete catalog of all 41 invited keynotes, seminars, contributed talks, and poster sessions, visit the <strong><a href="/talks/">Talks & Presentations</a></strong> page.
 </div>
