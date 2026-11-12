@@ -1,5 +1,4 @@
 # Hugo default folders
-/public
 /resources
 /_vendor
 .hugo_build.lock
