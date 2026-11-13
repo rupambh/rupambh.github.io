@@ -5,19 +5,19 @@ draft: false
 hidemeta: true
 ---
 
-A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 46 verified review rounds across 40 distinct manuscripts and 26 international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
+A verified catalog of my **referee service, departmental governance appointments, and conference leadership activities** (2018–2026). All 47 verified review rounds across 41 distinct manuscripts and 27 international journals are certified on [Web of Science (ResearcherID: ISS-5028-2023)](https://www.webofscience.com/wos/author/record/ISS-5028-2023).
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 20px 0 30px 0;">
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">26</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">27</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Peer-Reviewed Journals</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">40</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">41</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Manuscripts Refereed</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
-    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">46</div>
+    <div style="font-size: 1.8em; font-weight: bold; color: var(--accent-teal); line-height: 1.2;">47</div>
     <div style="font-size: 0.85em; color: var(--secondary); margin-top: 4px; font-weight: 600;">Verified Review Rounds</div>
   </div>
   <div style="background: var(--entry); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; text-align: center;">
@@ -33,7 +33,7 @@ A verified catalog of my **referee service, departmental governance appointments
 ## 📖 Academic Journal Peer Review
 
 <p style="color: var(--secondary); margin-top: -8px; margin-bottom: 18px; font-size: 0.95em;">
-  Invited referee service across 26 peer-reviewed journals, organized into four primary disciplinary clusters:
+  Invited referee service across 27 peer-reviewed journals, organized into four primary disciplinary clusters:
 </p>
 
 <div class="filter-container" style="margin-bottom: 25px; padding: 18px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--entry);">
@@ -44,12 +44,12 @@ A verified catalog of my **referee service, departmental governance appointments
     <button class="filter-btn active" data-domain="methodology">Statistical Methodology (5)</button>
     <button class="filter-btn" data-domain="genomics">Clinical & Cancer Genomics (8)</button>
     <button class="filter-btn" data-domain="pubhealth">Public Health & Epidemiology (6)</button>
-    <button class="filter-btn" data-domain="interdisciplinary">Interdisciplinary & Economics (7)</button>
-    <button class="filter-btn" data-domain="all">All Journals (26)</button>
+    <button class="filter-btn" data-domain="interdisciplinary">Interdisciplinary & Economics (8)</button>
+    <button class="filter-btn" data-domain="all">All Journals (27)</button>
   </div>
 </div>
 
-<div id="journalCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 5 of 26 journals</div>
+<div id="journalCountHeader" style="font-size: 0.9em; font-weight: bold; color: var(--secondary); margin-bottom: 20px;">Showing 5 of 27 journals</div>
 
 <style>
   #masterJournalList {
@@ -67,7 +67,25 @@ A verified catalog of my **referee service, departmental governance appointments
 
 <ul id="masterJournalList" style="margin-top: 15px; margin-bottom: 45px;">
 
-  <!-- 1. Scientific Reports (2026) -->
+  <!-- 1. Discover Artificial Intelligence (2026) -->
+  <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-11-13" data-search="discover artificial intelligence springer nature factorial cohort selection electronic health records ehr mortality prediction probability calibration algorithmic fairness demographic parity equality of opportunity equalized odds logistic regression random forest gradient boosting 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
+      <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Artificial Intelligence</span>
+      <span style="font-size: 0.82em; color: var(--secondary); background: var(--border); padding: 2px 8px; border-radius: 4px; font-weight: 600;">1 Manuscript • 2026</span>
+    </div>
+    <div style="font-size: 0.88em; color: var(--secondary); margin: 4px 0;">
+      🏛️ <strong>Publisher:</strong> Springer Nature &nbsp;•&nbsp; 🔬 <strong>Domain:</strong> Interdisciplinary & Economics
+    </div>
+    <div style="font-size: 0.9em; color: var(--primary); line-height: 1.45;">
+      <em>Topics & Methodology Refereed:</em> Factorial cohort-construction sensitivity, probability calibration, and subgroup algorithmic fairness evaluation (Demographic Parity, Equality of Opportunity, Equalized Odds) for 48-hour landmark in-hospital mortality prediction using regularized logistic regression and tree-based ensembles across multi-institutional electronic health record cohorts (2026).
+    </div>
+    <div style="margin-top: 6px;">
+      <a href="https://link.springer.com/journal/44163" target="_blank" style="font-size: 0.84em; font-weight: bold; margin-right: 14px;">📖 Journal Profile ↗</a>
+      <a href="https://www.webofscience.com/wos/author/record/ISS-5028-2023" target="_blank" style="font-size: 0.84em; font-weight: bold;">✅ Web of Science Certified</a>
+    </div>
+  </li>
+
+  <!-- 2. Scientific Reports (2026) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-11-04" data-search="scientific reports springer nature machine learning record linkage brazilian health databases lightgbm public health informatics sus trauma cidacs-rl explainable machine learning hpv genotyping cin2 cervical intraepithelial neoplasia random forest shap 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Scientific Reports</span>
@@ -85,7 +103,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 2. Discover Oncology (2026) -->
+  <!-- 3. Discover Oncology (2026) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2026-11-04" data-search="discover oncology springer nature clinical cancer genomics metabolic immune modeling immune checkpoint inhibitor response single-cell rna-seq urothelial hepatocellular colorectal carcinoma nested cross-validation permutation revision round 2 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Oncology</span>
@@ -103,7 +121,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 3. Discover Applied Sciences (2025–2026) -->
+  <!-- 4. Discover Applied Sciences (2025–2026) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-10-28" data-search="discover applied sciences springer nature bayesian logistic regression clinical data applied machine learning omics multi-omics dataset diversity ancestry batch effects reproducibility 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Applied Sciences</span>
@@ -121,7 +139,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 4. Frontiers in Genetics (2026) -->
+  <!-- 5. Frontiers in Genetics (2026) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2026-10-25" data-search="frontiers in genetics computational genomics clinical cancer genomics multi-omics phenotype prediction missing modalities distribution shift uncertainty quantification calibration explainable ai tcga brca luad gbm metabric 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Genetics</span>
@@ -139,7 +157,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 5. PLOS ONE (2024–2026) -->
+  <!-- 6. PLOS ONE (2024–2026) -->
   <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2026-09-30" data-search="plos one public library of science public health epidemiology machine learning colorectal cancer neoantigen ranking immunoinformatics hepatocellular carcinoma mitotic cell cycle formula feeding nutrition sub-saharan africa multilevel demographic health survey revision round 2 2024 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">PLOS ONE</span>
@@ -158,7 +176,7 @@ A verified catalog of my **referee service, departmental governance appointments
   </li>
 
 
-  <!-- 6. Organizations and Markets in Emerging Economies (2020–2026) -->
+  <!-- 7. Organizations and Markets in Emerging Economies (2020–2026) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-09-13" data-search="organizations and markets in emerging economies omee vilnius university press double materiality esg disclosure b3 brazil llm-rag stock market liquidity volatility oil price shocks gold bitcoin trading volume sri-kehati indonesia saudi arabia granger causality return asymmetry covid-19 revision round 2 2020 2021 2022 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Organizations and Markets in Emerging Economies (OMEE)</span>
@@ -176,7 +194,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 7. Discover Social Science and Health (2026) -->
+  <!-- 8. Discover Social Science and Health (2026) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-03-03" data-search="discover social science and health springer nature spatial temporal population factors testing rates toronto revision round 2 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Discover Social Science and Health</span>
@@ -194,7 +212,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 8. npj Complexity (2026) -->
+  <!-- 9. npj Complexity (2026) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2026-03-01" data-search="npj complexity nature springer nature dynamic demographic projections multimorbidity mortality preventive interventions 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">npj Complexity</span>
@@ -212,7 +230,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 9. BMJ Open (2025–2026) -->
+  <!-- 10. BMJ Open (2025–2026) -->
   <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2026-02-09" data-search="bmj open bmj publishing group public health epidemiology bayesian modelling adolescent fertility interrupted time series measles covid-19 2025 2026" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">BMJ Open</span>
@@ -230,7 +248,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 10. International Journal of Computational Intelligence Systems (2025) -->
+  <!-- 11. International Journal of Computational Intelligence Systems (2025) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2025-10-08" data-search="international journal of computational intelligence systems ijcis atlantis press springer nature federated adaptive epidemiological learning fael ai framework 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">International Journal of Computational Intelligence Systems (IJCIS)</span>
@@ -248,7 +266,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 11. Frontiers in Oncology (2025) -->
+  <!-- 12. Frontiers in Oncology (2025) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2025-09-24" data-search="frontiers in oncology cancer genomics whole exome sequencing wes melanoma bioinformatics 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Oncology</span>
@@ -267,7 +285,7 @@ A verified catalog of my **referee service, departmental governance appointments
   </li>
 
 
-  <!-- 12. Frontiers in Molecular Biosciences (2025) -->
+  <!-- 13. Frontiers in Molecular Biosciences (2025) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2025-06-02" data-search="frontiers in molecular biosciences cancer genomics multimodal data machine learning metastatic prostate cancer therapy response 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Molecular Biosciences</span>
@@ -285,7 +303,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 13. Biometrics (2025) -->
+  <!-- 14. Biometrics (2025) -->
   <li class="journal-entry" data-domain="methodology" data-last-reviewed="2025-04-29" data-search="biometrics wiley international biometric society ibs statistical methodology state space models feedback switching clinical measurements covid-19 revision round 2 2025" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Biometrics</span>
@@ -303,7 +321,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 14. Clinical and Translational Medicine (2023) -->
+  <!-- 15. Clinical and Translational Medicine (2023) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2023-12-14" data-search="clinical and translational medicine ctm wiley cancer genomics proteomic landscape ovarian cancer predictive biomarker modeling parp inhibitors 2023" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Clinical and Translational Medicine (CTM)</span>
@@ -321,7 +339,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 15. Journal of Computational and Graphical Statistics (2023) -->
+  <!-- 16. Journal of Computational and Graphical Statistics (2023) -->
   <li class="journal-entry" data-domain="methodology" data-last-reviewed="2023-06-05" data-search="journal of computational and graphical statistics jcgs taylor francis american statistical association asa statistical methodology high-dimensional network estimation precision matrix bayesian graphical ridge 2023" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Journal of Computational and Graphical Statistics (JCGS)</span>
@@ -339,7 +357,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 16. Communications Biology (2023) -->
+  <!-- 17. Communications Biology (2023) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2023-02-27" data-search="communications biology nature springer nature cancer genomics pan-cancer cell line screening pharmacogenomics preclinical models 2023" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Communications Biology</span>
@@ -357,7 +375,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 17. Journal of Agricultural, Biological, and Environmental Statistics (2022) -->
+  <!-- 18. Journal of Agricultural, Biological, and Environmental Statistics (2022) -->
   <li class="journal-entry" data-domain="methodology" data-last-reviewed="2022-11-28" data-search="journal of agricultural biological and environmental statistics jabes springer american statistical association asa ibs statistical methodology unbiased estimator case fatality rate asymptotic properties covid-19 argentina 2022" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Journal of Agricultural, Biological, and Environmental Statistics (JABES)</span>
@@ -375,7 +393,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 18. Biostatistics (2021) -->
+  <!-- 19. Biostatistics (2021) -->
   <li class="journal-entry" data-domain="methodology" data-last-reviewed="2021-09-27" data-search="biostatistics oxford university press oup statistical methodology multi-level statistical models pharmacogenomics cell sensitivity drug response 2021" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Biostatistics</span>
@@ -393,7 +411,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 19. JAMA Network Open (2020–2021) -->
+  <!-- 20. JAMA Network Open (2020–2021) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2021-05-01" data-search="jama network open jno american medical association ama cancer clinical epidemiology hiv hepatocellular carcinoma sars-cov-2 testing sinusitis 2020 2021" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">JAMA Network Open (JNO)</span>
@@ -411,7 +429,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 20. Frontiers in Psychology (2021) -->
+  <!-- 21. Frontiers in Psychology (2021) -->
   <li class="journal-entry" data-domain="interdisciplinary" data-last-reviewed="2021-04-02" data-search="frontiers in psychology financial well-being social innovation food security sociodemographic factors physical activity 2021" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Psychology</span>
@@ -429,7 +447,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 21. Spatial and Spatio-temporal Epidemiology (2021) -->
+  <!-- 22. Spatial and Spatio-temporal Epidemiology (2021) -->
   <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2021-03-18" data-search="spatial and spatio-temporal epidemiology sste elsevier public health covid-19 multi-parametric disease dynamics forecasting india state-level 2021" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Spatial and Spatio-temporal Epidemiology (SSTE)</span>
@@ -447,7 +465,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 22. Frontiers in Sports and Active Living (2021) -->
+  <!-- 23. Frontiers in Sports and Active Living (2021) -->
   <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2021-01-05" data-search="frontiers in sports and active living public health physical activity well-being lockdown behavioral adaptations 2021" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Sports and Active Living</span>
@@ -465,7 +483,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 23. Undergraduate Journal of Public Health (2021) -->
+  <!-- 24. Undergraduate Journal of Public Health (2021) -->
   <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2021-01-05" data-search="undergraduate journal of public health ujph michigan publishing university of michigan maternal health doulas reproductive loss 2021" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Undergraduate Journal of Public Health (UJPH)</span>
@@ -483,7 +501,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 24. Frontiers in Public Health (2020) -->
+  <!-- 25. Frontiers in Public Health (2020) -->
   <li class="journal-entry" data-domain="pubhealth" data-last-reviewed="2020-10-13" data-search="frontiers in public health public health epidemiology policy covid-19 non-medical interventions lockdown testing contact tracing 2020" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Public Health</span>
@@ -501,7 +519,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 25. Frontiers in Neurology (2020) -->
+  <!-- 26. Frontiers in Neurology (2020) -->
   <li class="journal-entry" data-domain="genomics" data-last-reviewed="2020-09-18" data-search="frontiers in neurology clinical covid-19 lockdown frailty neurological conditions telehealth neurorehabilitation 2020" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">Frontiers in Neurology</span>
@@ -519,7 +537,7 @@ A verified catalog of my **referee service, departmental governance appointments
     </div>
   </li>
 
-  <!-- 26. International Journal of Biostatistics (2020) -->
+  <!-- 27. International Journal of Biostatistics (2020) -->
   <li class="journal-entry" data-domain="methodology" data-last-reviewed="2020-02-06" data-search="international journal of biostatistics ijb de gruyter statistical methodology bayesian nonparametrics dirichlet process insulin resistance 2020" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
     <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px;">
       <span class="journal-title" style="font-size: 1.1em; font-weight: bold; color: var(--accent-teal);">International Journal of Biostatistics (IJB)</span>
