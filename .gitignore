@@ -10,6 +10,3 @@
 # OS files
 .DS_Store
 Thumbs.db
-
-# R Shiny App sources (ignored to keep repository small)
-/shiny_apps/

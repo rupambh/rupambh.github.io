@@ -2,6 +2,7 @@ baseURL = 'https://rupamb.com/'
 locale = 'en'
 title = 'Rupam Bhattacharyya'
 theme = 'PaperMod'
+disableKinds = ['taxonomy', 'term', 'RSS']
 
 [params]
   env = 'production'
